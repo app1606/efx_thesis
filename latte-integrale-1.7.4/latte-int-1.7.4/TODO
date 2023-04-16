@@ -1,0 +1,52 @@
+Algorithmic TODO:
+
+* Implement irrational decomposition for the homogenized case.
+   Currently ResidueFunction_Single_Cone and ResidueFunction assume
+   unshifted cones (vertex == 0), so irrational decomposition does not
+   work currently.
+
+* Implement exponential substitution for the homogenized case.
+
+
+Code clean-up:
+
+* Residue calculations:
+   - "Re-implement" Residue in terms of Residue_Single_Cone (Residue.cpp).
+   - Likewise, consolidate ResidueFunction (RudyResNTL.cpp) and
+      ResidueFunction_Single_Cone (ResSingle.cpp)
+   - Factor out construction of generic vector.
+
+* Main programs:
+   Factor out code.
+
+* Remove:
+   - CreateExample.cpp (or move to test-suite generators)
+
+* Reading CDD-style input files currently segfaults
+  because CheckEmpty is not prepared to deal with CDD files.
+  (what is CheckEmpty good for?)
+
+* Replace the broken CDD-style parser
+  with a call to cddlib functions.
+
+* dualize & dualizeback want to be one function, dispatching over
+  simplicial/non-simplicial case.
+
+* Handle "-" to mean "read from stdin".
+
+Bug fixes:
+
+* Vertex cone computation via CDD thinks the polytope is empty when
+  there is only the "trivial vertex" 0.
+
+Documentation:
+
+
+Configuration:
+
+* Make compile and run with compilers other than g++
+
+* All programs should understand --help and --version. 
+  Then add std-options to AM_INIT_AUTOMAKE, so that this is checked 
+  at `make installcheck'.
+

@@ -1,0 +1,146 @@
+Changes in release 1.7.3:
+
+ * count and integrate commands now correctly return a non-zero error code on failure
+	
+ * Fixes problems when building on Macs
+
+Changes in release 1.7.2:
+
+ * Maple versions of some LattE commands are now available; see code/maple/README.
+	
+ * Fixes problems when building on Macs
+
+
+Changes in release 1.7.1:
+
+ * Fixes problems when building on Macs
+	
+ * Improved the top-ehrhart-knapsack command
+
+
+Changes in release 1.7:
+
+ * New program for computing the highest coefficients of Ehrhart
+   quasipolynomials for knapsack polytopes.  
+
+
+Changes in release 1.6:
+
+ * New program for computing top Ehrhart coefficients (see manual). 
+
+ * Fix problems with whitespace in filenames or installation directory names.
+
+
+Changes since release 1.4:
+
+ * New program for computing volumes and integrating polynomials or powers of linear forms over polytopes.
+ 
+ * Computing volume by triangulating 
+ 		
+        integrate --triangulate --valuation=volume
+
+ * Computing volume by cone decomposition
+         
+        integrate --cone-decompose --valuation=volume
+        
+ * Computing integrals by triangulating 
+         
+        integrate --triangulate --valuation=integrate [--monomials=file | --linear-forms=file]
+
+ * Computing integrals by cone decomposition
+         
+        integrate --cone-decompose --valuation=integrate [--monomials=file | --linear-forms=file]
+        
+        
+Changes since the official release 1.2:
+
+ * Use GNU Autoconf and Automake.
+
+ * Portability fixes.
+
+ * Code clean-up.
+
+ * Some performance improvements.
+
+ * New exponential substitution 
+
+        count --exp
+
+ * New primal irrational decomposition 
+
+        count --irr
+
+ * New non-unimodular enumeration
+
+        count --maxdet=N
+
+ * New all-primal irrational decomposition 
+
+        count --all-primal
+
+ * New method for computing Ehrhart polynomials of integral polytopes 
+   in the primal space 
+
+        count --all-primal --ehrhart-polynomial
+
+ * The homogenized method now allows V-representation input 
+
+        count homog vrep
+
+ * The functionality of `ehrhart' has been merged into `count':
+ 
+	count --ehrhart-series FILENAME
+
+	      (replaces: ehrhart FILENAME)
+
+	count --simplified-ehrhart-series FILENAME
+
+	      (replaces: ehrhart simplify FILENAME)
+
+	count --ehrhart-taylor=N FILENAME
+
+	      (replaces: ehrhart N FILENAME)
+
+   (The `ehrhart' program is still available, but it does not accept
+   the new command-line options of `count'.)
+
+* The 4ti2 program (http://www.4ti2.de) can be used instead of cddlib and CDD+
+  to compute the vertex cones of polytopes and triangulations and duals of cones.
+  In many cases, 4ti2 is faster.
+
+        ./configure --with-4ti2=PATH-TO-4ti2
+
+	count --triangulation=4ti2 --dualization=4ti2 --compute-vertex-cones=4ti2
+
+* New command-line option --redundancy-check={none,cddlib,full-cddlib}.
+  
+  - "full-cddlib" (the default) uses cddlib to compute an irredundant
+    system of linear equations and inequalities describing the
+    polyhedron.  This corresponds to the traditional LattE behavior;
+    it can be expensive.
+
+  - "cddlib" (used to be the default in the 1.2+mk-0.9.x series) uses
+    cddlib to compute some implicit linearities only; it often fails
+    but is faster than full-cddlib.
+
+  - "none" does nothing, the input description of the polytope should
+    be irredundant.
+
+* New programs, `latte2ine' and `latte2ext', are built that perform
+  the trivial conversion from LattE-style input files to CDD-style
+  input files.
+
+  	latte2ine < FILENAME.latte > FILENAME.ine
+	latte2ext < FILENAME.vrep.latte > FILENAME.ext
+
+* New command-line option --multivariate-generating-function.
+
+  It allows to compute the multivariate generating function of a
+  rational polyhedron.  For unbounded polyhedra, one needs to combine
+  it with --compute-vertex-cones=4ti2, since the traditional method in
+  LattE (using CDD+) currently refuses to handle unbounded polyhedra.
+
+  	count --compute-vertex-cones=4ti2 --multivariate-generating-function FILENAME
+
+  writes the multivariate generating function (in Maple notation) to "FILENAME.rat".
+

@@ -1,0 +1,1 @@
+normalize_main.o: normalize_main.cpp

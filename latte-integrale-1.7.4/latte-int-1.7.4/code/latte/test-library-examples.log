@@ -1,0 +1,467 @@
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0]
+[0 0 1 0]
+[0 0 0 1]
+[4 -1 0 0]
+[4 0 -1 0]
+[32 4 0 -8]
+[48 0 -4 -8]
+[48 -4 0 -8]
+[32 0 4 -8]
+
+Ax = b, given as (b|-A):
+========================
+[]
+
+Time for reading and preprocessing: 0 sec
+Ray Support Algorithm.
+The codimension is 9
+  Left =   6,  Col =   6,  Size =        4  Time:  0.00  Left =   6,  Col =   6,  Size =        4,   Index = 0/2  Left =   6,  Col =   6,  Size =        6,  Time:  0.00                
+  Left =   5,  Col =   4,  Size =        6  Time:  0.00  Left =   5,  Col =   4,  Size =        6,   Index = 0/2  Left =   5,  Col =   4,  Size =        8,  Time:  0.00                
+  Left =   4,  Col =   8,  Size =        8  Time:  0.00  Left =   4,  Col =   8,  Size =        8,   Index = 0/2  Left =   4,  Col =   8,  Size =       10,  Time:  0.00                
+  Left =   3,  Col =   5,  Size =       10  Time:  0.00  Left =   3,  Col =   5,  Size =       10,   Index = 0/1  Left =   3,  Col =   5,  Size =       10,  Time:  0.00                
+  Left =   2,  Col =   7,  Size =       10  Time:  0.00  Left =   2,  Col =   7,  Size =        9,   Index = 0/1  Left =   2,  Col =   7,  Size =        9,  Time:  0.00                
+  Left =   1,  Col =   9,  Size =        9  Time:  0.00  Left =   1,  Col =   9,  Size =        9,  Time:  0.00                
+The polytope has 9 vertices.
+Time for computing vertices and supporting cones: 0 sec
+Dualizing all cones...All cones are now dualized.
+Time for dualizing general cones: 0 sec
+Dualizing all cones...Ray Support Algorithm.
+The codimension is 4
+  Left =   1,  Col =   3,  Size =        3  Time:  0.00  Left =   1,  Col =   3,  Size =        4,   Index = 0/1  Left =   1,  Col =   3,  Size =        4,  Time:  0.00                
+Ray Support Algorithm.
+The codimension is 4
+  Left =   1,  Col =   3,  Size =        3  Time:  0.00  Left =   1,  Col =   3,  Size =        4,   Index = 0/1  Left =   1,  Col =   3,  Size =        4,  Time:  0.00                
+Ray Support Algorithm.
+The codimension is 4
+  Left =   1,  Col =   3,  Size =        3  Time:  0.00  Left =   1,  Col =   3,  Size =        4,   Index = 0/1  Left =   1,  Col =   3,  Size =        4,  Time:  0.00                
+Ray Support Algorithm.
+The codimension is 4
+  Left =   1,  Col =   3,  Size =        3  Time:  0.00  Left =   1,  Col =   3,  Size =        4,   Index = 0/1  Left =   1,  Col =   3,  Size =        4,  Time:  0.00                
+Ray Support Algorithm.
+The codimension is 4
+  Left =   1,  Col =   3,  Size =        3  Time:  0.00  Left =   1,  Col =   3,  Size =        4,   Index = 0/1  Left =   1,  Col =   3,  Size =        4,  Time:  0.00                
+All cones are now dualized.
+Time for dualizing general cones: 0 sec
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0]
+[0 0 1 0]
+[0 0 0 1]
+[4 -1 0 0]
+[4 0 -1 0]
+[32 4 0 -8]
+[48 0 -4 -8]
+[48 -4 0 -8]
+[32 0 4 -8]
+
+Ax = b, given as (b|-A):
+========================
+[]
+
+Time for reading and preprocessing: 0 sec
+Dualizing all cones...Ray Support Algorithm.
+The codimension is 9
+  Left =   5,  Col =   6,  Size =        4  Time:  0.00  Left =   5,  Col =   6,  Size =        4,   Index = 0/2  Left =   5,  Col =   6,  Size =        6,  Time:  0.00                
+  Left =   4,  Col =   4,  Size =        6  Time:  0.00  Left =   4,  Col =   4,  Size =        6,   Index = 0/2  Left =   4,  Col =   4,  Size =        8,  Time:  0.00                
+  Left =   3,  Col =   8,  Size =        8  Time:  0.00  Left =   3,  Col =   8,  Size =        8,   Index = 0/2  Left =   3,  Col =   8,  Size =       10,  Time:  0.00                
+  Left =   2,  Col =   5,  Size =       10  Time:  0.00  Left =   2,  Col =   5,  Size =       10,   Index = 0/1  Left =   2,  Col =   5,  Size =       10,  Time:  0.00                
+  Left =   1,  Col =   7,  Size =       10  Time:  0.00  Left =   1,  Col =   7,  Size =        9,   Index = 0/1  Left =   1,  Col =   7,  Size =        9,  Time:  0.00                
+All cones are now dualized.
+Time for dualizing general cones: 0 sec
+Computing vertices and edges with cddlib...size = 9 x 4
+Number Type = rational
+
+done.
+
+Reading .ext file...done.
+Reading .ead file...done.
+Computing vertices and edges with cddlib...size = 9 x 4
+Number Type = rational
+
+done.
+
+Reading .ext file...done.
+Reading .ead file...done.
+9 cone triangulations left.
+Triangulating cone... done.
+8 cone triangulations left.
+Triangulating cone... done.
+7 cone triangulations left.
+Triangulating cone... done.
+6 cone triangulations left.
+Triangulating cone... done.
+5 cone triangulations left.
+Triangulating cone... Ray Support Algorithm.
+The codimension is 5
+  Left =   1,  Col =   4,  Size =        4  Time:  0.00  Left =   1,  Col =   4,  Size =        4,   Index = 0/2  Left =   1,  Col =   4,  Size =        6,  Time:  0.00                
+done.
+4 cone triangulations left.
+Triangulating cone... Ray Support Algorithm.
+The codimension is 5
+  Left =   1,  Col =   4,  Size =        4  Time:  0.00  Left =   1,  Col =   4,  Size =        4,   Index = 0/2  Left =   1,  Col =   4,  Size =        6,  Time:  0.00                
+done.
+3 cone triangulations left.
+Triangulating cone... Ray Support Algorithm.
+The codimension is 5
+  Left =   1,  Col =   4,  Size =        4  Time:  0.00  Left =   1,  Col =   4,  Size =        4,   Index = 0/2  Left =   1,  Col =   4,  Size =        6,  Time:  0.00                
+done.
+2 cone triangulations left.
+Triangulating cone... Ray Support Algorithm.
+The codimension is 5
+  Left =   1,  Col =   4,  Size =        4  Time:  0.00  Left =   1,  Col =   4,  Size =        4,   Index = 0/2  Left =   1,  Col =   4,  Size =        6,  Time:  0.00                
+done.
+1 cone triangulations left.
+Triangulating cone... Ray Support Algorithm.
+The codimension is 5
+  Left =   1,  Col =   4,  Size =        4  Time:  0.00  Left =   1,  Col =   4,  Size =        4,   Index = 0/2  Left =   1,  Col =   4,  Size =        6,  Time:  0.00                
+done.
+Volume using the cone decomposition method is 
+Rational: 208/3
+Real    : 69.33333333
+Triangulating cone... Ray Support Algorithm.
+The codimension is 10
+  Left =   5,  Col =   9,  Size =        5  Time:  0.00  Left =   5,  Col =   9,  Size =        5,   Index = 0/2  Left =   5,  Col =   9,  Size =        7,  Time:  0.00                
+  Left =   4,  Col =   5,  Size =        7  Time:  0.00  Left =   4,  Col =   5,  Size =       12,   Index = 0/1  Left =   4,  Col =   5,  Size =       12,  Time:  0.00                
+  Left =   3,  Col =   8,  Size =       12  Time:  0.00  Left =   3,  Col =   8,  Size =       10,   Index = 0/4  Left =   3,  Col =   8,  Size =       16,  Time:  0.00                
+  Left =   2,  Col =   7,  Size =       16  Time:  0.00  Left =   2,  Col =   7,  Size =       15,   Index = 0/3  Left =   2,  Col =   7,  Size =       17,  Time:  0.00                
+  Left =   1,  Col =   6,  Size =       17  Time:  0.00  Left =   1,  Col =   6,  Size =       15,   Index = 0/2  Left =   1,  Col =   6,  Size =       17,  Time:  0.00                
+done.
+Volume using the triangulation method is 
+Rational: 208/3
+Real    : 69.33333333
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0]
+[0 0 1 0]
+[0 0 0 1]
+[4 -1 0 0]
+[4 0 -1 0]
+[32 4 0 -8]
+[48 0 -4 -8]
+[48 -4 0 -8]
+[32 0 4 -8]
+
+Ax = b, given as (b|-A):
+========================
+[]
+
+Time for reading and preprocessing: 0 sec
+Ray Support Algorithm.
+The codimension is 9
+  Left =   6,  Col =   6,  Size =        4  Time:  0.00  Left =   6,  Col =   6,  Size =        4,   Index = 0/2  Left =   6,  Col =   6,  Size =        6,  Time:  0.00                
+  Left =   5,  Col =   4,  Size =        6  Time:  0.00  Left =   5,  Col =   4,  Size =        6,   Index = 0/2  Left =   5,  Col =   4,  Size =        8,  Time:  0.00                
+  Left =   4,  Col =   8,  Size =        8  Time:  0.00  Left =   4,  Col =   8,  Size =        8,   Index = 0/2  Left =   4,  Col =   8,  Size =       10,  Time:  0.00                
+  Left =   3,  Col =   5,  Size =       10  Time:  0.00  Left =   3,  Col =   5,  Size =       10,   Index = 0/1  Left =   3,  Col =   5,  Size =       10,  Time:  0.00                
+  Left =   2,  Col =   7,  Size =       10  Time:  0.00  Left =   2,  Col =   7,  Size =        9,   Index = 0/1  Left =   2,  Col =   7,  Size =        9,  Time:  0.00                
+  Left =   1,  Col =   9,  Size =        9  Time:  0.00  Left =   1,  Col =   9,  Size =        9,  Time:  0.00                
+The polytope has 9 vertices.
+Time for computing vertices and supporting cones: 0 sec
+Dualizing all cones...All cones are now dualized.
+Time for dualizing general cones: 0 sec
+Dualizing all cones...Ray Support Algorithm.
+The codimension is 4
+  Left =   1,  Col =   3,  Size =        3  Time:  0.00  Left =   1,  Col =   3,  Size =        4,   Index = 0/1  Left =   1,  Col =   3,  Size =        4,  Time:  0.00                
+Ray Support Algorithm.
+The codimension is 4
+  Left =   1,  Col =   3,  Size =        3  Time:  0.00  Left =   1,  Col =   3,  Size =        4,   Index = 0/1  Left =   1,  Col =   3,  Size =        4,  Time:  0.00                
+Ray Support Algorithm.
+The codimension is 4
+  Left =   1,  Col =   3,  Size =        3  Time:  0.00  Left =   1,  Col =   3,  Size =        4,   Index = 0/1  Left =   1,  Col =   3,  Size =        4,  Time:  0.00                
+Ray Support Algorithm.
+The codimension is 4
+  Left =   1,  Col =   3,  Size =        3  Time:  0.00  Left =   1,  Col =   3,  Size =        4,   Index = 0/1  Left =   1,  Col =   3,  Size =        4,  Time:  0.00                
+Ray Support Algorithm.
+The codimension is 4
+  Left =   1,  Col =   3,  Size =        3  Time:  0.00  Left =   1,  Col =   3,  Size =        4,   Index = 0/1  Left =   1,  Col =   3,  Size =        4,  Time:  0.00                
+All cones are now dualized.
+Time for dualizing general cones: 0 sec
+dilation factor = 1
+9 cone triangulations left.
+Triangulating cone... Ray Support Algorithm.
+The codimension is 5
+  Left =   1,  Col =   4,  Size =        4  Time:  0.00  Left =   1,  Col =   4,  Size =        4,   Index = 0/2  Left =   1,  Col =   4,  Size =        6,  Time:  0.00                
+done.
+8 cone triangulations left.
+Triangulating cone... Ray Support Algorithm.
+The codimension is 5
+  Left =   1,  Col =   4,  Size =        4  Time:  0.00  Left =   1,  Col =   4,  Size =        4,   Index = 0/2  Left =   1,  Col =   4,  Size =        6,  Time:  0.00                
+done.
+7 cone triangulations left.
+Triangulating cone... Ray Support Algorithm.
+The codimension is 5
+  Left =   1,  Col =   4,  Size =        4  Time:  0.00  Left =   1,  Col =   4,  Size =        4,   Index = 0/2  Left =   1,  Col =   4,  Size =        6,  Time:  0.00                
+done.
+6 cone triangulations left.
+Triangulating cone... Ray Support Algorithm.
+The codimension is 5
+  Left =   1,  Col =   4,  Size =        4  Time:  0.00  Left =   1,  Col =   4,  Size =        4,   Index = 0/2  Left =   1,  Col =   4,  Size =        6,  Time:  0.00                
+done.
+5 cone triangulations left.
+Triangulating cone... Ray Support Algorithm.
+The codimension is 5
+  Left =   1,  Col =   4,  Size =        4  Time:  0.00  Left =   1,  Col =   4,  Size =        4,   Index = 0/2  Left =   1,  Col =   4,  Size =        6,  Time:  0.00                
+done.
+4 cone triangulations left.
+Triangulating cone... done.
+3 cone triangulations left.
+Triangulating cone... done.
+2 cone triangulations left.
+Triangulating cone... done.
+1 cone triangulations left.
+Triangulating cone... done.
+14 triangulations done.
+ starting to integrate 97 linear forms.
+Integral using the cone decomposition method is 
+Rational: 734124064/2079
+Real    : 353114.0279
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0]
+[0 0 1 0]
+[0 0 0 1]
+[4 -1 0 0]
+[4 0 -1 0]
+[32 4 0 -8]
+[48 0 -4 -8]
+[48 -4 0 -8]
+[32 0 4 -8]
+
+Ax = b, given as (b|-A):
+========================
+[]
+
+Time for reading and preprocessing: 0.01 sec
+Dualizing all cones...Ray Support Algorithm.
+The codimension is 9
+  Left =   5,  Col =   6,  Size =        4  Time:  0.00  Left =   5,  Col =   6,  Size =        4,   Index = 0/2  Left =   5,  Col =   6,  Size =        6,  Time:  0.00                
+  Left =   4,  Col =   4,  Size =        6  Time:  0.00  Left =   4,  Col =   4,  Size =        6,   Index = 0/2  Left =   4,  Col =   4,  Size =        8,  Time:  0.00                
+  Left =   3,  Col =   8,  Size =        8  Time:  0.00  Left =   3,  Col =   8,  Size =        8,   Index = 0/2  Left =   3,  Col =   8,  Size =       10,  Time:  0.00                
+  Left =   2,  Col =   5,  Size =       10  Time:  0.00  Left =   2,  Col =   5,  Size =       10,   Index = 0/1  Left =   2,  Col =   5,  Size =       10,  Time:  0.00                
+  Left =   1,  Col =   7,  Size =       10  Time:  0.00  Left =   1,  Col =   7,  Size =        9,   Index = 0/1  Left =   1,  Col =   7,  Size =        9,  Time:  0.00                
+All cones are now dualized.
+Time for dualizing general cones: 0 sec
+dilation factor = 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 10
+  Left =   5,  Col =   6,  Size =        5  Time:  0.00  Left =   5,  Col =   6,  Size =        5,   Index = 0/2  Left =   5,  Col =   6,  Size =        8,  Time:  0.00                
+  Left =   4,  Col =   7,  Size =        8  Time:  0.00  Left =   4,  Col =   7,  Size =        6,   Index = 0/4  Left =   4,  Col =   7,  Size =       12,  Time:  0.00                
+  Left =   3,  Col =   9,  Size =       12  Time:  0.00  Left =   3,  Col =   9,  Size =        9,   Index = 0/5  Left =   3,  Col =   9,  Size =       15,  Time:  0.00                
+  Left =   2,  Col =   8,  Size =       15  Time:  0.00  Left =   2,  Col =   8,  Size =       10,   Index = 0/6  Left =   2,  Col =   8,  Size =       17,  Time:  0.00                
+  Left =   1,  Col =   5,  Size =       17  Time:  0.00  Left =   1,  Col =   5,  Size =       13,   Index = 0/4  Left =   1,  Col =   5,  Size =       17,  Time:  0.00                
+done.
+ starting to integrate 2 linear forms.
+Integral using the triangulation method is 
+Rational: 2448974416/15
+Real    : 163264961.1
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: ./dummyName --count-lattice-points ./test-library-examples.hrep 
+Checking whether the input polytope is empty or not...size = 9 x 4
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0]
+[0 0 1 0]
+[0 0 0 1]
+[4 -1 0 0]
+[4 0 -1 0]
+[32 4 0 -8]
+[48 0 -4 -8]
+[48 -4 0 -8]
+[32 0 4 -8]
+
+Ax = b, given as (b|-A):
+========================
+[]
+
+Time for reading and preprocessing: 0 sec
+Ray Support Algorithm.
+The codimension is 9
+  Left =   6,  Col =   6,  Size =        4  Time:  0.00  Left =   6,  Col =   6,  Size =        4,   Index = 0/2  Left =   6,  Col =   6,  Size =        6,  Time:  0.00                
+  Left =   5,  Col =   4,  Size =        6  Time:  0.00  Left =   5,  Col =   4,  Size =        6,   Index = 0/2  Left =   5,  Col =   4,  Size =        8,  Time:  0.00                
+  Left =   4,  Col =   8,  Size =        8  Time:  0.00  Left =   4,  Col =   8,  Size =        8,   Index = 0/2  Left =   4,  Col =   8,  Size =       10,  Time:  0.00                
+  Left =   3,  Col =   5,  Size =       10  Time:  0.00  Left =   3,  Col =   5,  Size =       10,   Index = 0/1  Left =   3,  Col =   5,  Size =       10,  Time:  0.00                
+  Left =   2,  Col =   7,  Size =       10  Time:  0.00  Left =   2,  Col =   7,  Size =        9,   Index = 0/1  Left =   2,  Col =   7,  Size =        9,  Time:  0.00                
+  Left =   1,  Col =   9,  Size =        9  Time:  0.00  Left =   1,  Col =   9,  Size =        9,  Time:  0.00                
+The polytope has 9 vertices.
+Time for computing vertices and supporting cones: 0 sec
+Time for dualizing general cones: 0 sec
+Dualizing all cones...All cones are now dualized.
+Time for dualizing general cones: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+9 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 9
+Triangulating cone... Ray Support Algorithm.
+The codimension is 5
+  Left =   1,  Col =   4,  Size =        4  Time:  0.00  Left =   1,  Col =   4,  Size =        4,   Index = 0/2  Left =   1,  Col =   4,  Size =        6,  Time:  0.00                
+done.
+0 vertex cones done. 
+Triangulating cone... Ray Support Algorithm.
+The codimension is 5
+  Left =   1,  Col =   4,  Size =        4  Time:  0.00  Left =   1,  Col =   4,  Size =        4,   Index = 0/2  Left =   1,  Col =   4,  Size =        6,  Time:  0.00                
+done.
+1 vertex cones done. 
+Triangulating cone... Ray Support Algorithm.
+The codimension is 5
+  Left =   1,  Col =   4,  Size =        4  Time:  0.00  Left =   1,  Col =   4,  Size =        4,   Index = 0/2  Left =   1,  Col =   4,  Size =        6,  Time:  0.00                
+done.
+2 vertex cones done. 
+Triangulating cone... Ray Support Algorithm.
+The codimension is 5
+  Left =   1,  Col =   4,  Size =        4  Time:  0.00  Left =   1,  Col =   4,  Size =        4,   Index = 0/2  Left =   1,  Col =   4,  Size =        6,  Time:  0.00                
+done.
+3 vertex cones done. 
+Triangulating cone... Ray Support Algorithm.
+The codimension is 5
+  Left =   1,  Col =   4,  Size =        4  Time:  0.00  Left =   1,  Col =   4,  Size =        4,   Index = 0/2  Left =   1,  Col =   4,  Size =        6,  Time:  0.00                
+done.
+4 vertex cones done. 
+Triangulating cone... done.
+5 vertex cones done. 
+Triangulating cone... done.
+6 vertex cones done. 
+Triangulating cone... done.
+7 vertex cones done. 
+Triangulating cone... done.
+8 vertex cones done. 
+
+Total Unimodular Cones: 24
+Maximum number of simplicial cones in memory at once: 2
+
+****  The number of lattice points is: 126  ****
+
+Total time: 0.02 sec
+The number of lattice points is 126
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: ./dummyName --ehrhart-polynomial ./test-library-examples.hrep 
+Checking whether the input polytope is empty or not...size = 9 x 4
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0]
+[0 0 1 0]
+[0 0 0 1]
+[4 -1 0 0]
+[4 0 -1 0]
+[32 4 0 -8]
+[48 0 -4 -8]
+[48 -4 0 -8]
+[32 0 4 -8]
+
+Ax = b, given as (b|-A):
+========================
+[]
+
+Time for reading and preprocessing: 0 sec
+Ray Support Algorithm.
+The codimension is 9
+  Left =   6,  Col =   6,  Size =        4  Time:  0.00  Left =   6,  Col =   6,  Size =        4,   Index = 0/2  Left =   6,  Col =   6,  Size =        6,  Time:  0.00                
+  Left =   5,  Col =   4,  Size =        6  Time:  0.00  Left =   5,  Col =   4,  Size =        6,   Index = 0/2  Left =   5,  Col =   4,  Size =        8,  Time:  0.00                
+  Left =   4,  Col =   8,  Size =        8  Time:  0.00  Left =   4,  Col =   8,  Size =        8,   Index = 0/2  Left =   4,  Col =   8,  Size =       10,  Time:  0.00                
+  Left =   3,  Col =   5,  Size =       10  Time:  0.00  Left =   3,  Col =   5,  Size =       10,   Index = 0/1  Left =   3,  Col =   5,  Size =       10,  Time:  0.00                
+  Left =   2,  Col =   7,  Size =       10  Time:  0.00  Left =   2,  Col =   7,  Size =        9,   Index = 0/1  Left =   2,  Col =   7,  Size =        9,  Time:  0.00                
+  Left =   1,  Col =   9,  Size =        9  Time:  0.00  Left =   1,  Col =   9,  Size =        9,  Time:  0.00                
+The polytope has 9 vertices.
+Time for computing vertices and supporting cones: 0 sec
+Time for dualizing general cones: 0 sec
+Dualizing all cones...All cones are now dualized.
+Time for dualizing general cones: 0 sec
+Triangulating cone... Ray Support Algorithm.
+The codimension is 5
+  Left =   1,  Col =   4,  Size =        4  Time:  0.00  Left =   1,  Col =   4,  Size =        4,   Index = 0/2  Left =   1,  Col =   4,  Size =        6,  Time:  0.00                
+done.
+0 vertex cones done. 
+Triangulating cone... Ray Support Algorithm.
+The codimension is 5
+  Left =   1,  Col =   4,  Size =        4  Time:  0.00  Left =   1,  Col =   4,  Size =        4,   Index = 0/2  Left =   1,  Col =   4,  Size =        6,  Time:  0.00                
+done.
+1 vertex cones done. 
+Triangulating cone... Ray Support Algorithm.
+The codimension is 5
+  Left =   1,  Col =   4,  Size =        4  Time:  0.00  Left =   1,  Col =   4,  Size =        4,   Index = 0/2  Left =   1,  Col =   4,  Size =        6,  Time:  0.00                
+done.
+2 vertex cones done. 
+Triangulating cone... Ray Support Algorithm.
+The codimension is 5
+  Left =   1,  Col =   4,  Size =        4  Time:  0.01  Left =   1,  Col =   4,  Size =        4,   Index = 0/2  Left =   1,  Col =   4,  Size =        6,  Time:  0.01                
+done.
+3 vertex cones done. 
+Triangulating cone... Ray Support Algorithm.
+The codimension is 5
+  Left =   1,  Col =   4,  Size =        4  Time:  0.00  Left =   1,  Col =   4,  Size =        4,   Index = 0/2  Left =   1,  Col =   4,  Size =        6,  Time:  0.00                
+done.
+4 vertex cones done. 
+Triangulating cone... done.
+5 vertex cones done. 
+Triangulating cone... done.
+6 vertex cones done. 
+Triangulating cone... done.
+7 vertex cones done. 
+Triangulating cone... done.
+8 vertex cones done. 
+
+Ehrhart polynomial:  + 1 * t^0 + 35/3 * t^1 + 44 * t^2 + 208/3 * t^3
+
+Total time: 0.02 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: ./dummyName '--ehrhart-taylor=5' ./test-library-examples.hrep 
+Checking whether the input polytope is empty or not...size = 9 x 4
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0]
+[0 0 1 0]
+[0 0 0 1]
+[4 -1 0 0]
+[4 0 -1 0]
+[32 4 0 -8]
+[48 0 -4 -8]
+[48 -4 0 -8]
+[32 0 4 -8]
+
+Ax = b, given as (b|-A):
+========================
+[]
+
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 5
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 10
+  Left =   5,  Col =   5,  Size =        5  Time:  0.00  Left =   5,  Col =   5,  Size =        5,   Index = 0/2  Left =   5,  Col =   5,  Size =        8,  Time:  0.00                
+  Left =   4,  Col =   9,  Size =        8  Time:  0.00  Left =   4,  Col =   9,  Size =        6,   Index = 0/4  Left =   4,  Col =   9,  Size =       12,  Time:  0.00                
+  Left =   3,  Col =   7,  Size =       12  Time:  0.00  Left =   3,  Col =   7,  Size =       10,   Index = 0/4  Left =   3,  Col =   7,  Size =       16,  Time:  0.00                
+  Left =   2,  Col =   6,  Size =       16  Time:  0.00  Left =   2,  Col =   6,  Size =       17,   Index = 0/2  Left =   2,  Col =   6,  Size =       18,  Time:  0.00                
+  Left =   1,  Col =   8,  Size =       18  Time:  0.00  Left =   1,  Col =   8,  Size =       16,   Index = 0/2  Left =   1,  Col =   8,  Size =       19,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 40
+Maximum number of simplicial cones in memory at once: 3
+Memory Save Mode: Taylor Expansion:
+1
+126t^1
+755t^2
+2304t^3
+5189t^4
+9826t^5
+Total time: 0.01 sec
+ALL TESTS PASSED

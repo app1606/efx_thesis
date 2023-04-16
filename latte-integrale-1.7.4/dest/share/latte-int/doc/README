@@ -1,0 +1,113 @@
+This is LattE integrale, the official new version of LattE.
+
+In addition to the traditional LattE function of counting lattice
+points in polytopes by variants of Barvinok's algorithm, LattE
+integrale can also compute volumes and integrate polynomial functions
+over polytopes.  It supersedes LattE macchiato, an improved version of 
+LattE.
+
+LattE requires the following programs and libraries: 
+
+  * GMP, compiled with --enable-cxx
+  * NTL, version 5.4 or newer
+  * cddlib
+  * (optional) LRS
+  * (optional) LiDIA
+  * (optional) 4ti2
+  * (optional) Maple (non-free)
+
+If you do not have these libraries installed yet, follow the
+instructions below to install them.  However, we also package a source
+code distribution called
+
+   "latte-integrale" 
+
+(also called LattE integrale "for tea, too") that includes all of
+these libraries (except, of course, Maple) and will build them
+automatically.  You can get it at the same place where you got this
+package,
+
+    http://www.math.ucdavis.edu/~latte/
+
+
+Building and installing LattE
+-----------------------------
+
+It is STRONGLY RECOMMENDED to use the source code distribution called
+"latte-integrale".  It contains all prerequisite libraries and also
+PATCHES for some of the libraries that fix configuration and build
+problems that are not yet included in upstream releases of the library.
+
+If you do not wish to use "latte-integrale", follow the instructions
+below.  The instructions assume you want to install LattE and all its
+prerequisites into your home directory, namely into a hierarchy rooted
+at the directory $HOME/latte.
+
+1. Install the GNU Multiple Precision Library
+
+   Download it from http://www.swox.com/gmp/
+   Unpack it, then in the source directory do:
+
+     ./configure --prefix=$HOME/latte --enable-cxx
+     make
+     make install
+
+2. Install Victor Shoup's Number Theoretic Library
+
+   Obtain it from http://www.shoup.net/ntl/ 
+   Unpack it, then in the source directory do:
+   
+      cd src
+      ./configure PREFIX=$HOME/latte GMP_PREFIX=$HOME/latte NTL_GMP_LIP=on
+      make
+      make install
+
+3. Install Komei Fukuda's package cddlib
+
+   Obtain then from http://www.ifor.math.ethz.ch/~fukuda/cdd_home
+
+4. Put $HOME/latte/bin into your $PATH
+   and $HOME/latte/lib into your $LD_LIBRARY_PATH:
+
+      export PATH="$HOME/latte/bin:$PATH"
+      export LD_LIBRARY_PATH="$HOME/latte/lib:$LD_LIBRARY_PATH"
+
+5. Optionally, install the non-free library LiDIA.
+
+   If you are using LiDIA 2.2.0, note that it installs the directory
+   include/lidia but expects its header files in include/LiDIA.  We
+   advise to put a symbolic link after installation of LiDIA.
+
+6. Optionally, install 4ti2.
+
+7. Optionally, if you have Maple, make sure that the directory where
+   the command-line executable of Maple lives ("maple" or, on Windows,
+   "cmaple.exe") is in your $PATH:
+
+      export PATH="/path/to/maple/directory:$PATH"
+
+N. Build and install LattE
+
+   From the source directory of LattE:
+
+      ./configure --prefix=$HOME/latte --with-default=$HOME/latte 
+      make
+      make install
+
+Now the LattE executables (count, integrate, latte-minimize, latte-maximize, ...)
+should be available in $HOME/latte/bin.
+
+
+More information
+----------------
+
+ * License: GNU General Public License, see COPYING
+
+ * Authors: see AUTHORS
+
+ * Documentation: See the LattE manual (file `doc/manual.pdf') to get started.
+
+ * Changes since the official release 1.2: see NEWS and ChangeLog
+
+ * Website: http://www.math.ucdavis.edu/~latte
+

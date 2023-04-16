@@ -1,0 +1,180 @@
+#################################
+Checking count homog
+#################################
+Logging to 'results/log-2023-02-27-count_homog-pid79710@MacBook-Pro-Nikita.local/log'
+example1: 	Result: 3  GOOD Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+example2: 	Result: 2  GOOD Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+example3: 	Result: 2  GOOD Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+24_cell: 	Result: 33  GOOD Time: 0.13 (0.01r, 0v, 0i, 0d, 0.01t, 0.1b) sec
+cuww1: 	Result: 1  GOOD Time: 0.06 (0r, 0v, 0i, 0d, 0t, 0.05b) sec
+magic4x4: 	Result: 8  GOOD Time: 0.12 (0.09r, 0v, 0i, 0d, 0.01t, 0.02b) sec
+magic5x5: 	Skipped.
+tests/missing-newline.latte: 	Result: 3   Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+tests/missing-newline-2.latte: 	Result: 3   Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+tests/missing-newline-3.latte: 	Result: 2   Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+tests/implied-equation.latte: 	Result: 1  GOOD Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+hickerson/hickerson-7: 	Result: 8  GOOD Time: 0.01 (0r, 0v, 0i, 0d, 0t, 0.01b) sec
+hickerson/hickerson-8: 	Result: 22  GOOD Time: 0.03 (0r, 0v, 0i, 0d, 0t, 0.03b) sec
+hickerson/hickerson-9: 	Result: 9  GOOD Time: 0.03 (0r, 0v, 0i, 0d, 0t, 0.03b) sec
+hickerson/hickerson-10: 	Result: 24  GOOD Time: 0.99 (0r, 0v, 0i, 0d, 0t, 0.99b) sec
+hickerson/hickerson-11: 	Skipped.
+hickerson/hickerson-12: 	Skipped.
+hickerson/hickerson-13: 	Skipped.
+hickerson/hickerson-14: 	Skipped.
+hickerson/hickerson-15: 	Skipped.
+hickerson/hickerson-16: 	Skipped.
+hickerson/hickerson-17: 	Skipped.
+hickerson/hickerson-18: 	Skipped.
+hickerson/hickerson-19: 	Skipped.
+hickerson/hickerson-20: 	Skipped.
+hickerson/hickerson-24: 	Skipped.
+hickerson/hickerson-28: 	Skipped.
+hickerson/hickerson-32: 	Skipped.
+hickerson/hickerson-36: 	Skipped.
+mcallister/HivePolytopeImpossible: 	Skipped.
+mcallister/HivePolytopeMinutes1: 	Skipped.
+mcallister/HivePolytopeMinutes2: 	Skipped.
+mcallister/HivePolytopeMinutes3: 	Skipped.
+mcallister/HivePolytopeMinutes4: 	Skipped.
+mcallister/HivePolytopeMinutes5: 	Skipped.
+mcallister/HivePolytopeSeconds: 	Skipped.
+yoshida/24_cell_latte: 	Result: 33  GOOD Time: 0.12 (0.01r, 0v, 0i, 0d, 0.01t, 0.1b) sec
+yoshida/3x3x3_semi_10.equ: 	Skipped.
+yoshida/3x3x3_semi_11.equ: 	Skipped.
+yoshida/3x3x3_semi_12.equ: 	Skipped.
+yoshida/3x3x3_semi_13.equ: 	Skipped.
+yoshida/3x3x3_semi_14.equ: 	Skipped.
+yoshida/3x3x3_semi_15.equ: 	Skipped.
+yoshida/3x3x3_semi_16.equ: 	Skipped.
+yoshida/3x3x3_semi_17.equ: 	Skipped.
+yoshida/3x3x3_semi_18.equ: 	Skipped.
+yoshida/3x3x3_semi_1.equ: 	Skipped.
+yoshida/3x3x3_semi_2.equ: 	Skipped.
+yoshida/3x3x3_semi_3.equ: 	Skipped.
+yoshida/3x3x3_semi_4.equ: 	Skipped.
+yoshida/3x3x3_semi_5.equ: 	Skipped.
+yoshida/3x3x3_semi_6.equ: 	Skipped.
+yoshida/3x3x3_semi_7.equ: 	Skipped.
+yoshida/3x3x3_semi_8.equ: 	Skipped.
+yoshida/3x3x3_semi_9.equ: 	Skipped.
+yoshida/4flow_1.equ: 	Result: 34441480172695101274  GOOD Time: 0.01 (0r, 0v, 0i, 0d, 0t, 0b) sec
+yoshida/4flow_2.equ: 	Result: 28493245103068590026  GOOD Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+yoshida/4flow_3.equ: 	Result: 91608082255943644656  GOOD Time: 0.01 (0r, 0v, 0i, 0d, 0t, 0b) sec
+yoshida/4x4Table1: 	Result: 1225914276768514  GOOD Time: 1.68 (0.02r, 0v, 0i, 0d, 0.01t, 1.64b) sec
+yoshida/4x4Table10: 	Skipped.
+yoshida/4x4Table11: 	Skipped.
+yoshida/4x4Table2: 	Skipped.
+yoshida/4x4Table3: 	Skipped.
+yoshida/4x4Table4: 	Skipped.
+yoshida/4x4Table5: 	Skipped.
+yoshida/4x4Table6: 	Skipped.
+yoshida/4x4Table7: 	Skipped.
+yoshida/4x4Table8: 	Skipped.
+yoshida/4x4Table9: 	Skipped.
+yoshida/4x5_1: 	Skipped.
+yoshida/4x5_2: 	Skipped.
+yoshida/4x5_3: 	Skipped.
+yoshida/5flow_1.equ: 	Result: 6817997013081449330251623043931489475270  GOOD Time: 0.04 (0.01r, 0v, 0i, 0d, 0t, 0.03b) sec
+yoshida/5flow_2.equ: 	Result: 277145720781272784955528774814729345461  GOOD Time: 0.04 (0.01r, 0v, 0i, 0d, 0t, 0.03b) sec
+yoshida/5flow_3.equ: 	Result: 710305971948234346520365668331191134724  GOOD Time: 0.04 (0.01r, 0v, 0i, 0d, 0t, 0.03b) sec
+yoshida/aardallenstra.equ: 	Result: 0   Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+yoshida/cube: 	Result: 16  GOOD Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+yoshida/cube2: 	Result: 8  GOOD Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+yoshida/digraph4_10.equ: 	Result: 179777378508547  GOOD Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+yoshida/digraph4_1.equ: 	Result: 223  GOOD Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+yoshida/digraph4_2.equ: 	Result: 330  GOOD Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+yoshida/digraph4_3.equ: 	Result: 3002  GOOD Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+yoshida/digraph4_4.equ: 	Result: 785528058  GOOD Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+yoshida/digraph4_5.equ: 	Result: 20673947895  GOOD Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+yoshida/digraph4_6.equ: 	Result: 14100406254  GOOD Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+yoshida/digraph4_7.equ: 	Result: 1906669380  GOOD Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+yoshida/digraph4_8.equ: 	Result: 19470466783680  GOOD Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+yoshida/digraph4_9.equ: 	Result: 106036300535520  GOOD Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+yoshida/digraph5_10.equ: 	Result: 65348330279808617817420057  GOOD Time: 0.05 (0.01r, 0v, 0i, 0d, 0t, 0.04b) sec
+yoshida/digraph5_1.equ: 	Result: 14805  GOOD Time: 0.04 (0.01r, 0v, 0i, 0d, 0t, 0.03b) sec
+yoshida/digraph5_2.equ: 	Result: 6950747024  GOOD Time: 0.04 (0.01r, 0v, 0i, 0d, 0t, 0.03b) sec
+yoshida/digraph5_3.equ: 	Result: 222850218035543  GOOD Time: 0.04 (0.01r, 0v, 0i, 0d, 0t, 0.03b) sec
+yoshida/digraph5_4.equ: 	Result: 563408416219655157542748  GOOD Time: 0.03 (0.01r, 0v, 0i, 0d, 0t, 0.02b) sec
+yoshida/digraph5_5.equ: 	Result: 1108629405144880240444547243  GOOD Time: 0.04 (0.01r, 0v, 0i, 0d, 0t, 0.02b) sec
+yoshida/digraph5_6.equ: 	Result: 3997121684242603301444265332  GOOD Time: 0.04 (0.01r, 0v, 0i, 0d, 0t, 0.03b) sec
+yoshida/digraph5_7.equ: 	Result: 160949617742851302259767600  GOOD Time: 0.03 (0.01r, 0v, 0i, 0d, 0t, 0.02b) sec
+yoshida/digraph5_8.equ: 	Result: 15711217216898158096466094  GOOD Time: 0.05 (0.01r, 0v, 0i, 0d, 0t, 0.04b) sec
+yoshida/digraph5_9.equ: 	Result: 102815492358112722152328  GOOD Time: 0.03 (0.01r, 0v, 0i, 0d, 0t, 0.02b) sec
+yoshida/hyp_simp_4_1.equ: 	Result: 4  GOOD Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+yoshida/hyp_simp_4_2.equ: 	Result: 6  GOOD Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+yoshida/hyp_simp_4_3.equ: 	Result: 4  GOOD Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+yoshida/hyp_simp_5_1.equ: 	Result: 5  GOOD Time: 0.01 (0r, 0v, 0i, 0d, 0t, 0b) sec
+yoshida/hyp_simp_5_2.equ: 	Result: 10  GOOD Time: 0.01 (0r, 0v, 0i, 0d, 0t, 0b) sec
+yoshida/hyp_simp_5_3.equ: 	Result: 10  GOOD Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+yoshida/hyp_simp_5_4.equ: 	Result: 5  GOOD Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+yoshida/hyp_simp_6_1.equ: 	Result: 6  GOOD Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+yoshida/hyp_simp_6_2.equ: 	Result: 15  GOOD Time: 0.02 (0.01r, 0v, 0i, 0d, 0t, 0.01b) sec
+yoshida/hyp_simp_6_3.equ: 	Result: 20  GOOD Time: 0.01 (0.01r, 0v, 0i, 0d, 0t, 0b) sec
+yoshida/hyp_simp_6_4.equ: 	Result: 15  GOOD Time: 0.01 (0r, 0v, 0i, 0d, 0.01t, 0b) sec
+yoshida/hyp_simp_6_5.equ: 	Result: 6  GOOD Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+yoshida/hyp_simp_7_1.equ: 	Result: 7  GOOD Time: 0.01 (0.01r, 0v, 0i, 0d, 0t, 0b) sec
+yoshida/hyp_simp_7_2.equ: 	Result: 21  GOOD Time: 0.08 (0.01r, 0v, 0i, 0d, 0t, 0.07b) sec
+yoshida/hyp_simp_7_3.equ: 	Result: 35  GOOD Time: 0.03 (0.01r, 0v, 0i, 0d, 0t, 0.02b) sec
+yoshida/hyp_simp_7_4.equ: 	Result: 35  GOOD Time: 0.02 (0.01r, 0v, 0i, 0d, 0t, 0.01b) sec
+yoshida/hyp_simp_7_5.equ: 	Result: 21  GOOD Time: 0.02 (0.01r, 0v, 0i, 0d, 0t, 0.01b) sec
+yoshida/hyp_simp_7_6.equ: 	Result: 7  GOOD Time: 0.01 (0.01r, 0v, 0i, 0d, 0t, 0b) sec
+yoshida/knapsack1.equ: 	Result: 42  GOOD Time: 0.02 (0r, 0v, 0i, 0d, 0t, 0.02b) sec
+yoshida/knapsack2.equ: 	Result: 92378  GOOD Time: 0.01 (0r, 0v, 0i, 0d, 0t, 0.01b) sec
+yoshida/knapsackbaby1.equ: 	Result: 7  GOOD Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+yoshida/knapsackbaby2.equ: 	Result: 2  GOOD Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+yoshida/mountExample1: 	Result: 35353  GOOD Time: 1.43 (0.02r, 0v, 0i, 0d, 0.01t, 1.39b) sec
+yoshida/mountExample2: 	Skipped.
+yoshida/mountExample3: 	Skipped.
+yoshida/mountExample4: 	Skipped.
+yoshida/mountExample5: 	Skipped.
+yoshida/test4x4_1: 	Result: 665711555567792389878908993624629379187969880179721169068827951  GOOD Time: 1.34 (0.02r, 0v, 0i, 0d, 0.01t, 1.31b) sec
+yoshida/test4x4_2: 	Result: 63292704423941655080293971395348848807454253204720526472462015  GOOD Time: 1.2 (0.02r, 0v, 0i, 0d, 0.01t, 1.17b) sec
+yoshida/test4x4_3: 	Result: 43075357146173570492117291685601604830544643769252831337342557  GOOD Time: 1.22 (0.02r, 0v, 0i, 0d, 0.01t, 1.19b) sec
+yoshida/tru_cube_latte: 	Result: 0   Time: 0.05 (0r, 0v, 0i, 0d, 0t, 0.05b) sec
+yoshida/tru_simplex_latte: 	Result: 0   Time: 0.02 (0r, 0v, 0i, 0d, 0t, 0.02b) sec
+yoshida/3x3x4_1.equ: 	Skipped.
+yoshida/cuww1_1.equ: 	Result: 1   Time: 0.05 (0r, 0v, 0i, 0d, 0t, 0.05b) sec
+yoshida/cuww2_1.equ: 	Result: 1   Time: 0.29 (0r, 0v, 0i, 0d, 0t, 0.29b) sec
+yoshida/cuww3_1.equ: 	Result: 2   Time: 0.21 (0r, 0v, 0i, 0d, 0t, 0.21b) sec
+yoshida/cuww4_1.equ: 	Result: 1   Time: 0.15 (0r, 0v, 0i, 0d, 0t, 0.15b) sec
+yoshida/cuww5_1.equ: 	Skipped.
+yoshida/dean1: 	Result: 12   Time: 0.01 (0r, 0v, 0i, 0d, 0t, 0.01b) sec
+yoshida/dean2: 	Skipped.
+yoshida/dean3: 	Skipped.
+yoshida/prob10_1.equ: 	Skipped.
+yoshida/prob1_1.equ: 	Skipped.
+yoshida/prob2_1.equ: 	Skipped.
+yoshida/prob3_1.equ: 	Skipped.
+yoshida/prob4_1.equ: 	Skipped.
+yoshida/prob5_1.equ: 	Skipped.
+yoshida/prob6_1.equ: 	Skipped.
+yoshida/prob7_1.equ: 	Skipped.
+crosspolytope/cross-polytope-2.vrep: 	Result: 5  GOOD Time: 0 (0r, 0v, 0i, 0d, 0t, 0b) sec
+crosspolytope/cross-polytope-3.vrep: 	Result: 7  GOOD Time: 0.01 (0r, 0v, 0i, 0d, 0t, 0.01b) sec
+crosspolytope/cross-polytope-4.vrep: 	Result: 9  GOOD Time: 0.06 (0r, 0v, 0i, 0d, 0t, 0.06b) sec
+crosspolytope/cross-polytope-5.vrep: 	Result: 11  GOOD Time: 0.82 (0r, 0v, 0i, 0d, 0.01t, 0.81b) sec
+crosspolytope/cross-polytope-6.vrep: 	Skipped.
+crosspolytope/cross-polytope-7.vrep: 	Skipped.
+crosspolytope/cross-polytope-8.vrep: 	Skipped.
+crosspolytope/cross-polytope-9.vrep: 	Skipped.
+crosspolytope/cross-polytope-10.vrep: 	Skipped.
+crosspolytope/cross-polytope-11.vrep: 	Skipped.
+crosspolytope/cross-polytope-12.vrep: 	Skipped.
+crosspolytope/cross-polytope-13.vrep: 	Skipped.
+crosspolytope/cross-polytope-14.vrep: 	Skipped.
+crosspolytope/cross-polytope-15.vrep: 	Skipped.
+crosspolytope/cross-polytope-16.vrep: 	Skipped.
+crosspolytope/cross-polytope-17.vrep: 	Skipped.
+crosspolytope/cross-polytope-18.vrep: 	Skipped.
+crosspolytope/cross-polytope-19.vrep: 	Skipped.
+crosspolytope/cross-polytope-20.vrep: 	Skipped.
+crosspolytope/cross-polytope-21.vrep: 	Skipped.
+crosspolytope/cross-polytope-22.vrep: 	Skipped.
+crosspolytope/cross-polytope-23.vrep: 	Skipped.
+crosspolytope/cross-polytope-24.vrep: 	Skipped.
+crosspolytope/cross-polytope-25.vrep: 	Skipped.
+crosspolytope/cross-polytope-26.vrep: 	Skipped.
+crosspolytope/cross-polytope-27.vrep: 	Skipped.
+crosspolytope/cross-polytope-28.vrep: 	Skipped.
+crosspolytope/cross-polytope-29.vrep: 	Skipped.
+crosspolytope/cross-polytope-30.vrep: 	Skipped.

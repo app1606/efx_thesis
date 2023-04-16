@@ -1,0 +1,160 @@
+#!/bin/bash
+# 4ti2 -- A software package for algebraic, geometric and combinatorial
+# problems on linear spaces.
+#
+# Copyright (C) 2006 4ti2 team.
+#
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License
+# as published by the Free Software Foundation; either version 2
+# of the License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+
+EXECPATH=`cd "/Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/4ti2-1.6.9" && pwd`
+
+## Environment variables:
+# $CHECK_ENV  -- put in front of the call to the binary.  Useful for CHECK_ENV=valgrind.
+# $CHECK_VERBOSE -- if set, show output
+# $KEEP_FILES -- if set, do not delete `checkdir' with the result files and diffs.
+# $CAT_CHECKDIR_ON_ERROR -- if set, print all files from `checkdir' with the result files and diffs.
+
+# The directory where the input data and the results reside.
+SRCDIR=`cd "$1" && pwd`
+shift 1
+###cd $SRCDIR
+FLAVOR="$1"
+CHECKDIR=checkdir"$FLAVOR"
+shift 1
+
+# The executable we are using.
+echo "EXECUTABLE: \`$EXECPATH/$1'"
+if [ x$FLAVOR != x ] ; then
+    echo "FLAVOR: $FLAVOR"
+fi
+# Check that the executable exists.
+if [ ! -f "$EXECPATH/$1" ]
+then
+    echo "Error: Unable to find executable \`$EXECPATH/$1'."
+    exit 1
+fi
+
+NUM_FAILURES=0
+
+FILES=`cd "$SRCDIR" && ls -1 *.chk | sed 's/\.[a-z]*\.chk//g' | sort -u`
+echo "CHECKING: " $FILES
+
+if [ -d ${CHECKDIR} ] ; then
+    rm -rf ${CHECKDIR}
+fi
+mkdir ${CHECKDIR} 
+for file in $FILES; do
+    CHECK_FILES=`cd "$SRCDIR" && ls -1 ${file}.*.chk | egrep "^${file}.[a-z]*.chk" | sed s/\.chk//g`
+    if test ! -r "${SRCDIR}"/${file}.exit.chk ; then
+	echo "0" > ${CHECKDIR}/${file}.exit.chk
+	CHECK_FILES="${file}.exit ${CHECK_FILES}"
+    fi
+    rm -f $CHECK_FILES
+    COMMAND="$@ $file"
+    # Copy the source files into a subdir of the build directory
+    cd ${CHECKDIR}
+    INPUT_FILES=`cd "$SRCDIR" && ls -1 ${file}* | egrep -v "[.]chk$" `
+    #echo $INPUT_FILES
+    for input_file in $INPUT_FILES; do
+	if test ! -r ${input_file} ; then 
+	    cp "${SRCDIR}"/${input_file} ${input_file}
+	fi
+    done
+    echo -n "$COMMAND ..."
+    if test x$CHECK_VERBOSE == x ; then 
+	TIME=`$CHECK_ENV "$EXECPATH"/$COMMAND | awk '/^4ti2 Total Time/ { print $4, $5 }'`
+    else
+	echo
+	# display all output
+	$CHECK_ENV "$EXECPATH"/$COMMAND
+    fi
+    # Save exit code
+    echo "$?" > ${file}.exit
+    STATUS="passed"
+    for check_file in $CHECK_FILES; do
+	if test -r "${SRCDIR}"/${check_file}.chk ; then
+	    check_file_chk="${SRCDIR}"/${check_file}.chk
+	else
+	    # Really only for ${file}.exit.chk
+	    check_file_chk=${check_file}.chk
+	fi
+	if test ! -r ${check_file} ; then
+	    # Output file not generated when it should have.
+	    STATUS="FAILED"
+	    NUM_FAILURES=$(($NUM_FAILURES+1))
+	    break
+	fi
+	# Output file generated, so compare.
+	if [ x$KEEP_FILES == x ]; then
+            diff -q -b ${check_file_chk} ${check_file} > /dev/null
+	else
+            diff -u ${check_file_chk} ${check_file} > ${check_file}.diff
+	fi
+        if [ $? != 0 ]; then
+	    # File are different.  Check if only the sort order has changed.
+	    head -n 1 ${check_file_chk} > ${check_file}.head.chk
+	    head -n 1 ${check_file} > ${check_file}.head
+	    diff -b -q ${check_file}.head.chk ${check_file}.head > /dev/null
+	    if [ $? != 0 ]; then
+		STATUS="FAILED"
+		NUM_FAILURES=$(($NUM_FAILURES+1))
+		break
+	    fi
+	    # Without LC_ALL=C, get crazy nondeterministic sort order on Cygwin?? --mkoeppe 
+	    LC_ALL=C sort ${check_file_chk} > ${check_file}.sort.chk
+	    LC_ALL=C sort ${check_file} > ${check_file}.sort
+	    if [ x$KEEP_FILES == x ]; then
+		diff -b -q ${check_file}.sort.chk ${check_file}.sort > /dev/null
+	    else
+		diff -u ${check_file}.sort.chk ${check_file}.sort > ${check_file}.sort.diff
+	    fi
+	    if [ $? != 0 ]; then
+		STATUS="FAILED"
+		NUM_FAILURES=$(($NUM_FAILURES+1))
+		break
+	    else
+		STATUS="passed (sort order changed)"
+	    fi
+        fi
+    done
+    echo -n " $STATUS "
+    echo "$TIME"
+    if [ $STATUS == FAILED -a x$CAT_CHECKDIR_ON_ERROR != x ]; then
+	echo "---- checkdir contents ----------------------------------------"
+	for f in ${file}.*; do
+	    echo -- $f:
+	    cat $f
+	done
+	echo "---- end checkdir contents ------------------------------------"
+    fi
+    #echo rm -f $CHECK_FILES
+    cd ..
+done
+if [ x$KEEP_FILES == x ]; then
+    rm -rf ${CHECKDIR}
+fi
+
+if [ $NUM_FAILURES == 0 ]; then
+    echo "**** ALL TESTS PASSED! ****"
+else
+    if [ x$KEEP_FILES == x ]; then
+	echo "**** $NUM_FAILURES TEST(S) FAILED! Run \"KEEP_FILES=t make check\" to see details in checkdir. ****"
+    else
+	echo "**** $NUM_FAILURES TEST(S) FAILED! See checkdir for details. ****"
+    fi
+fi
+echo ""
+# Record the number of failures in a file.
+echo $NUM_FAILURES > .num_failures"${FLAVOR}"

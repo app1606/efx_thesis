@@ -1,0 +1,10 @@
+Time for reading and preprocessing: 0 sec
+Time for computing vertices and supporting cones: 0 sec
+Time for irrationalizing general cones: 0 sec
+Time for dualizing general cones: 0.01 sec
+Time for triangulating cones into simplicial cones: 0.04 sec
+Time for Barvinok decomposition and residue calculation: 0.75 sec
+Total time: 0.81 sec
+Total number of simplicial cones: 223
+Total number of unimodular cones: 3840
+Maximum depth of the decomposition tree: 4

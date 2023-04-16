@@ -1,0 +1,29 @@
+* cddlib: a double description library:Version 0.94f (February 7, 2008)
+* compiled for GMP rational arithmetic.
+* Copyright (C) 1996, Komei Fukuda, fukuda@ifor.math.ethz.ch
+* roworder: lexmin
+ext_file: Generators
+V-representation
+begin
+ 16 6 rational
+ 0 1 -1 -1 1 -1
+ 0 1 -1 -1 -1 -1
+ 0 1 -1 1 1 -1
+ 0 1 -1 1 -1 -1
+ 0 1 1 1 1 -1
+ 0 1 1 1 -1 -1
+ 0 1 1 -1 -1 -1
+ 0 1 1 -1 1 -1
+ 0 -1 1 1 -1 -1
+ 0 -1 1 1 1 -1
+ 0 -1 1 -1 -1 -1
+ 0 -1 1 -1 1 -1
+ 0 -1 -1 1 -1 -1
+ 0 -1 -1 1 1 -1
+ 0 -1 -1 -1 -1 -1
+ 0 -1 -1 -1 1 -1
+end
+* Computation started at Mon Feb 27 01:15:06 2023
+*             ended   at Mon Feb 27 01:15:06 2023
+* Total processor time = 0 seconds
+*                      = 0 h 0 m 0 s

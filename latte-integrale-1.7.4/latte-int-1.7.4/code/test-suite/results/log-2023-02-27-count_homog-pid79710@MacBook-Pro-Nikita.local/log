@@ -1,0 +1,4547 @@
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/example1 
+Checking whether the input polytope is empty or not...size = 5 x 3
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[1 -1 -1]
+[0 1 0]
+[0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[]
+
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 1
+Maximum number of simplicial cones in memory at once: 0
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 3  ****
+
+Total time: 0 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/example2 
+Checking whether the input polytope is empty or not...size = 6 x 3
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0]
+[0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[1 -1 -1]
+
+Computing hermitean normal form.
+sol:
+[1 0]
+Particular solution:
+[1 0]
+Basis:
+[-1 1]
+New inequalities:
+[1 -1 0]
+[0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 1
+Maximum number of simplicial cones in memory at once: 0
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 2  ****
+
+Total time: 0 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/example3 
+Checking whether the input polytope is empty or not...size = 6 x 3
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0]
+[0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[1 -1 -1]
+
+Computing hermitean normal form.
+sol:
+[1 0]
+Particular solution:
+[1 0]
+Basis:
+[-1 1]
+New inequalities:
+[1 -1 0]
+[0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 1
+Maximum number of simplicial cones in memory at once: 0
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 2  ****
+
+Total time: 0 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/24_cell 
+Checking whether the input polytope is empty or not...size = 24 x 5
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[2 -1 1 -1 -1]
+[1 0 0 -1 0]
+[2 -1 1 -1 1]
+[2 -1 1 1 1]
+[1 0 0 0 1]
+[1 0 1 0 0]
+[2 1 -1 1 -1]
+[2 1 1 -1 1]
+[2 1 1 1 1]
+[1 1 0 0 0]
+[2 1 1 1 -1]
+[2 1 1 -1 -1]
+[2 1 -1 1 1]
+[2 1 -1 -1 1]
+[2 1 -1 -1 -1]
+[1 0 0 1 0]
+[2 -1 1 1 -1]
+[1 0 0 0 -1]
+[2 -1 -1 1 -1]
+[1 0 -1 0 0]
+[2 -1 -1 1 1]
+[2 -1 -1 -1 1]
+[2 -1 -1 -1 -1]
+[1 -1 0 0 0]
+
+Ax = b, given as (b|-A):
+========================
+[]
+
+Time for reading and preprocessing: 0.01 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 25
+  Left =  19,  Col =  18,  Size =        6  Time:  0.00  Left =  19,  Col =  18,  Size =        6,   Index = 0/2  Left =  19,  Col =  18,  Size =       10,  Time:  0.00                
+  Left =  18,  Col =   7,  Size =       10  Time:  0.00  Left =  18,  Col =   7,  Size =        9,   Index = 0/4  Left =  18,  Col =   7,  Size =       18,  Time:  0.00                
+  Left =  17,  Col =  23,  Size =       18  Time:  0.00  Left =  17,  Col =  23,  Size =       13,   Index = 0/7  Left =  17,  Col =  23,  Size =       26,  Time:  0.00                
+  Left =  16,  Col =  19,  Size =       26  Time:  0.00  Left =  16,  Col =  19,  Size =       17,   Index = 0/10  Left =  16,  Col =  19,  Size =       32,  Time:  0.00                
+  Left =  15,  Col =  24,  Size =       32  Time:  0.00  Left =  15,  Col =  24,  Size =       21,   Index = 0/11  Left =  15,  Col =  24,  Size =       25,  Time:  0.00                
+  Left =  14,  Col =   9,  Size =       25  Time:  0.00  Left =  14,  Col =   9,  Size =       18,   Index = 0/9  Left =  14,  Col =   9,  Size =       34,  Time:  0.00                
+  Left =  13,  Col =  22,  Size =       34  Time:  0.00  Left =  13,  Col =  22,  Size =       27,   Index = 0/10  Left =  13,  Col =  22,  Size =       43,  Time:  0.00                
+  Left =  12,  Col =  16,  Size =       43  Time:  0.00  Left =  12,  Col =  16,  Size =       35,   Index = 0/9  Left =  12,  Col =  16,  Size =       48,  Time:  0.00                
+  Left =  11,  Col =  14,  Size =       48  Time:  0.00  Left =  11,  Col =  14,  Size =       43,   Index = 0/7  Left =  11,  Col =  14,  Size =       56,  Time:  0.00                
+  Left =  10,  Col =  10,  Size =       56  Time:  0.00  Left =  10,  Col =  10,  Size =       50,   Index = 0/8  Left =  10,  Col =  10,  Size =       60,  Time:  0.00                
+  Left =   9,  Col =  21,  Size =       60  Time:  0.00  Left =   9,  Col =  21,  Size =       55,   Index = 0/8  Left =   9,  Col =  21,  Size =       63,  Time:  0.00                
+  Left =   8,  Col =   6,  Size =       63  Time:  0.00  Left =   8,  Col =   6,  Size =       59,   Index = 0/7  Left =   8,  Col =   6,  Size =       71,  Time:  0.00                
+  Left =   7,  Col =  12,  Size =       71  Time:  0.00  Left =   7,  Col =  12,  Size =       59,   Index = 0/13  Left =   7,  Col =  12,  Size =       75,  Time:  0.00                
+  Left =   6,  Col =  11,  Size =       75  Time:  0.00  Left =   6,  Col =  11,  Size =       70,   Index = 0/7  Left =   6,  Col =  11,  Size =       81,  Time:  0.00                
+  Left =   5,  Col =  13,  Size =       81  Time:  0.00  Left =   5,  Col =  13,  Size =       76,   Index = 0/7  Left =   5,  Col =  13,  Size =       86,  Time:  0.00                
+  Left =   4,  Col =  20,  Size =       86  Time:  0.00  Left =   4,  Col =  20,  Size =       84,   Index = 0/4  Left =   4,  Col =  20,  Size =       91,  Time:  0.01                
+  Left =   3,  Col =   8,  Size =       91  Time:  0.01  Left =   3,  Col =   8,  Size =       95,   Index = 0/1  Left =   3,  Col =   8,  Size =       95,  Time:  0.01                
+  Left =   2,  Col =  15,  Size =       95  Time:  0.01  Left =   2,  Col =  15,  Size =      101,   Index = 0/1  Left =   2,  Col =  15,  Size =      101,  Time:  0.01                
+  Left =   1,  Col =  17,  Size =      101  Time:  0.01  Left =   1,  Col =  17,  Size =      106,   Index = 0/1  Left =   1,  Col =  17,  Size =      106,  Time:  0.01                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 648
+Maximum number of simplicial cones in memory at once: 8
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 33  ****
+
+Total time: 0.13 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/cuww1 
+Checking whether the input polytope is empty or not...size = 7 x 6
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0]
+[0 0 1 0 0 0]
+[0 0 0 1 0 0]
+[0 0 0 0 1 0]
+[0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[89643482 -12223 -12224 -36674 -61119 -85569]
+
+Computing hermitean normal form.
+sol:
+[89643482 0 0 0 0]
+Particular solution:
+[-89643482 89643482 0 0 0]
+Basis:
+[12224 -12223 0 0 0]
+[2 -5 1 0 0]
+[-1 -4 0 1 0]
+[1 -8 0 0 1]
+New inequalities:
+[-89643482 12224 2 -1 1 0]
+[89643482 -12223 -5 -4 -8 0]
+[0 0 1 0 0 0]
+[0 0 0 1 0 0]
+[0 0 0 0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 374
+Maximum number of simplicial cones in memory at once: 17
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 1  ****
+
+Total time: 0.06 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/magic4x4 
+Checking whether the input polytope is empty or not...size = 36 x 17
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0]
+[0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+[0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0]
+[0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0]
+[0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0]
+[0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0]
+[0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0]
+[0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0]
+[0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0]
+[1 0 0 0 0 -1 -1 -1 -1 0 0 0 0 0 0 0 0]
+[1 0 0 0 0 0 0 0 0 -1 -1 -1 -1 0 0 0 0]
+[1 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1]
+[1 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0]
+[1 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0]
+[1 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0]
+[1 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1]
+[1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0]
+
+Computing hermitean normal form.
+sol:
+[1 1 1 1 -3 -2 -1 1 -1 0 0 0 0 0 0 0]
+Particular solution:
+[0 0 1 0 -1 1 0 1 1 0 0 0 1 0 0 0]
+Basis:
+[0 -1 1 0 1 0 -1 0 -1 1 0 0 0 0 0 0]
+[0 1 -1 0 1 -1 0 0 -1 0 1 0 0 0 0 0]
+[0 0 0 0 1 0 0 -1 -1 0 0 1 0 0 0 0]
+[-1 -1 1 1 1 1 -1 -1 0 0 0 0 0 0 0 0]
+[1 0 -1 0 0 -1 1 0 0 0 0 0 -1 1 0 0]
+[1 1 -2 0 0 -1 1 0 0 0 0 0 -1 0 1 0]
+[0 1 -1 0 1 -1 1 -1 0 0 0 0 -1 0 0 1]
+New inequalities:
+[0 0 0 0 -1 1 1 0 0]
+[0 -1 1 0 -1 0 1 1 0]
+[1 1 -1 0 1 -1 -2 -1 0]
+[0 0 0 0 1 0 0 0 0]
+[-1 1 1 1 1 0 0 1 0]
+[1 0 -1 0 1 -1 -1 -1 0]
+[0 -1 0 0 -1 1 1 1 0]
+[1 0 0 -1 -1 0 0 -1 0]
+[1 -1 -1 -1 0 0 0 0 0]
+[0 1 0 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0 0]
+[0 0 0 1 0 0 0 0 0]
+[1 0 0 0 0 -1 -1 -1 0]
+[0 0 0 0 0 1 0 0 0]
+[0 0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 0 1 0]
+Time for reading and preprocessing: 0.09 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 17
+  Left =   8,  Col =  11,  Size =        9  Time:  0.00  Left =   8,  Col =  11,  Size =        9,   Index = 0/4  Left =   8,  Col =  11,  Size =       24,  Time:  0.00                
+  Left =   7,  Col =  14,  Size =       24  Time:  0.00  Left =   7,  Col =  14,  Size =       18,   Index = 0/10  Left =   7,  Col =  14,  Size =       42,  Time:  0.00                
+  Left =   6,  Col =   9,  Size =       42  Time:  0.00  Left =   6,  Col =   9,  Size =       28,   Index = 0/16  Left =   6,  Col =   9,  Size =       59,  Time:  0.00                
+  Left =   5,  Col =  13,  Size =       59  Time:  0.00  Left =   5,  Col =  13,  Size =       39,   Index = 0/22  Left =   5,  Col =  13,  Size =       79,  Time:  0.00                
+  Left =   4,  Col =  10,  Size =       79  Time:  0.00  Left =   4,  Col =  10,  Size =       55,   Index = 0/27  Left =   4,  Col =  10,  Size =       94,  Time:  0.00                
+  Left =   3,  Col =  16,  Size =       94  Time:  0.00  Left =   3,  Col =  16,  Size =       62,   Index = 0/32  Left =   3,  Col =  16,  Size =       66,  Time:  0.00                
+  Left =   2,  Col =  12,  Size =       66  Time:  0.00  Left =   2,  Col =  12,  Size =       47,   Index = 0/20  Left =   2,  Col =  12,  Size =       74,  Time:  0.00                
+  Left =   1,  Col =  15,  Size =       74  Time:  0.00  Left =   1,  Col =  15,  Size =       69,   Index = 0/8  Left =   1,  Col =  15,  Size =       80,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 76
+Maximum number of simplicial cones in memory at once: 6
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 8  ****
+
+Total time: 0.12 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/tests/missing-newline.latte 
+Checking whether the input polytope is empty or not...size = 5 x 3
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[1 -1 -1]
+[0 1 0]
+[0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[]
+
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 1
+Maximum number of simplicial cones in memory at once: 0
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 3  ****
+
+Total time: 0 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/tests/missing-newline-2.latte 
+Checking whether the input polytope is empty or not...size = 7 x 3
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[1 -1 -1]
+[0 1 0]
+[0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[]
+
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 1
+Maximum number of simplicial cones in memory at once: 0
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 3  ****
+
+Total time: 0 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/tests/missing-newline-3.latte 
+Checking whether the input polytope is empty or not...size = 6 x 3
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[1 -1 -1]
+[0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[0 1 0]
+
+Computing hermitean normal form.
+sol:
+[0 0]
+Particular solution:
+[0 0]
+Basis:
+[0 1]
+New inequalities:
+[1 -1 0]
+[0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 1
+Maximum number of simplicial cones in memory at once: 0
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 2  ****
+
+Total time: 0 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/tests/implied-equation.latte 
+Checking whether the input polytope is empty or not...size = 5 x 3
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[]
+
+Ax = b, given as (b|-A):
+========================
+[0 1 0]
+[0 0 1]
+
+The number of lattice points is 1.
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/hickerson/hickerson-7 
+Checking whether the input polytope is empty or not...size = 4 x 4
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 1 1]
+[24 13 -11 -23]
+[24 -11 -23 13]
+[24 -23 13 -11]
+
+Ax = b, given as (b|-A):
+========================
+[]
+
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 134
+Maximum number of simplicial cones in memory at once: 13
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 8  ****
+
+Total time: 0.01 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/hickerson/hickerson-8 
+Checking whether the input polytope is empty or not...size = 5 x 5
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[1 2 2 2 1]
+[1 -1 2 -1 1]
+[4 -1 -4 -1 4]
+[16 11 -4 -13 -8]
+[16 -13 -4 11 -8]
+
+Ax = b, given as (b|-A):
+========================
+[]
+
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 224
+Maximum number of simplicial cones in memory at once: 15
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 22  ****
+
+Total time: 0.03 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/hickerson/hickerson-9 
+Checking whether the input polytope is empty or not...size = 5 x 5
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 1 1 1]
+[1 -1 -1 3 -1]
+[13 11 -1 -9 -13]
+[13 -1 -13 -9 11]
+[13 -13 11 -9 -1]
+
+Ax = b, given as (b|-A):
+========================
+[]
+
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 312
+Maximum number of simplicial cones in memory at once: 16
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 9  ****
+
+Total time: 0.03 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/hickerson/hickerson-10 
+Checking whether the input polytope is empty or not...size = 6 x 6
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[1 2 2 2 2 1]
+[2 -2 4 -2 4 -1]
+[25 2 -22 -22 2 25]
+[25 -22 2 2 -22 25]
+[50 46 4 -26 -44 -25]
+[50 -26 -44 46 4 -25]
+
+Ax = b, given as (b|-A):
+========================
+[]
+
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... done.
+1000 unimodular cones done.
+2000 unimodular cones done.
+3000 unimodular cones done.
+4000 unimodular cones done.
+5000 unimodular cones done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 5896
+Maximum number of simplicial cones in memory at once: 24
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 24  ****
+
+Total time: 0.99 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/24_cell_latte 
+Checking whether the input polytope is empty or not...size = 24 x 5
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[2 -1 1 -1 -1]
+[1 0 0 -1 0]
+[2 -1 1 -1 1]
+[2 -1 1 1 1]
+[1 0 0 0 1]
+[1 0 1 0 0]
+[2 1 -1 1 -1]
+[2 1 1 -1 1]
+[2 1 1 1 1]
+[1 1 0 0 0]
+[2 1 1 1 -1]
+[2 1 1 -1 -1]
+[2 1 -1 1 1]
+[2 1 -1 -1 1]
+[2 1 -1 -1 -1]
+[1 0 0 1 0]
+[2 -1 1 1 -1]
+[1 0 0 0 -1]
+[2 -1 -1 1 -1]
+[1 0 -1 0 0]
+[2 -1 -1 1 1]
+[2 -1 -1 -1 1]
+[2 -1 -1 -1 -1]
+[1 -1 0 0 0]
+
+Ax = b, given as (b|-A):
+========================
+[]
+
+Time for reading and preprocessing: 0.01 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 25
+  Left =  19,  Col =  18,  Size =        6  Time:  0.00  Left =  19,  Col =  18,  Size =        6,   Index = 0/2  Left =  19,  Col =  18,  Size =       10,  Time:  0.00                
+  Left =  18,  Col =   7,  Size =       10  Time:  0.00  Left =  18,  Col =   7,  Size =        9,   Index = 0/4  Left =  18,  Col =   7,  Size =       18,  Time:  0.00                
+  Left =  17,  Col =  23,  Size =       18  Time:  0.00  Left =  17,  Col =  23,  Size =       13,   Index = 0/7  Left =  17,  Col =  23,  Size =       26,  Time:  0.00                
+  Left =  16,  Col =  19,  Size =       26  Time:  0.00  Left =  16,  Col =  19,  Size =       17,   Index = 0/10  Left =  16,  Col =  19,  Size =       32,  Time:  0.00                
+  Left =  15,  Col =  24,  Size =       32  Time:  0.00  Left =  15,  Col =  24,  Size =       21,   Index = 0/11  Left =  15,  Col =  24,  Size =       25,  Time:  0.00                
+  Left =  14,  Col =   9,  Size =       25  Time:  0.00  Left =  14,  Col =   9,  Size =       18,   Index = 0/9  Left =  14,  Col =   9,  Size =       34,  Time:  0.00                
+  Left =  13,  Col =  22,  Size =       34  Time:  0.00  Left =  13,  Col =  22,  Size =       27,   Index = 0/10  Left =  13,  Col =  22,  Size =       43,  Time:  0.00                
+  Left =  12,  Col =  16,  Size =       43  Time:  0.00  Left =  12,  Col =  16,  Size =       35,   Index = 0/9  Left =  12,  Col =  16,  Size =       48,  Time:  0.00                
+  Left =  11,  Col =  14,  Size =       48  Time:  0.00  Left =  11,  Col =  14,  Size =       43,   Index = 0/7  Left =  11,  Col =  14,  Size =       56,  Time:  0.01                
+  Left =  10,  Col =  10,  Size =       56  Time:  0.01  Left =  10,  Col =  10,  Size =       50,   Index = 0/8  Left =  10,  Col =  10,  Size =       60,  Time:  0.01                
+  Left =   9,  Col =  21,  Size =       60  Time:  0.01  Left =   9,  Col =  21,  Size =       55,   Index = 0/8  Left =   9,  Col =  21,  Size =       63,  Time:  0.01                
+  Left =   8,  Col =   6,  Size =       63  Time:  0.01  Left =   8,  Col =   6,  Size =       59,   Index = 0/7  Left =   8,  Col =   6,  Size =       71,  Time:  0.01                
+  Left =   7,  Col =  12,  Size =       71  Time:  0.01  Left =   7,  Col =  12,  Size =       59,   Index = 0/13  Left =   7,  Col =  12,  Size =       75,  Time:  0.01                
+  Left =   6,  Col =  11,  Size =       75  Time:  0.01  Left =   6,  Col =  11,  Size =       70,   Index = 0/7  Left =   6,  Col =  11,  Size =       81,  Time:  0.01                
+  Left =   5,  Col =  13,  Size =       81  Time:  0.01  Left =   5,  Col =  13,  Size =       76,   Index = 0/7  Left =   5,  Col =  13,  Size =       86,  Time:  0.01                
+  Left =   4,  Col =  20,  Size =       86  Time:  0.01  Left =   4,  Col =  20,  Size =       84,   Index = 0/4  Left =   4,  Col =  20,  Size =       91,  Time:  0.01                
+  Left =   3,  Col =   8,  Size =       91  Time:  0.01  Left =   3,  Col =   8,  Size =       95,   Index = 0/1  Left =   3,  Col =   8,  Size =       95,  Time:  0.01                
+  Left =   2,  Col =  15,  Size =       95  Time:  0.01  Left =   2,  Col =  15,  Size =      101,   Index = 0/1  Left =   2,  Col =  15,  Size =      101,  Time:  0.01                
+  Left =   1,  Col =  17,  Size =      101  Time:  0.01  Left =   1,  Col =  17,  Size =      106,   Index = 0/1  Left =   1,  Col =  17,  Size =      106,  Time:  0.01                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 648
+Maximum number of simplicial cones in memory at once: 8
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 33  ****
+
+Total time: 0.12 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/4flow_1.equ 
+Checking whether the input polytope is empty or not...size = 14 x 7
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0]
+[0 0 1 0 0 0 0]
+[0 0 0 1 0 0 0]
+[0 0 0 0 1 0 0]
+[0 0 0 0 0 1 0]
+[0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[-3125352 1 1 1 0 0 0]
+[-6257694 -1 0 0 1 1 0]
+[926385 0 -1 0 -1 0 1]
+
+Computing hermitean normal form.
+sol:
+[-3125352 -9383046 -8456661 0 0 0]
+Particular solution:
+[-6257694 926385 8456661 0 0 0]
+Basis:
+[1 -1 0 1 0 0]
+[1 0 -1 0 1 0]
+[0 1 -1 0 0 1]
+New inequalities:
+[-6257694 1 1 0 0]
+[926385 -1 0 1 0]
+[8456661 0 -1 -1 0]
+[0 1 0 0 0]
+[0 0 1 0 0]
+[0 0 0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 7
+  Left =   2,  Col =   5,  Size =        5  Time:  0.00  Left =   2,  Col =   5,  Size =        6,   Index = 0/2  Left =   2,  Col =   5,  Size =        9,  Time:  0.00                
+  Left =   1,  Col =   6,  Size =        9  Time:  0.00  Left =   1,  Col =   6,  Size =        7,   Index = 0/4  Left =   1,  Col =   6,  Size =       13,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 16
+Maximum number of simplicial cones in memory at once: 4
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 34441480172695101274  ****
+
+Total time: 0.01 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/4flow_2.equ 
+Checking whether the input polytope is empty or not...size = 14 x 7
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0]
+[0 0 1 0 0 0 0]
+[0 0 0 1 0 0 0]
+[0 0 0 0 1 0 0]
+[0 0 0 0 0 1 0]
+[0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[-2738090 1 1 1 0 0 0]
+[-6701290 -1 0 0 1 1 0]
+[190120 0 -1 0 -1 0 1]
+
+Computing hermitean normal form.
+sol:
+[-2738090 -9439380 -9249260 0 0 0]
+Particular solution:
+[-6701290 190120 9249260 0 0 0]
+Basis:
+[1 -1 0 1 0 0]
+[1 0 -1 0 1 0]
+[0 1 -1 0 0 1]
+New inequalities:
+[-6701290 1 1 0 0]
+[190120 -1 0 1 0]
+[9249260 0 -1 -1 0]
+[0 1 0 0 0]
+[0 0 1 0 0]
+[0 0 0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 7
+  Left =   2,  Col =   5,  Size =        5  Time:  0.00  Left =   2,  Col =   5,  Size =        6,   Index = 0/2  Left =   2,  Col =   5,  Size =        9,  Time:  0.00                
+  Left =   1,  Col =   6,  Size =        9  Time:  0.00  Left =   1,  Col =   6,  Size =        7,   Index = 0/4  Left =   1,  Col =   6,  Size =       13,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 16
+Maximum number of simplicial cones in memory at once: 4
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 28493245103068590026  ****
+
+Total time: 0 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/4flow_3.equ 
+Checking whether the input polytope is empty or not...size = 14 x 7
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0]
+[0 0 1 0 0 0 0]
+[0 0 0 1 0 0 0]
+[0 0 0 0 1 0 0]
+[0 0 0 0 0 1 0]
+[0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[-6860556 1 1 1 0 0 0]
+[-1727289 -1 0 0 1 1 0]
+[934435 0 -1 0 -1 0 1]
+
+Computing hermitean normal form.
+sol:
+[-6860556 -8587845 -7653410 0 0 0]
+Particular solution:
+[-1727289 934435 7653410 0 0 0]
+Basis:
+[1 -1 0 1 0 0]
+[1 0 -1 0 1 0]
+[0 1 -1 0 0 1]
+New inequalities:
+[-1727289 1 1 0 0]
+[934435 -1 0 1 0]
+[7653410 0 -1 -1 0]
+[0 1 0 0 0]
+[0 0 1 0 0]
+[0 0 0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 7
+  Left =   2,  Col =   6,  Size =        5  Time:  0.00  Left =   2,  Col =   6,  Size =        5,   Index = 0/2  Left =   2,  Col =   6,  Size =        8,  Time:  0.00                
+  Left =   1,  Col =   5,  Size =        8  Time:  0.00  Left =   1,  Col =   5,  Size =        6,   Index = 0/4  Left =   1,  Col =   5,  Size =       12,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 14
+Maximum number of simplicial cones in memory at once: 4
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 91608082255943644656  ****
+
+Total time: 0.01 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/4x4Table1 
+Checking whether the input polytope is empty or not...size = 16 x 10
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[220 -1 -1 -1 0 0 0 0 0 0]
+[215 0 0 0 -1 -1 -1 0 0 0]
+[93 0 0 0 0 0 0 -1 -1 -1]
+[108 -1 0 0 -1 0 0 -1 0 0]
+[286 0 -1 0 0 -1 0 0 -1 0]
+[71 0 0 -1 0 0 -1 0 0 -1]
+[-401 1 1 1 1 1 1 1 1 1]
+[0 1 0 0 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0 0 0]
+[0 0 0 1 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 0 0 0]
+[0 0 0 0 0 1 0 0 0 0]
+[0 0 0 0 0 0 1 0 0 0]
+[0 0 0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 0 0 1 0]
+[0 0 0 0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[]
+
+Time for reading and preprocessing: 0.02 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 17
+  Left =   6,  Col =   9,  Size =       11  Time:  0.00  Left =   6,  Col =   9,  Size =       11,   Index = 0/4  Left =   6,  Col =   9,  Size =       26,  Time:  0.00                
+  Left =   5,  Col =  15,  Size =       26  Time:  0.00  Left =   5,  Col =  15,  Size =       26,   Index = 0/8  Left =   5,  Col =  15,  Size =       74,  Time:  0.00                
+  Left =   4,  Col =  14,  Size =       74  Time:  0.00  Left =   4,  Col =  14,  Size =       43,   Index = 0/36  Left =   4,  Col =  14,  Size =      154,  Time:  0.00                
+  Left =   3,  Col =  13,  Size =      154  Time:  0.00  Left =   3,  Col =  13,  Size =      108,   Index = 0/49  Left =   3,  Col =  13,  Size =      315,  Time:  0.00                
+  Left =   2,  Col =  12,  Size =      315  Time:  0.00  Left =   2,  Col =  12,  Size =      211,   Index = 0/104  Left =   2,  Col =  12,  Size =      521,  Time:  0.00                
+  Left =   1,  Col =  16,  Size =      521  Time:  0.00  Left =   1,  Col =  16,  Size =      452,   Index = 0/72  Left =   1,  Col =  16,  Size =      697,  Time:  0.01                
+done.
+1000 unimodular cones done.
+2000 unimodular cones done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 2870
+Maximum number of simplicial cones in memory at once: 10
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 1225914276768514  ****
+
+Total time: 1.68 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/5flow_1.equ 
+Checking whether the input polytope is empty or not...size = 20 x 11
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0 0 0 0]
+[0 0 0 1 0 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 0 0 0 0]
+[0 0 0 0 0 1 0 0 0 0 0]
+[0 0 0 0 0 0 1 0 0 0 0]
+[0 0 0 0 0 0 0 1 0 0 0]
+[0 0 0 0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 0 0 0 1 0]
+[0 0 0 0 0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[-8959393 1 1 1 1 0 0 0 0 0 0]
+[-2901013 -1 0 0 0 1 1 1 0 0 0]
+[85873 0 -1 0 0 -1 0 0 1 1 0]
+[533630 0 0 -1 0 0 -1 0 -1 0 1]
+
+Computing hermitean normal form.
+sol:
+[-8959393 -11860406 -11774533 -11240903 0 0 0 0 0 0]
+Particular solution:
+[-2901013 85873 533630 11240903 0 0 0 0 0 0]
+Basis:
+[1 -1 0 0 1 0 0 0 0 0]
+[1 0 -1 0 0 1 0 0 0 0]
+[1 0 0 -1 0 0 1 0 0 0]
+[0 1 -1 0 0 0 0 1 0 0]
+[0 1 0 -1 0 0 0 0 1 0]
+[0 0 1 -1 0 0 0 0 0 1]
+New inequalities:
+[-2901013 1 1 1 0 0 0 0]
+[85873 -1 0 0 1 1 0 0]
+[533630 0 -1 0 -1 0 1 0]
+[11240903 0 0 -1 0 -1 -1 0]
+[0 1 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0]
+[0 0 0 1 0 0 0 0]
+[0 0 0 0 1 0 0 0]
+[0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 1 0]
+Time for reading and preprocessing: 0.01 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 11
+  Left =   3,  Col =   8,  Size =        8  Time:  0.00  Left =   3,  Col =   8,  Size =        8,   Index = 0/4  Left =   3,  Col =   8,  Size =       20,  Time:  0.00                
+  Left =   2,  Col =  10,  Size =       20  Time:  0.00  Left =   2,  Col =  10,  Size =       14,   Index = 0/8  Left =   2,  Col =  10,  Size =       36,  Time:  0.00                
+  Left =   1,  Col =   9,  Size =       36  Time:  0.00  Left =   1,  Col =   9,  Size =       25,   Index = 0/14  Left =   1,  Col =   9,  Size =       62,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 104
+Maximum number of simplicial cones in memory at once: 6
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 6817997013081449330251623043931489475270  ****
+
+Total time: 0.04 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/5flow_2.equ 
+Checking whether the input polytope is empty or not...size = 20 x 11
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0 0 0 0]
+[0 0 0 1 0 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 0 0 0 0]
+[0 0 0 0 0 1 0 0 0 0 0]
+[0 0 0 0 0 0 1 0 0 0 0]
+[0 0 0 0 0 0 0 1 0 0 0]
+[0 0 0 0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 0 0 0 1 0]
+[0 0 0 0 0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[-2738090 1 1 1 1 0 0 0 0 0 0]
+[-6701290 -1 0 0 0 1 1 1 0 0 0]
+[190120 0 -1 0 0 -1 0 0 1 1 0]
+[347397 0 0 -1 0 0 -1 0 -1 0 1]
+
+Computing hermitean normal form.
+sol:
+[-2738090 -9439380 -9249260 -8901863 0 0 0 0 0 0]
+Particular solution:
+[-6701290 190120 347397 8901863 0 0 0 0 0 0]
+Basis:
+[1 -1 0 0 1 0 0 0 0 0]
+[1 0 -1 0 0 1 0 0 0 0]
+[1 0 0 -1 0 0 1 0 0 0]
+[0 1 -1 0 0 0 0 1 0 0]
+[0 1 0 -1 0 0 0 0 1 0]
+[0 0 1 -1 0 0 0 0 0 1]
+New inequalities:
+[-6701290 1 1 1 0 0 0 0]
+[190120 -1 0 0 1 1 0 0]
+[347397 0 -1 0 -1 0 1 0]
+[8901863 0 0 -1 0 -1 -1 0]
+[0 1 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0]
+[0 0 0 1 0 0 0 0]
+[0 0 0 0 1 0 0 0]
+[0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 1 0]
+Time for reading and preprocessing: 0.01 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 11
+  Left =   3,  Col =   8,  Size =        8  Time:  0.00  Left =   3,  Col =   8,  Size =       10,   Index = 0/3  Left =   3,  Col =   8,  Size =       20,  Time:  0.00                
+  Left =   2,  Col =   9,  Size =       20  Time:  0.00  Left =   2,  Col =   9,  Size =       17,   Index = 0/7  Left =   2,  Col =   9,  Size =       40,  Time:  0.00                
+  Left =   1,  Col =  10,  Size =       40  Time:  0.00  Left =   1,  Col =  10,  Size =       29,   Index = 0/14  Left =   1,  Col =  10,  Size =       66,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 116
+Maximum number of simplicial cones in memory at once: 6
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 277145720781272784955528774814729345461  ****
+
+Total time: 0.04 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/5flow_3.equ 
+Checking whether the input polytope is empty or not...size = 20 x 11
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0 0 0 0]
+[0 0 0 1 0 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 0 0 0 0]
+[0 0 0 0 0 1 0 0 0 0 0]
+[0 0 0 0 0 0 1 0 0 0 0]
+[0 0 0 0 0 0 0 1 0 0 0]
+[0 0 0 0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 0 0 0 1 0]
+[0 0 0 0 0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[-6860556 1 1 1 1 0 0 0 0 0 0]
+[-1727289 -1 0 0 0 1 1 1 0 0 0]
+[934435 0 -1 0 0 -1 0 0 1 1 0]
+[818368 0 0 -1 0 0 -1 0 -1 0 1]
+
+Computing hermitean normal form.
+sol:
+[-6860556 -8587845 -7653410 -6835042 0 0 0 0 0 0]
+Particular solution:
+[-1727289 934435 818368 6835042 0 0 0 0 0 0]
+Basis:
+[1 -1 0 0 1 0 0 0 0 0]
+[1 0 -1 0 0 1 0 0 0 0]
+[1 0 0 -1 0 0 1 0 0 0]
+[0 1 -1 0 0 0 0 1 0 0]
+[0 1 0 -1 0 0 0 0 1 0]
+[0 0 1 -1 0 0 0 0 0 1]
+New inequalities:
+[-1727289 1 1 1 0 0 0 0]
+[934435 -1 0 0 1 1 0 0]
+[818368 0 -1 0 -1 0 1 0]
+[6835042 0 0 -1 0 -1 -1 0]
+[0 1 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0]
+[0 0 0 1 0 0 0 0]
+[0 0 0 0 1 0 0 0]
+[0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 1 0]
+Time for reading and preprocessing: 0.01 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 11
+  Left =   3,  Col =   8,  Size =        8  Time:  0.00  Left =   3,  Col =   8,  Size =        8,   Index = 0/4  Left =   3,  Col =   8,  Size =       20,  Time:  0.00                
+  Left =   2,  Col =  10,  Size =       20  Time:  0.00  Left =   2,  Col =  10,  Size =       14,   Index = 0/8  Left =   2,  Col =  10,  Size =       36,  Time:  0.00                
+  Left =   1,  Col =   9,  Size =       36  Time:  0.00  Left =   1,  Col =   9,  Size =       25,   Index = 0/14  Left =   1,  Col =   9,  Size =       62,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 100
+Maximum number of simplicial cones in memory at once: 6
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 710305971948234346520365668331191134724  ****
+
+Total time: 0.04 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/aardallenstra.equ 
+Checking whether the input polytope is empty or not...size = 5 x 4
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0]
+[0 0 1 0]
+[0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[149389505 -12223 -12224 -36672]
+
+Computing hermitean normal form.
+sol:
+[149389505 0 0]
+Particular solution:
+[-149389505 149389505 0]
+Basis:
+[12224 -12223 0]
+[0 -3 1]
+New inequalities:
+[-149389505 12224 0 0]
+[149389505 -12223 -3 0]
+[0 0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 7
+Maximum number of simplicial cones in memory at once: 4
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 0  ****
+
+Total time: 0 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/cube 
+Checking whether the input polytope is empty or not...size = 6 x 4
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[2 -1 0 0]
+[2 0 -1 0]
+[-1 1 0 0]
+[-1 0 1 0]
+[-1 0 0 1]
+[4 0 0 -1]
+
+Ax = b, given as (b|-A):
+========================
+[]
+
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 7
+  Left =   2,  Col =   5,  Size =        5  Time:  0.00  Left =   2,  Col =   5,  Size =        5,   Index = 0/2  Left =   2,  Col =   5,  Size =        8,  Time:  0.00                
+  Left =   1,  Col =   6,  Size =        8  Time:  0.00  Left =   1,  Col =   6,  Size =        6,   Index = 0/4  Left =   1,  Col =   6,  Size =       12,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 8
+Maximum number of simplicial cones in memory at once: 2
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 16  ****
+
+Total time: 0 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/cube2 
+Checking whether the input polytope is empty or not...size = 6 x 4
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[1 -1 0 0]
+[1 0 -1 0]
+[1 0 0 -1]
+[0 1 0 0]
+[0 0 1 0]
+[0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[]
+
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 7
+  Left =   2,  Col =   5,  Size =        5  Time:  0.00  Left =   2,  Col =   5,  Size =        5,   Index = 0/2  Left =   2,  Col =   5,  Size =        8,  Time:  0.00                
+  Left =   1,  Col =   6,  Size =        8  Time:  0.00  Left =   1,  Col =   6,  Size =        6,   Index = 0/4  Left =   1,  Col =   6,  Size =       12,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 4
+Maximum number of simplicial cones in memory at once: 0
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 8  ****
+
+Total time: 0 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/digraph4_10.equ 
+Checking whether the input polytope is empty or not...size = 14 x 7
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0]
+[0 0 1 0 0 0 0]
+[0 0 0 1 0 0 0]
+[0 0 0 0 1 0 0]
+[0 0 0 0 0 1 0]
+[0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[-69295 1 1 1 0 0 0]
+[-62008 -1 0 0 1 1 0]
+[28678 0 -1 0 -1 0 1]
+
+Computing hermitean normal form.
+sol:
+[-69295 -131303 -102625 0 0 0]
+Particular solution:
+[-62008 28678 102625 0 0 0]
+Basis:
+[1 -1 0 1 0 0]
+[1 0 -1 0 1 0]
+[0 1 -1 0 0 1]
+New inequalities:
+[-62008 1 1 0 0]
+[28678 -1 0 1 0]
+[102625 0 -1 -1 0]
+[0 1 0 0 0]
+[0 0 1 0 0]
+[0 0 0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 7
+  Left =   2,  Col =   5,  Size =        5  Time:  0.00  Left =   2,  Col =   5,  Size =        6,   Index = 0/2  Left =   2,  Col =   5,  Size =        9,  Time:  0.00                
+  Left =   1,  Col =   6,  Size =        9  Time:  0.00  Left =   1,  Col =   6,  Size =        7,   Index = 0/4  Left =   1,  Col =   6,  Size =       13,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 16
+Maximum number of simplicial cones in memory at once: 4
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 179777378508547  ****
+
+Total time: 0 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/digraph4_1.equ 
+Checking whether the input polytope is empty or not...size = 14 x 7
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0]
+[0 0 1 0 0 0 0]
+[0 0 0 1 0 0 0]
+[0 0 0 0 1 0 0]
+[0 0 0 0 0 1 0]
+[0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[-6 1 1 1 0 0 0]
+[-8 -1 0 0 1 1 0]
+[5 0 -1 0 -1 0 1]
+
+Computing hermitean normal form.
+sol:
+[-6 -14 -9 0 0 0]
+Particular solution:
+[-8 5 9 0 0 0]
+Basis:
+[1 -1 0 1 0 0]
+[1 0 -1 0 1 0]
+[0 1 -1 0 0 1]
+New inequalities:
+[-8 1 1 0 0]
+[5 -1 0 1 0]
+[9 0 -1 -1 0]
+[0 1 0 0 0]
+[0 0 1 0 0]
+[0 0 0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 7
+  Left =   2,  Col =   5,  Size =        5  Time:  0.00  Left =   2,  Col =   5,  Size =        5,   Index = 0/2  Left =   2,  Col =   5,  Size =        8,  Time:  0.00                
+  Left =   1,  Col =   6,  Size =        8  Time:  0.00  Left =   1,  Col =   6,  Size =        8,   Index = 0/3  Left =   1,  Col =   6,  Size =       13,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 16
+Maximum number of simplicial cones in memory at once: 4
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 223  ****
+
+Total time: 0 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/digraph4_2.equ 
+Checking whether the input polytope is empty or not...size = 14 x 7
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0]
+[0 0 1 0 0 0 0]
+[0 0 0 1 0 0 0]
+[0 0 0 0 0 1 0]
+[0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[-9 1 1 1 0 0 0]
+[-11 -1 0 0 1 1 0]
+[12 0 -1 0 -1 0 1]
+
+Computing hermitean normal form.
+sol:
+[-9 -20 -8 0 0 0]
+Particular solution:
+[-11 12 8 0 0 0]
+Basis:
+[1 -1 0 1 0 0]
+[1 0 -1 0 1 0]
+[0 1 -1 0 0 1]
+New inequalities:
+[-11 1 1 0 0]
+[12 -1 0 1 0]
+[8 0 -1 -1 0]
+[0 0 1 0 0]
+[0 0 0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 6
+  Left =   1,  Col =   5,  Size =        5  Time:  0.00  Left =   1,  Col =   5,  Size =        5,   Index = 0/2  Left =   1,  Col =   5,  Size =        8,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 6
+Maximum number of simplicial cones in memory at once: 3
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 330  ****
+
+Total time: 0 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/digraph4_3.equ 
+Checking whether the input polytope is empty or not...size = 14 x 7
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0]
+[0 0 1 0 0 0 0]
+[0 0 0 1 0 0 0]
+[0 0 0 0 0 1 0]
+[0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[-1000 1 1 1 0 0 0]
+[-1 -1 0 0 1 1 0]
+[1000 0 -1 0 -1 0 1]
+
+Computing hermitean normal form.
+sol:
+[-1000 -1001 -1 0 0 0]
+Particular solution:
+[-1 1000 1 0 0 0]
+Basis:
+[1 -1 0 1 0 0]
+[1 0 -1 0 1 0]
+[0 1 -1 0 0 1]
+New inequalities:
+[-1 1 1 0 0]
+[1000 -1 0 1 0]
+[1 0 -1 -1 0]
+[0 0 1 0 0]
+[0 0 0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 6
+  Left =   1,  Col =   5,  Size =        5  Time:  0.00  Left =   1,  Col =   5,  Size =        6,   Index = 0/2  Left =   1,  Col =   5,  Size =        9,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 10
+Maximum number of simplicial cones in memory at once: 4
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 3002  ****
+
+Total time: 0 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/digraph4_4.equ 
+Checking whether the input polytope is empty or not...size = 14 x 7
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 0 1 0 0 0 0]
+[0 0 0 1 0 0 0]
+[0 0 0 0 1 0 0]
+[0 0 0 0 0 1 0]
+[0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[-4383 1 1 1 0 0 0]
+[886 -1 0 0 1 1 0]
+[2777 0 -1 0 -1 0 1]
+
+Computing hermitean normal form.
+sol:
+[-4383 -3497 -720 0 0 0]
+Particular solution:
+[886 2777 720 0 0 0]
+Basis:
+[1 -1 0 1 0 0]
+[1 0 -1 0 1 0]
+[0 1 -1 0 0 1]
+New inequalities:
+[2777 -1 0 1 0]
+[720 0 -1 -1 0]
+[0 1 0 0 0]
+[0 0 1 0 0]
+[0 0 0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 6
+  Left =   1,  Col =   5,  Size =        5  Time:  0.00  Left =   1,  Col =   5,  Size =        6,   Index = 0/2  Left =   1,  Col =   5,  Size =        9,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 10
+Maximum number of simplicial cones in memory at once: 4
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 785528058  ****
+
+Total time: 0 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/digraph4_5.equ 
+Checking whether the input polytope is empty or not...size = 14 x 7
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0]
+[0 0 1 0 0 0 0]
+[0 0 0 1 0 0 0]
+[0 0 0 0 1 0 0]
+[0 0 0 0 0 1 0]
+[0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[-4907 1 1 1 0 0 0]
+[-2218 -1 0 0 1 1 0]
+[3812 0 -1 0 -1 0 1]
+
+Computing hermitean normal form.
+sol:
+[-4907 -7125 -3313 0 0 0]
+Particular solution:
+[-2218 3812 3313 0 0 0]
+Basis:
+[1 -1 0 1 0 0]
+[1 0 -1 0 1 0]
+[0 1 -1 0 0 1]
+New inequalities:
+[-2218 1 1 0 0]
+[3812 -1 0 1 0]
+[3313 0 -1 -1 0]
+[0 1 0 0 0]
+[0 0 1 0 0]
+[0 0 0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 7
+  Left =   2,  Col =   5,  Size =        5  Time:  0.00  Left =   2,  Col =   5,  Size =        6,   Index = 0/2  Left =   2,  Col =   5,  Size =        9,  Time:  0.00                
+  Left =   1,  Col =   6,  Size =        9  Time:  0.00  Left =   1,  Col =   6,  Size =        7,   Index = 0/4  Left =   1,  Col =   6,  Size =       13,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 16
+Maximum number of simplicial cones in memory at once: 4
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 20673947895  ****
+
+Total time: 0 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/digraph4_6.equ 
+Checking whether the input polytope is empty or not...size = 14 x 7
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0]
+[0 0 1 0 0 0 0]
+[0 0 0 1 0 0 0]
+[0 0 0 0 1 0 0]
+[0 0 0 0 0 1 0]
+[0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[-2569 1 1 1 0 0 0]
+[-3820 -1 0 0 1 1 0]
+[1108 0 -1 0 -1 0 1]
+
+Computing hermitean normal form.
+sol:
+[-2569 -6389 -5281 0 0 0]
+Particular solution:
+[-3820 1108 5281 0 0 0]
+Basis:
+[1 -1 0 1 0 0]
+[1 0 -1 0 1 0]
+[0 1 -1 0 0 1]
+New inequalities:
+[-3820 1 1 0 0]
+[1108 -1 0 1 0]
+[5281 0 -1 -1 0]
+[0 1 0 0 0]
+[0 0 1 0 0]
+[0 0 0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 7
+  Left =   2,  Col =   5,  Size =        5  Time:  0.00  Left =   2,  Col =   5,  Size =        6,   Index = 0/2  Left =   2,  Col =   5,  Size =        9,  Time:  0.00                
+  Left =   1,  Col =   6,  Size =        9  Time:  0.00  Left =   1,  Col =   6,  Size =        7,   Index = 0/4  Left =   1,  Col =   6,  Size =       13,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 16
+Maximum number of simplicial cones in memory at once: 4
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 14100406254  ****
+
+Total time: 0 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/digraph4_7.equ 
+Checking whether the input polytope is empty or not...size = 14 x 7
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0]
+[0 0 1 0 0 0 0]
+[0 0 0 1 0 0 0]
+[0 0 0 0 0 1 0]
+[0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[-3842 1 1 1 0 0 0]
+[-3945 -1 0 0 1 1 0]
+[6744 0 -1 0 -1 0 1]
+
+Computing hermitean normal form.
+sol:
+[-3842 -7787 -1043 0 0 0]
+Particular solution:
+[-3945 6744 1043 0 0 0]
+Basis:
+[1 -1 0 1 0 0]
+[1 0 -1 0 1 0]
+[0 1 -1 0 0 1]
+New inequalities:
+[-3945 1 1 0 0]
+[6744 -1 0 1 0]
+[1043 0 -1 -1 0]
+[0 0 1 0 0]
+[0 0 0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 6
+  Left =   1,  Col =   5,  Size =        5  Time:  0.00  Left =   1,  Col =   5,  Size =        6,   Index = 0/2  Left =   1,  Col =   5,  Size =        9,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 10
+Maximum number of simplicial cones in memory at once: 4
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 1906669380  ****
+
+Total time: 0 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/digraph4_8.equ 
+Checking whether the input polytope is empty or not...size = 14 x 7
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0]
+[0 0 1 0 0 0 0]
+[0 0 0 1 0 0 0]
+[0 0 0 0 1 0 0]
+[0 0 0 0 0 1 0]
+[0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[-47896 1 1 1 0 0 0]
+[-30744 -1 0 0 1 1 0]
+[46242 0 -1 0 -1 0 1]
+
+Computing hermitean normal form.
+sol:
+[-47896 -78640 -32398 0 0 0]
+Particular solution:
+[-30744 46242 32398 0 0 0]
+Basis:
+[1 -1 0 1 0 0]
+[1 0 -1 0 1 0]
+[0 1 -1 0 0 1]
+New inequalities:
+[-30744 1 1 0 0]
+[46242 -1 0 1 0]
+[32398 0 -1 -1 0]
+[0 1 0 0 0]
+[0 0 1 0 0]
+[0 0 0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 7
+  Left =   2,  Col =   5,  Size =        5  Time:  0.00  Left =   2,  Col =   5,  Size =        6,   Index = 0/2  Left =   2,  Col =   5,  Size =        9,  Time:  0.00                
+  Left =   1,  Col =   6,  Size =        9  Time:  0.00  Left =   1,  Col =   6,  Size =        7,   Index = 0/4  Left =   1,  Col =   6,  Size =       13,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 16
+Maximum number of simplicial cones in memory at once: 4
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 19470466783680  ****
+
+Total time: 0 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/digraph4_9.equ 
+Checking whether the input polytope is empty or not...size = 14 x 7
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0]
+[0 0 1 0 0 0 0]
+[0 0 0 1 0 0 0]
+[0 0 0 0 0 1 0]
+[0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[-54915 1 1 1 0 0 0]
+[-97874 -1 0 0 1 1 0]
+[64165 0 -1 0 -1 0 1]
+
+Computing hermitean normal form.
+sol:
+[-54915 -152789 -88624 0 0 0]
+Particular solution:
+[-97874 64165 88624 0 0 0]
+Basis:
+[1 -1 0 1 0 0]
+[1 0 -1 0 1 0]
+[0 1 -1 0 0 1]
+New inequalities:
+[-97874 1 1 0 0]
+[64165 -1 0 1 0]
+[88624 0 -1 -1 0]
+[0 0 1 0 0]
+[0 0 0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 6
+  Left =   1,  Col =   5,  Size =        5  Time:  0.00  Left =   1,  Col =   5,  Size =        6,   Index = 0/2  Left =   1,  Col =   5,  Size =        9,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 10
+Maximum number of simplicial cones in memory at once: 4
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 106036300535520  ****
+
+Total time: 0 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/digraph5_10.equ 
+Checking whether the input polytope is empty or not...size = 20 x 11
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0 0 0 0]
+[0 0 0 1 0 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 0 0 0 0]
+[0 0 0 0 0 1 0 0 0 0 0]
+[0 0 0 0 0 0 1 0 0 0 0]
+[0 0 0 0 0 0 0 1 0 0 0]
+[0 0 0 0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 0 0 0 1 0]
+[0 0 0 0 0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[-69295 1 1 1 1 0 0 0 0 0 0]
+[-62008 -1 0 0 0 1 1 1 0 0 0]
+[28678 0 -1 0 0 -1 0 0 1 1 0]
+[88725 0 0 -1 0 0 -1 0 -1 0 1]
+
+Computing hermitean normal form.
+sol:
+[-69295 -131303 -102625 -13900 0 0 0 0 0 0]
+Particular solution:
+[-62008 28678 88725 13900 0 0 0 0 0 0]
+Basis:
+[1 -1 0 0 1 0 0 0 0 0]
+[1 0 -1 0 0 1 0 0 0 0]
+[1 0 0 -1 0 0 1 0 0 0]
+[0 1 -1 0 0 0 0 1 0 0]
+[0 1 0 -1 0 0 0 0 1 0]
+[0 0 1 -1 0 0 0 0 0 1]
+New inequalities:
+[-62008 1 1 1 0 0 0 0]
+[28678 -1 0 0 1 1 0 0]
+[88725 0 -1 0 -1 0 1 0]
+[13900 0 0 -1 0 -1 -1 0]
+[0 1 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0]
+[0 0 0 1 0 0 0 0]
+[0 0 0 0 1 0 0 0]
+[0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 1 0]
+Time for reading and preprocessing: 0.01 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 11
+  Left =   3,  Col =   8,  Size =        8  Time:  0.00  Left =   3,  Col =   8,  Size =        8,   Index = 0/4  Left =   3,  Col =   8,  Size =       20,  Time:  0.00                
+  Left =   2,  Col =   9,  Size =       20  Time:  0.00  Left =   2,  Col =   9,  Size =       15,   Index = 0/9  Left =   2,  Col =   9,  Size =       40,  Time:  0.00                
+  Left =   1,  Col =  10,  Size =       40  Time:  0.00  Left =   1,  Col =  10,  Size =       36,   Index = 0/8  Left =   1,  Col =  10,  Size =       64,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 152
+Maximum number of simplicial cones in memory at once: 6
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 65348330279808617817420057  ****
+
+Total time: 0.05 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/digraph5_1.equ 
+Checking whether the input polytope is empty or not...size = 20 x 11
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0 0 0 0]
+[0 0 0 1 0 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 0 0 0 0]
+[0 0 0 0 0 1 0 0 0 0 0]
+[0 0 0 0 0 0 1 0 0 0 0]
+[0 0 0 0 0 0 0 1 0 0 0]
+[0 0 0 0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 0 0 0 1 0]
+[0 0 0 0 0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[-12 1 1 1 1 0 0 0 0 0 0]
+[-8 -1 0 0 0 1 1 1 0 0 0]
+[9 0 -1 0 0 -1 0 0 1 1 0]
+[7 0 0 -1 0 0 -1 0 -1 0 1]
+
+Computing hermitean normal form.
+sol:
+[-12 -20 -11 -4 0 0 0 0 0 0]
+Particular solution:
+[-8 9 7 4 0 0 0 0 0 0]
+Basis:
+[1 -1 0 0 1 0 0 0 0 0]
+[1 0 -1 0 0 1 0 0 0 0]
+[1 0 0 -1 0 0 1 0 0 0]
+[0 1 -1 0 0 0 0 1 0 0]
+[0 1 0 -1 0 0 0 0 1 0]
+[0 0 1 -1 0 0 0 0 0 1]
+New inequalities:
+[-8 1 1 1 0 0 0 0]
+[9 -1 0 0 1 1 0 0]
+[7 0 -1 0 -1 0 1 0]
+[4 0 0 -1 0 -1 -1 0]
+[0 1 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0]
+[0 0 0 1 0 0 0 0]
+[0 0 0 0 1 0 0 0]
+[0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 1 0]
+Time for reading and preprocessing: 0.01 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 11
+  Left =   3,  Col =   8,  Size =        8  Time:  0.00  Left =   3,  Col =   8,  Size =        8,   Index = 0/4  Left =   3,  Col =   8,  Size =       20,  Time:  0.00                
+  Left =   2,  Col =   9,  Size =       20  Time:  0.00  Left =   2,  Col =   9,  Size =       18,   Index = 0/6  Left =   2,  Col =   9,  Size =       38,  Time:  0.00                
+  Left =   1,  Col =  10,  Size =       38  Time:  0.00  Left =   1,  Col =  10,  Size =       35,   Index = 0/8  Left =   1,  Col =  10,  Size =       62,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 130
+Maximum number of simplicial cones in memory at once: 6
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 14805  ****
+
+Total time: 0.04 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/digraph5_2.equ 
+Checking whether the input polytope is empty or not...size = 20 x 11
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0 0 0 0]
+[0 0 0 1 0 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 0 0 0 0]
+[0 0 0 0 0 1 0 0 0 0 0]
+[0 0 0 0 0 0 1 0 0 0 0]
+[0 0 0 0 0 0 0 1 0 0 0]
+[0 0 0 0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 0 0 0 1 0]
+[0 0 0 0 0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[-125 1 1 1 1 0 0 0 0 0 0]
+[-50 -1 0 0 0 1 1 1 0 0 0]
+[75 0 -1 0 0 -1 0 0 1 1 0]
+[33 0 0 -1 0 0 -1 0 -1 0 1]
+
+Computing hermitean normal form.
+sol:
+[-125 -175 -100 -67 0 0 0 0 0 0]
+Particular solution:
+[-50 75 33 67 0 0 0 0 0 0]
+Basis:
+[1 -1 0 0 1 0 0 0 0 0]
+[1 0 -1 0 0 1 0 0 0 0]
+[1 0 0 -1 0 0 1 0 0 0]
+[0 1 -1 0 0 0 0 1 0 0]
+[0 1 0 -1 0 0 0 0 1 0]
+[0 0 1 -1 0 0 0 0 0 1]
+New inequalities:
+[-50 1 1 1 0 0 0 0]
+[75 -1 0 0 1 1 0 0]
+[33 0 -1 0 -1 0 1 0]
+[67 0 0 -1 0 -1 -1 0]
+[0 1 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0]
+[0 0 0 1 0 0 0 0]
+[0 0 0 0 1 0 0 0]
+[0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 1 0]
+Time for reading and preprocessing: 0.01 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 11
+  Left =   3,  Col =   8,  Size =        8  Time:  0.00  Left =   3,  Col =   8,  Size =        8,   Index = 0/3  Left =   3,  Col =   8,  Size =       18,  Time:  0.00                
+  Left =   2,  Col =   9,  Size =       18  Time:  0.00  Left =   2,  Col =   9,  Size =       13,   Index = 0/8  Left =   2,  Col =   9,  Size =       34,  Time:  0.00                
+  Left =   1,  Col =  10,  Size =       34  Time:  0.00  Left =   1,  Col =  10,  Size =       26,   Index = 0/10  Left =   1,  Col =  10,  Size =       60,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 112
+Maximum number of simplicial cones in memory at once: 6
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 6950747024  ****
+
+Total time: 0.04 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/digraph5_3.equ 
+Checking whether the input polytope is empty or not...size = 20 x 11
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0 0 0 0]
+[0 0 0 1 0 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 0 0 0 0]
+[0 0 0 0 0 1 0 0 0 0 0]
+[0 0 0 0 0 0 1 0 0 0 0]
+[0 0 0 0 0 0 0 1 0 0 0]
+[0 0 0 0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 0 0 0 1 0]
+[0 0 0 0 0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[-763 1 1 1 1 0 0 0 0 0 0]
+[-41 -1 0 0 0 1 1 1 0 0 0]
+[227 0 -1 0 0 -1 0 0 1 1 0]
+[89 0 0 -1 0 0 -1 0 -1 0 1]
+
+Computing hermitean normal form.
+sol:
+[-763 -804 -577 -488 0 0 0 0 0 0]
+Particular solution:
+[-41 227 89 488 0 0 0 0 0 0]
+Basis:
+[1 -1 0 0 1 0 0 0 0 0]
+[1 0 -1 0 0 1 0 0 0 0]
+[1 0 0 -1 0 0 1 0 0 0]
+[0 1 -1 0 0 0 0 1 0 0]
+[0 1 0 -1 0 0 0 0 1 0]
+[0 0 1 -1 0 0 0 0 0 1]
+New inequalities:
+[-41 1 1 1 0 0 0 0]
+[227 -1 0 0 1 1 0 0]
+[89 0 -1 0 -1 0 1 0]
+[488 0 0 -1 0 -1 -1 0]
+[0 1 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0]
+[0 0 0 1 0 0 0 0]
+[0 0 0 0 1 0 0 0]
+[0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 1 0]
+Time for reading and preprocessing: 0.01 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 11
+  Left =   3,  Col =   8,  Size =        8  Time:  0.00  Left =   3,  Col =   8,  Size =        8,   Index = 0/4  Left =   3,  Col =   8,  Size =       20,  Time:  0.00                
+  Left =   2,  Col =   9,  Size =       20  Time:  0.00  Left =   2,  Col =   9,  Size =       17,   Index = 0/7  Left =   2,  Col =   9,  Size =       40,  Time:  0.00                
+  Left =   1,  Col =  10,  Size =       40  Time:  0.00  Left =   1,  Col =  10,  Size =       29,   Index = 0/14  Left =   1,  Col =  10,  Size =       62,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 124
+Maximum number of simplicial cones in memory at once: 6
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 222850218035543  ****
+
+Total time: 0.04 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/digraph5_4.equ 
+Checking whether the input polytope is empty or not...size = 20 x 11
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0 0 0 0]
+[0 0 0 1 0 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 0 0 0 0]
+[0 0 0 0 0 0 1 0 0 0 0]
+[0 0 0 0 0 0 0 1 0 0 0]
+[0 0 0 0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 0 0 0 1 0]
+[0 0 0 0 0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[-11675 1 1 1 1 0 0 0 0 0 0]
+[-88765 -1 0 0 0 1 1 1 0 0 0]
+[25610 0 -1 0 0 -1 0 0 1 1 0]
+[64072 0 0 -1 0 0 -1 0 -1 0 1]
+
+Computing hermitean normal form.
+sol:
+[-11675 -100440 -74830 -10758 0 0 0 0 0 0]
+Particular solution:
+[-88765 25610 64072 10758 0 0 0 0 0 0]
+Basis:
+[1 -1 0 0 1 0 0 0 0 0]
+[1 0 -1 0 0 1 0 0 0 0]
+[1 0 0 -1 0 0 1 0 0 0]
+[0 1 -1 0 0 0 0 1 0 0]
+[0 1 0 -1 0 0 0 0 1 0]
+[0 0 1 -1 0 0 0 0 0 1]
+New inequalities:
+[-88765 1 1 1 0 0 0 0]
+[25610 -1 0 0 1 1 0 0]
+[64072 0 -1 0 -1 0 1 0]
+[10758 0 0 -1 0 -1 -1 0]
+[0 0 1 0 0 0 0 0]
+[0 0 0 1 0 0 0 0]
+[0 0 0 0 1 0 0 0]
+[0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 1 0]
+Time for reading and preprocessing: 0.01 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 10
+  Left =   2,  Col =   8,  Size =        8  Time:  0.00  Left =   2,  Col =   8,  Size =        8,   Index = 0/4  Left =   2,  Col =   8,  Size =       20,  Time:  0.00                
+  Left =   1,  Col =   9,  Size =       20  Time:  0.00  Left =   1,  Col =   9,  Size =       18,   Index = 0/6  Left =   1,  Col =   9,  Size =       38,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 72
+Maximum number of simplicial cones in memory at once: 6
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 563408416219655157542748  ****
+
+Total time: 0.03 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/digraph5_5.equ 
+Checking whether the input polytope is empty or not...size = 20 x 11
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0 0 0 0]
+[0 0 0 1 0 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 0 0 0 0]
+[0 0 0 0 0 1 0 0 0 0 0]
+[0 0 0 0 0 0 1 0 0 0 0]
+[0 0 0 0 0 0 0 1 0 0 0]
+[0 0 0 0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 0 0 0 1 0]
+[0 0 0 0 0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[-78301 1 1 1 1 0 0 0 0 0 0]
+[-24083 -1 0 0 0 1 1 1 0 0 0]
+[22274 0 -1 0 0 -1 0 0 1 1 0]
+[19326 0 0 -1 0 0 -1 0 -1 0 1]
+
+Computing hermitean normal form.
+sol:
+[-78301 -102384 -80110 -60784 0 0 0 0 0 0]
+Particular solution:
+[-24083 22274 19326 60784 0 0 0 0 0 0]
+Basis:
+[1 -1 0 0 1 0 0 0 0 0]
+[1 0 -1 0 0 1 0 0 0 0]
+[1 0 0 -1 0 0 1 0 0 0]
+[0 1 -1 0 0 0 0 1 0 0]
+[0 1 0 -1 0 0 0 0 1 0]
+[0 0 1 -1 0 0 0 0 0 1]
+New inequalities:
+[-24083 1 1 1 0 0 0 0]
+[22274 -1 0 0 1 1 0 0]
+[19326 0 -1 0 -1 0 1 0]
+[60784 0 0 -1 0 -1 -1 0]
+[0 1 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0]
+[0 0 0 1 0 0 0 0]
+[0 0 0 0 1 0 0 0]
+[0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 1 0]
+Time for reading and preprocessing: 0.01 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 11
+  Left =   3,  Col =   8,  Size =        8  Time:  0.00  Left =   3,  Col =   8,  Size =        8,   Index = 0/4  Left =   3,  Col =   8,  Size =       20,  Time:  0.00                
+  Left =   2,  Col =   9,  Size =       20  Time:  0.00  Left =   2,  Col =   9,  Size =       14,   Index = 0/9  Left =   2,  Col =   9,  Size =       38,  Time:  0.00                
+  Left =   1,  Col =  10,  Size =       38  Time:  0.00  Left =   1,  Col =  10,  Size =       24,   Index = 0/16  Left =   1,  Col =  10,  Size =       62,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 100
+Maximum number of simplicial cones in memory at once: 6
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 1108629405144880240444547243  ****
+
+Total time: 0.04 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/digraph5_6.equ 
+Checking whether the input polytope is empty or not...size = 20 x 11
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0 0 0 0]
+[0 0 0 1 0 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 0 0 0 0]
+[0 0 0 0 0 1 0 0 0 0 0]
+[0 0 0 0 0 0 1 0 0 0 0]
+[0 0 0 0 0 0 0 1 0 0 0]
+[0 0 0 0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 0 0 0 1 0]
+[0 0 0 0 0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[-52541 1 1 1 1 0 0 0 0 0 0]
+[-88985 -1 0 0 0 1 1 1 0 0 0]
+[1112 0 -1 0 0 -1 0 0 1 1 0]
+[55665 0 0 -1 0 0 -1 0 -1 0 1]
+
+Computing hermitean normal form.
+sol:
+[-52541 -141526 -140414 -84749 0 0 0 0 0 0]
+Particular solution:
+[-88985 1112 55665 84749 0 0 0 0 0 0]
+Basis:
+[1 -1 0 0 1 0 0 0 0 0]
+[1 0 -1 0 0 1 0 0 0 0]
+[1 0 0 -1 0 0 1 0 0 0]
+[0 1 -1 0 0 0 0 1 0 0]
+[0 1 0 -1 0 0 0 0 1 0]
+[0 0 1 -1 0 0 0 0 0 1]
+New inequalities:
+[-88985 1 1 1 0 0 0 0]
+[1112 -1 0 0 1 1 0 0]
+[55665 0 -1 0 -1 0 1 0]
+[84749 0 0 -1 0 -1 -1 0]
+[0 1 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0]
+[0 0 0 1 0 0 0 0]
+[0 0 0 0 1 0 0 0]
+[0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 1 0]
+Time for reading and preprocessing: 0.01 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 11
+  Left =   3,  Col =   8,  Size =        8  Time:  0.00  Left =   3,  Col =   8,  Size =       10,   Index = 0/3  Left =   3,  Col =   8,  Size =       20,  Time:  0.00                
+  Left =   2,  Col =   9,  Size =       20  Time:  0.00  Left =   2,  Col =   9,  Size =       16,   Index = 0/6  Left =   2,  Col =   9,  Size =       34,  Time:  0.00                
+  Left =   1,  Col =  10,  Size =       34  Time:  0.00  Left =   1,  Col =  10,  Size =       31,   Index = 0/8  Left =   1,  Col =  10,  Size =       58,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 120
+Maximum number of simplicial cones in memory at once: 6
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 3997121684242603301444265332  ****
+
+Total time: 0.04 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/digraph5_7.equ 
+Checking whether the input polytope is empty or not...size = 20 x 11
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0 0 0 0]
+[0 0 0 1 0 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 0 0 0 0]
+[0 0 0 0 0 0 1 0 0 0 0]
+[0 0 0 0 0 0 0 1 0 0 0]
+[0 0 0 0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 0 0 0 1 0]
+[0 0 0 0 0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[-71799 1 1 1 1 0 0 0 0 0 0]
+[-80011 -1 0 0 0 1 1 1 0 0 0]
+[86060 0 -1 0 0 -1 0 0 1 1 0]
+[39543 0 0 -1 0 0 -1 0 -1 0 1]
+
+Computing hermitean normal form.
+sol:
+[-71799 -151810 -65750 -26207 0 0 0 0 0 0]
+Particular solution:
+[-80011 86060 39543 26207 0 0 0 0 0 0]
+Basis:
+[1 -1 0 0 1 0 0 0 0 0]
+[1 0 -1 0 0 1 0 0 0 0]
+[1 0 0 -1 0 0 1 0 0 0]
+[0 1 -1 0 0 0 0 1 0 0]
+[0 1 0 -1 0 0 0 0 1 0]
+[0 0 1 -1 0 0 0 0 0 1]
+New inequalities:
+[-80011 1 1 1 0 0 0 0]
+[86060 -1 0 0 1 1 0 0]
+[39543 0 -1 0 -1 0 1 0]
+[26207 0 0 -1 0 -1 -1 0]
+[0 0 1 0 0 0 0 0]
+[0 0 0 1 0 0 0 0]
+[0 0 0 0 1 0 0 0]
+[0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 1 0]
+Time for reading and preprocessing: 0.01 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 10
+  Left =   2,  Col =   8,  Size =        8  Time:  0.00  Left =   2,  Col =   8,  Size =        8,   Index = 0/3  Left =   2,  Col =   8,  Size =       18,  Time:  0.00                
+  Left =   1,  Col =   9,  Size =       18  Time:  0.00  Left =   1,  Col =   9,  Size =       16,   Index = 0/6  Left =   1,  Col =   9,  Size =       36,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 60
+Maximum number of simplicial cones in memory at once: 6
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 160949617742851302259767600  ****
+
+Total time: 0.03 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/digraph5_8.equ 
+Checking whether the input polytope is empty or not...size = 20 x 11
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0 0 0 0]
+[0 0 0 1 0 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 0 0 0 0]
+[0 0 0 0 0 1 0 0 0 0 0]
+[0 0 0 0 0 0 1 0 0 0 0]
+[0 0 0 0 0 0 0 1 0 0 0]
+[0 0 0 0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 0 0 0 1 0]
+[0 0 0 0 0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[-45617 1 1 1 1 0 0 0 0 0 0]
+[-46855 -1 0 0 0 1 1 1 0 0 0]
+[24133 0 -1 0 0 -1 0 0 1 1 0]
+[54922 0 0 -1 0 0 -1 0 -1 0 1]
+
+Computing hermitean normal form.
+sol:
+[-45617 -92472 -68339 -13417 0 0 0 0 0 0]
+Particular solution:
+[-46855 24133 54922 13417 0 0 0 0 0 0]
+Basis:
+[1 -1 0 0 1 0 0 0 0 0]
+[1 0 -1 0 0 1 0 0 0 0]
+[1 0 0 -1 0 0 1 0 0 0]
+[0 1 -1 0 0 0 0 1 0 0]
+[0 1 0 -1 0 0 0 0 1 0]
+[0 0 1 -1 0 0 0 0 0 1]
+New inequalities:
+[-46855 1 1 1 0 0 0 0]
+[24133 -1 0 0 1 1 0 0]
+[54922 0 -1 0 -1 0 1 0]
+[13417 0 0 -1 0 -1 -1 0]
+[0 1 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0]
+[0 0 0 1 0 0 0 0]
+[0 0 0 0 1 0 0 0]
+[0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 1 0]
+Time for reading and preprocessing: 0.01 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 11
+  Left =   3,  Col =   8,  Size =        8  Time:  0.00  Left =   3,  Col =   8,  Size =        8,   Index = 0/4  Left =   3,  Col =   8,  Size =       20,  Time:  0.00                
+  Left =   2,  Col =   9,  Size =       20  Time:  0.00  Left =   2,  Col =   9,  Size =       16,   Index = 0/8  Left =   2,  Col =   9,  Size =       40,  Time:  0.00                
+  Left =   1,  Col =  10,  Size =       40  Time:  0.00  Left =   1,  Col =  10,  Size =       36,   Index = 0/8  Left =   1,  Col =  10,  Size =       64,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 152
+Maximum number of simplicial cones in memory at once: 6
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 15711217216898158096466094  ****
+
+Total time: 0.05 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/digraph5_9.equ 
+Checking whether the input polytope is empty or not...size = 20 x 11
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0 0 0 0]
+[0 0 0 1 0 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 0 0 0 0]
+[0 0 0 0 0 0 1 0 0 0 0]
+[0 0 0 0 0 0 0 1 0 0 0]
+[0 0 0 0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 0 0 0 1 0]
+[0 0 0 0 0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[-54915 1 1 1 1 0 0 0 0 0 0]
+[-97874 -1 0 0 0 1 1 1 0 0 0]
+[64165 0 -1 0 0 -1 0 0 1 1 0]
+[86807 0 0 -1 0 0 -1 0 -1 0 1]
+
+Computing hermitean normal form.
+sol:
+[-54915 -152789 -88624 -1817 0 0 0 0 0 0]
+Particular solution:
+[-97874 64165 86807 1817 0 0 0 0 0 0]
+Basis:
+[1 -1 0 0 1 0 0 0 0 0]
+[1 0 -1 0 0 1 0 0 0 0]
+[1 0 0 -1 0 0 1 0 0 0]
+[0 1 -1 0 0 0 0 1 0 0]
+[0 1 0 -1 0 0 0 0 1 0]
+[0 0 1 -1 0 0 0 0 0 1]
+New inequalities:
+[-97874 1 1 1 0 0 0 0]
+[64165 -1 0 0 1 1 0 0]
+[86807 0 -1 0 -1 0 1 0]
+[1817 0 0 -1 0 -1 -1 0]
+[0 0 1 0 0 0 0 0]
+[0 0 0 1 0 0 0 0]
+[0 0 0 0 1 0 0 0]
+[0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 1 0]
+Time for reading and preprocessing: 0.01 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 10
+  Left =   2,  Col =   8,  Size =        8  Time:  0.00  Left =   2,  Col =   8,  Size =        8,   Index = 0/4  Left =   2,  Col =   8,  Size =       20,  Time:  0.00                
+  Left =   1,  Col =   9,  Size =       20  Time:  0.00  Left =   1,  Col =   9,  Size =       18,   Index = 0/6  Left =   1,  Col =   9,  Size =       38,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 64
+Maximum number of simplicial cones in memory at once: 6
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 102815492358112722152328  ****
+
+Total time: 0.03 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/hyp_simp_4_1.equ 
+Checking whether the input polytope is empty or not...size = 10 x 5
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0]
+[0 0 1 0 0]
+[0 0 0 1 0]
+[0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[1 -1 -1 -1 -1]
+
+Computing hermitean normal form.
+sol:
+[1 0 0 0]
+Particular solution:
+[1 0 0 0]
+Basis:
+[-1 1 0 0]
+[-1 0 1 0]
+[-1 0 0 1]
+New inequalities:
+[1 -1 -1 -1 0]
+[0 1 0 0 0]
+[0 0 1 0 0]
+[0 0 0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 1
+Maximum number of simplicial cones in memory at once: 0
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 4  ****
+
+Total time: 0 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/hyp_simp_4_2.equ 
+Checking whether the input polytope is empty or not...size = 10 x 5
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[1 -1 0 0 0]
+[1 0 -1 0 0]
+[1 0 0 -1 0]
+[1 0 0 0 -1]
+[0 1 0 0 0]
+[0 0 1 0 0]
+[0 0 0 1 0]
+[0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[2 -1 -1 -1 -1]
+
+Computing hermitean normal form.
+sol:
+[2 0 0 0]
+Particular solution:
+[2 0 0 0]
+Basis:
+[-1 1 0 0]
+[-1 0 1 0]
+[-1 0 0 1]
+New inequalities:
+[-1 1 1 1 0]
+[1 -1 0 0 0]
+[1 0 -1 0 0]
+[1 0 0 -1 0]
+[2 -1 -1 -1 0]
+[0 1 0 0 0]
+[0 0 1 0 0]
+[0 0 0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 9
+  Left =   4,  Col =   8,  Size =        5  Time:  0.00  Left =   4,  Col =   8,  Size =        5,   Index = 0/2  Left =   4,  Col =   8,  Size =        8,  Time:  0.00                
+  Left =   3,  Col =   5,  Size =        8  Time:  0.00  Left =   3,  Col =   5,  Size =        7,   Index = 0/3  Left =   3,  Col =   5,  Size =       11,  Time:  0.00                
+  Left =   2,  Col =   6,  Size =       11  Time:  0.00  Left =   2,  Col =   6,  Size =        7,   Index = 0/4  Left =   2,  Col =   6,  Size =       12,  Time:  0.00                
+  Left =   1,  Col =   7,  Size =       12  Time:  0.00  Left =   1,  Col =   7,  Size =       10,   Index = 0/3  Left =   1,  Col =   7,  Size =       12,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 6
+Maximum number of simplicial cones in memory at once: 0
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 6  ****
+
+Total time: 0 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/hyp_simp_4_3.equ 
+Checking whether the input polytope is empty or not...size = 10 x 5
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[1 -1 0 0 0]
+[1 0 -1 0 0]
+[1 0 0 -1 0]
+[1 0 0 0 -1]
+
+Ax = b, given as (b|-A):
+========================
+[3 -1 -1 -1 -1]
+
+Computing hermitean normal form.
+sol:
+[3 0 0 0]
+Particular solution:
+[3 0 0 0]
+Basis:
+[-1 1 0 0]
+[-1 0 1 0]
+[-1 0 0 1]
+New inequalities:
+[-2 1 1 1 0]
+[1 -1 0 0 0]
+[1 0 -1 0 0]
+[1 0 0 -1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 1
+Maximum number of simplicial cones in memory at once: 0
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 4  ****
+
+Total time: 0 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/hyp_simp_5_1.equ 
+Checking whether the input polytope is empty or not...size = 12 x 6
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0]
+[0 0 1 0 0 0]
+[0 0 0 1 0 0]
+[0 0 0 0 1 0]
+[0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[1 -1 -1 -1 -1 -1]
+
+Computing hermitean normal form.
+sol:
+[1 0 0 0 0]
+Particular solution:
+[1 0 0 0 0]
+Basis:
+[-1 1 0 0 0]
+[-1 0 1 0 0]
+[-1 0 0 1 0]
+[-1 0 0 0 1]
+New inequalities:
+[1 -1 -1 -1 -1 0]
+[0 1 0 0 0 0]
+[0 0 1 0 0 0]
+[0 0 0 1 0 0]
+[0 0 0 0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 1
+Maximum number of simplicial cones in memory at once: 0
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 5  ****
+
+Total time: 0.01 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/hyp_simp_5_2.equ 
+Checking whether the input polytope is empty or not...size = 12 x 6
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[1 -1 0 0 0 0]
+[1 0 -1 0 0 0]
+[1 0 0 -1 0 0]
+[1 0 0 0 -1 0]
+[1 0 0 0 0 -1]
+[0 1 0 0 0 0]
+[0 0 1 0 0 0]
+[0 0 0 1 0 0]
+[0 0 0 0 1 0]
+[0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[2 -1 -1 -1 -1 -1]
+
+Computing hermitean normal form.
+sol:
+[2 0 0 0 0]
+Particular solution:
+[2 0 0 0 0]
+Basis:
+[-1 1 0 0 0]
+[-1 0 1 0 0]
+[-1 0 0 1 0]
+[-1 0 0 0 1]
+New inequalities:
+[-1 1 1 1 1 0]
+[1 -1 0 0 0 0]
+[1 0 -1 0 0 0]
+[1 0 0 -1 0 0]
+[1 0 0 0 -1 0]
+[2 -1 -1 -1 -1 0]
+[0 1 0 0 0 0]
+[0 0 1 0 0 0]
+[0 0 0 1 0 0]
+[0 0 0 0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 11
+  Left =   5,  Col =   6,  Size =        6  Time:  0.00  Left =   5,  Col =   6,  Size =        6,   Index = 0/2  Left =   5,  Col =   6,  Size =       10,  Time:  0.00                
+  Left =   4,  Col =  10,  Size =       10  Time:  0.00  Left =   4,  Col =  10,  Size =        7,   Index = 0/4  Left =   4,  Col =  10,  Size =       16,  Time:  0.00                
+  Left =   3,  Col =   9,  Size =       16  Time:  0.00  Left =   3,  Col =   9,  Size =       13,   Index = 0/6  Left =   3,  Col =   9,  Size =       24,  Time:  0.00                
+  Left =   2,  Col =   8,  Size =       24  Time:  0.00  Left =   2,  Col =   8,  Size =       19,   Index = 0/7  Left =   2,  Col =   8,  Size =       26,  Time:  0.00                
+  Left =   1,  Col =   7,  Size =       26  Time:  0.00  Left =   1,  Col =   7,  Size =       19,   Index = 0/7  Left =   1,  Col =   7,  Size =       25,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 15
+Maximum number of simplicial cones in memory at once: 0
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 10  ****
+
+Total time: 0.01 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/hyp_simp_5_3.equ 
+Checking whether the input polytope is empty or not...size = 12 x 6
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[1 -1 0 0 0 0]
+[1 0 -1 0 0 0]
+[1 0 0 -1 0 0]
+[1 0 0 0 -1 0]
+[1 0 0 0 0 -1]
+[0 1 0 0 0 0]
+[0 0 1 0 0 0]
+[0 0 0 1 0 0]
+[0 0 0 0 1 0]
+[0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[3 -1 -1 -1 -1 -1]
+
+Computing hermitean normal form.
+sol:
+[3 0 0 0 0]
+Particular solution:
+[3 0 0 0 0]
+Basis:
+[-1 1 0 0 0]
+[-1 0 1 0 0]
+[-1 0 0 1 0]
+[-1 0 0 0 1]
+New inequalities:
+[-2 1 1 1 1 0]
+[1 -1 0 0 0 0]
+[1 0 -1 0 0 0]
+[1 0 0 -1 0 0]
+[1 0 0 0 -1 0]
+[3 -1 -1 -1 -1 0]
+[0 1 0 0 0 0]
+[0 0 1 0 0 0]
+[0 0 0 1 0 0]
+[0 0 0 0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 11
+  Left =   5,  Col =   6,  Size =        6  Time:  0.00  Left =   5,  Col =   6,  Size =        6,   Index = 0/2  Left =   5,  Col =   6,  Size =       10,  Time:  0.00                
+  Left =   4,  Col =  10,  Size =       10  Time:  0.00  Left =   4,  Col =  10,  Size =        7,   Index = 0/3  Left =   4,  Col =  10,  Size =       13,  Time:  0.00                
+  Left =   3,  Col =   8,  Size =       13  Time:  0.00  Left =   3,  Col =   8,  Size =       12,   Index = 0/4  Left =   3,  Col =   8,  Size =       19,  Time:  0.00                
+  Left =   2,  Col =   9,  Size =       19  Time:  0.00  Left =   2,  Col =   9,  Size =       13,   Index = 0/7  Left =   2,  Col =   9,  Size =       23,  Time:  0.00                
+  Left =   1,  Col =   7,  Size =       23  Time:  0.00  Left =   1,  Col =   7,  Size =       22,   Index = 0/4  Left =   1,  Col =   7,  Size =       26,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 16
+Maximum number of simplicial cones in memory at once: 0
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 10  ****
+
+Total time: 0 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/hyp_simp_5_4.equ 
+Checking whether the input polytope is empty or not...size = 12 x 6
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[1 -1 0 0 0 0]
+[1 0 -1 0 0 0]
+[1 0 0 -1 0 0]
+[1 0 0 0 -1 0]
+[1 0 0 0 0 -1]
+
+Ax = b, given as (b|-A):
+========================
+[4 -1 -1 -1 -1 -1]
+
+Computing hermitean normal form.
+sol:
+[4 0 0 0 0]
+Particular solution:
+[4 0 0 0 0]
+Basis:
+[-1 1 0 0 0]
+[-1 0 1 0 0]
+[-1 0 0 1 0]
+[-1 0 0 0 1]
+New inequalities:
+[-3 1 1 1 1 0]
+[1 -1 0 0 0 0]
+[1 0 -1 0 0 0]
+[1 0 0 -1 0 0]
+[1 0 0 0 -1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 1
+Maximum number of simplicial cones in memory at once: 0
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 5  ****
+
+Total time: 0 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/hyp_simp_6_1.equ 
+Checking whether the input polytope is empty or not...size = 14 x 7
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0]
+[0 0 1 0 0 0 0]
+[0 0 0 1 0 0 0]
+[0 0 0 0 1 0 0]
+[0 0 0 0 0 1 0]
+[0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[1 -1 -1 -1 -1 -1 -1]
+
+Computing hermitean normal form.
+sol:
+[1 0 0 0 0 0]
+Particular solution:
+[1 0 0 0 0 0]
+Basis:
+[-1 1 0 0 0 0]
+[-1 0 1 0 0 0]
+[-1 0 0 1 0 0]
+[-1 0 0 0 1 0]
+[-1 0 0 0 0 1]
+New inequalities:
+[1 -1 -1 -1 -1 -1 0]
+[0 1 0 0 0 0 0]
+[0 0 1 0 0 0 0]
+[0 0 0 1 0 0 0]
+[0 0 0 0 1 0 0]
+[0 0 0 0 0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 1
+Maximum number of simplicial cones in memory at once: 0
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 6  ****
+
+Total time: 0 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/hyp_simp_6_2.equ 
+Checking whether the input polytope is empty or not...size = 14 x 7
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[1 -1 0 0 0 0 0]
+[1 0 -1 0 0 0 0]
+[1 0 0 -1 0 0 0]
+[1 0 0 0 -1 0 0]
+[1 0 0 0 0 -1 0]
+[1 0 0 0 0 0 -1]
+[0 1 0 0 0 0 0]
+[0 0 1 0 0 0 0]
+[0 0 0 1 0 0 0]
+[0 0 0 0 1 0 0]
+[0 0 0 0 0 1 0]
+[0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[2 -1 -1 -1 -1 -1 -1]
+
+Computing hermitean normal form.
+sol:
+[2 0 0 0 0 0]
+Particular solution:
+[2 0 0 0 0 0]
+Basis:
+[-1 1 0 0 0 0]
+[-1 0 1 0 0 0]
+[-1 0 0 1 0 0]
+[-1 0 0 0 1 0]
+[-1 0 0 0 0 1]
+New inequalities:
+[-1 1 1 1 1 1 0]
+[1 -1 0 0 0 0 0]
+[1 0 -1 0 0 0 0]
+[1 0 0 -1 0 0 0]
+[1 0 0 0 -1 0 0]
+[1 0 0 0 0 -1 0]
+[2 -1 -1 -1 -1 -1 0]
+[0 1 0 0 0 0 0]
+[0 0 1 0 0 0 0]
+[0 0 0 1 0 0 0]
+[0 0 0 0 1 0 0]
+[0 0 0 0 0 1 0]
+Time for reading and preprocessing: 0.01 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 13
+  Left =   6,  Col =   9,  Size =        7  Time:  0.00  Left =   6,  Col =   9,  Size =        7,   Index = 0/2  Left =   6,  Col =   9,  Size =       12,  Time:  0.00                
+  Left =   5,  Col =  10,  Size =       12  Time:  0.00  Left =   5,  Col =  10,  Size =        8,   Index = 0/4  Left =   5,  Col =  10,  Size =       20,  Time:  0.00                
+  Left =   4,  Col =  12,  Size =       20  Time:  0.00  Left =   4,  Col =  12,  Size =       11,   Index = 0/8  Left =   4,  Col =  12,  Size =       32,  Time:  0.00                
+  Left =   3,  Col =   7,  Size =       32  Time:  0.00  Left =   3,  Col =   7,  Size =       24,   Index = 0/11  Left =   3,  Col =   7,  Size =       52,  Time:  0.00                
+  Left =   2,  Col =   8,  Size =       52  Time:  0.00  Left =   2,  Col =   8,  Size =       38,   Index = 0/15  Left =   2,  Col =   8,  Size =       61,  Time:  0.00                
+  Left =   1,  Col =  11,  Size =       61  Time:  0.00  Left =   1,  Col =  11,  Size =       44,   Index = 0/18  Left =   1,  Col =  11,  Size =       61,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 76
+Maximum number of simplicial cones in memory at once: 6
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 15  ****
+
+Total time: 0.02 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/hyp_simp_6_3.equ 
+Checking whether the input polytope is empty or not...size = 14 x 7
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[1 -1 0 0 0 0 0]
+[1 0 -1 0 0 0 0]
+[1 0 0 -1 0 0 0]
+[1 0 0 0 -1 0 0]
+[1 0 0 0 0 -1 0]
+[1 0 0 0 0 0 -1]
+[0 1 0 0 0 0 0]
+[0 0 1 0 0 0 0]
+[0 0 0 1 0 0 0]
+[0 0 0 0 1 0 0]
+[0 0 0 0 0 1 0]
+[0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[3 -1 -1 -1 -1 -1 -1]
+
+Computing hermitean normal form.
+sol:
+[3 0 0 0 0 0]
+Particular solution:
+[3 0 0 0 0 0]
+Basis:
+[-1 1 0 0 0 0]
+[-1 0 1 0 0 0]
+[-1 0 0 1 0 0]
+[-1 0 0 0 1 0]
+[-1 0 0 0 0 1]
+New inequalities:
+[-2 1 1 1 1 1 0]
+[1 -1 0 0 0 0 0]
+[1 0 -1 0 0 0 0]
+[1 0 0 -1 0 0 0]
+[1 0 0 0 -1 0 0]
+[1 0 0 0 0 -1 0]
+[3 -1 -1 -1 -1 -1 0]
+[0 1 0 0 0 0 0]
+[0 0 1 0 0 0 0]
+[0 0 0 1 0 0 0]
+[0 0 0 0 1 0 0]
+[0 0 0 0 0 1 0]
+Time for reading and preprocessing: 0.01 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 13
+  Left =   6,  Col =   9,  Size =        7  Time:  0.00  Left =   6,  Col =   9,  Size =        7,   Index = 0/2  Left =   6,  Col =   9,  Size =       12,  Time:  0.00                
+  Left =   5,  Col =  10,  Size =       12  Time:  0.00  Left =   5,  Col =  10,  Size =        8,   Index = 0/4  Left =   5,  Col =  10,  Size =       20,  Time:  0.00                
+  Left =   4,  Col =  12,  Size =       20  Time:  0.00  Left =   4,  Col =  12,  Size =       11,   Index = 0/7  Left =   4,  Col =  12,  Size =       29,  Time:  0.00                
+  Left =   3,  Col =   7,  Size =       29  Time:  0.00  Left =   3,  Col =   7,  Size =       25,   Index = 0/8  Left =   3,  Col =   7,  Size =       43,  Time:  0.00                
+  Left =   2,  Col =   8,  Size =       43  Time:  0.00  Left =   2,  Col =   8,  Size =       35,   Index = 0/9  Left =   2,  Col =   8,  Size =       49,  Time:  0.00                
+  Left =   1,  Col =  11,  Size =       49  Time:  0.00  Left =   1,  Col =  11,  Size =       41,   Index = 0/8  Left =   1,  Col =  11,  Size =       50,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 30
+Maximum number of simplicial cones in memory at once: 0
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 20  ****
+
+Total time: 0.01 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/hyp_simp_6_4.equ 
+Checking whether the input polytope is empty or not...size = 14 x 7
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[1 -1 0 0 0 0 0]
+[1 0 -1 0 0 0 0]
+[1 0 0 -1 0 0 0]
+[1 0 0 0 -1 0 0]
+[1 0 0 0 0 -1 0]
+[1 0 0 0 0 0 -1]
+[0 1 0 0 0 0 0]
+[0 0 1 0 0 0 0]
+[0 0 0 1 0 0 0]
+[0 0 0 0 1 0 0]
+[0 0 0 0 0 1 0]
+[0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[4 -1 -1 -1 -1 -1 -1]
+
+Computing hermitean normal form.
+sol:
+[4 0 0 0 0 0]
+Particular solution:
+[4 0 0 0 0 0]
+Basis:
+[-1 1 0 0 0 0]
+[-1 0 1 0 0 0]
+[-1 0 0 1 0 0]
+[-1 0 0 0 1 0]
+[-1 0 0 0 0 1]
+New inequalities:
+[-3 1 1 1 1 1 0]
+[1 -1 0 0 0 0 0]
+[1 0 -1 0 0 0 0]
+[1 0 0 -1 0 0 0]
+[1 0 0 0 -1 0 0]
+[1 0 0 0 0 -1 0]
+[4 -1 -1 -1 -1 -1 0]
+[0 1 0 0 0 0 0]
+[0 0 1 0 0 0 0]
+[0 0 0 1 0 0 0]
+[0 0 0 0 1 0 0]
+[0 0 0 0 0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 13
+  Left =   6,  Col =   9,  Size =        7  Time:  0.00  Left =   6,  Col =   9,  Size =        7,   Index = 0/2  Left =   6,  Col =   9,  Size =       12,  Time:  0.00                
+  Left =   5,  Col =  10,  Size =       12  Time:  0.00  Left =   5,  Col =  10,  Size =        8,   Index = 0/4  Left =   5,  Col =  10,  Size =       20,  Time:  0.00                
+  Left =   4,  Col =  12,  Size =       20  Time:  0.00  Left =   4,  Col =  12,  Size =       10,   Index = 0/4  Left =   4,  Col =  12,  Size =       19,  Time:  0.00                
+  Left =   3,  Col =   7,  Size =       19  Time:  0.00  Left =   3,  Col =   7,  Size =       18,   Index = 0/5  Left =   3,  Col =   7,  Size =       30,  Time:  0.00                
+  Left =   2,  Col =   8,  Size =       30  Time:  0.00  Left =   2,  Col =   8,  Size =       29,   Index = 0/5  Left =   2,  Col =   8,  Size =       39,  Time:  0.01                
+  Left =   1,  Col =  11,  Size =       39  Time:  0.01  Left =   1,  Col =  11,  Size =       39,   Index = 0/3  Left =   1,  Col =  11,  Size =       43,  Time:  0.01                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 28
+Maximum number of simplicial cones in memory at once: 0
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 15  ****
+
+Total time: 0.01 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/hyp_simp_6_5.equ 
+Checking whether the input polytope is empty or not...size = 14 x 7
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[1 -1 0 0 0 0 0]
+[1 0 -1 0 0 0 0]
+[1 0 0 -1 0 0 0]
+[1 0 0 0 -1 0 0]
+[1 0 0 0 0 -1 0]
+[1 0 0 0 0 0 -1]
+
+Ax = b, given as (b|-A):
+========================
+[5 -1 -1 -1 -1 -1 -1]
+
+Computing hermitean normal form.
+sol:
+[5 0 0 0 0 0]
+Particular solution:
+[5 0 0 0 0 0]
+Basis:
+[-1 1 0 0 0 0]
+[-1 0 1 0 0 0]
+[-1 0 0 1 0 0]
+[-1 0 0 0 1 0]
+[-1 0 0 0 0 1]
+New inequalities:
+[-4 1 1 1 1 1 0]
+[1 -1 0 0 0 0 0]
+[1 0 -1 0 0 0 0]
+[1 0 0 -1 0 0 0]
+[1 0 0 0 -1 0 0]
+[1 0 0 0 0 -1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 1
+Maximum number of simplicial cones in memory at once: 0
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 6  ****
+
+Total time: 0 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/hyp_simp_7_1.equ 
+Checking whether the input polytope is empty or not...size = 16 x 8
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0]
+[0 0 0 1 0 0 0 0]
+[0 0 0 0 1 0 0 0]
+[0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 1 0]
+[0 0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[1 -1 -1 -1 -1 -1 -1 -1]
+
+Computing hermitean normal form.
+sol:
+[1 0 0 0 0 0 0]
+Particular solution:
+[1 0 0 0 0 0 0]
+Basis:
+[-1 1 0 0 0 0 0]
+[-1 0 1 0 0 0 0]
+[-1 0 0 1 0 0 0]
+[-1 0 0 0 1 0 0]
+[-1 0 0 0 0 1 0]
+[-1 0 0 0 0 0 1]
+New inequalities:
+[1 -1 -1 -1 -1 -1 -1 0]
+[0 1 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0]
+[0 0 0 1 0 0 0 0]
+[0 0 0 0 1 0 0 0]
+[0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 1 0]
+Time for reading and preprocessing: 0.01 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 1
+Maximum number of simplicial cones in memory at once: 0
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 7  ****
+
+Total time: 0.01 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/hyp_simp_7_2.equ 
+Checking whether the input polytope is empty or not...size = 16 x 8
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[1 -1 0 0 0 0 0 0]
+[1 0 -1 0 0 0 0 0]
+[1 0 0 -1 0 0 0 0]
+[1 0 0 0 -1 0 0 0]
+[1 0 0 0 0 -1 0 0]
+[1 0 0 0 0 0 -1 0]
+[1 0 0 0 0 0 0 -1]
+[0 1 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0]
+[0 0 0 1 0 0 0 0]
+[0 0 0 0 1 0 0 0]
+[0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 1 0]
+[0 0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[2 -1 -1 -1 -1 -1 -1 -1]
+
+Computing hermitean normal form.
+sol:
+[2 0 0 0 0 0 0]
+Particular solution:
+[2 0 0 0 0 0 0]
+Basis:
+[-1 1 0 0 0 0 0]
+[-1 0 1 0 0 0 0]
+[-1 0 0 1 0 0 0]
+[-1 0 0 0 1 0 0]
+[-1 0 0 0 0 1 0]
+[-1 0 0 0 0 0 1]
+New inequalities:
+[-1 1 1 1 1 1 1 0]
+[1 -1 0 0 0 0 0 0]
+[1 0 -1 0 0 0 0 0]
+[1 0 0 -1 0 0 0 0]
+[1 0 0 0 -1 0 0 0]
+[1 0 0 0 0 -1 0 0]
+[1 0 0 0 0 0 -1 0]
+[2 -1 -1 -1 -1 -1 -1 0]
+[0 1 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0]
+[0 0 0 1 0 0 0 0]
+[0 0 0 0 1 0 0 0]
+[0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 1 0]
+Time for reading and preprocessing: 0.01 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 15
+  Left =   7,  Col =   8,  Size =        8  Time:  0.00  Left =   7,  Col =   8,  Size =        8,   Index = 0/2  Left =   7,  Col =   8,  Size =       14,  Time:  0.00                
+  Left =   6,  Col =   9,  Size =       14  Time:  0.00  Left =   6,  Col =   9,  Size =        9,   Index = 0/4  Left =   6,  Col =   9,  Size =       24,  Time:  0.00                
+  Left =   5,  Col =  14,  Size =       24  Time:  0.00  Left =   5,  Col =  14,  Size =       12,   Index = 0/8  Left =   5,  Col =  14,  Size =       40,  Time:  0.00                
+  Left =   4,  Col =  12,  Size =       40  Time:  0.00  Left =   4,  Col =  12,  Size =       34,   Index = 0/11  Left =   4,  Col =  12,  Size =       72,  Time:  0.00                
+  Left =   3,  Col =  10,  Size =       72  Time:  0.00  Left =   3,  Col =  10,  Size =       59,   Index = 0/17  Left =   3,  Col =  10,  Size =      104,  Time:  0.00                
+  Left =   2,  Col =  11,  Size =      104  Time:  0.00  Left =   2,  Col =  11,  Size =       78,   Index = 0/28  Left =   2,  Col =  11,  Size =      132,  Time:  0.00                
+  Left =   1,  Col =  13,  Size =      132  Time:  0.00  Left =   1,  Col =  13,  Size =       90,   Index = 0/43  Left =   1,  Col =  13,  Size =      134,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 401
+Maximum number of simplicial cones in memory at once: 7
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 21  ****
+
+Total time: 0.08 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/hyp_simp_7_3.equ 
+Checking whether the input polytope is empty or not...size = 16 x 8
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[1 -1 0 0 0 0 0 0]
+[1 0 -1 0 0 0 0 0]
+[1 0 0 -1 0 0 0 0]
+[1 0 0 0 -1 0 0 0]
+[1 0 0 0 0 -1 0 0]
+[1 0 0 0 0 0 -1 0]
+[1 0 0 0 0 0 0 -1]
+[0 1 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0]
+[0 0 0 1 0 0 0 0]
+[0 0 0 0 1 0 0 0]
+[0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 1 0]
+[0 0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[3 -1 -1 -1 -1 -1 -1 -1]
+
+Computing hermitean normal form.
+sol:
+[3 0 0 0 0 0 0]
+Particular solution:
+[3 0 0 0 0 0 0]
+Basis:
+[-1 1 0 0 0 0 0]
+[-1 0 1 0 0 0 0]
+[-1 0 0 1 0 0 0]
+[-1 0 0 0 1 0 0]
+[-1 0 0 0 0 1 0]
+[-1 0 0 0 0 0 1]
+New inequalities:
+[-2 1 1 1 1 1 1 0]
+[1 -1 0 0 0 0 0 0]
+[1 0 -1 0 0 0 0 0]
+[1 0 0 -1 0 0 0 0]
+[1 0 0 0 -1 0 0 0]
+[1 0 0 0 0 -1 0 0]
+[1 0 0 0 0 0 -1 0]
+[3 -1 -1 -1 -1 -1 -1 0]
+[0 1 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0]
+[0 0 0 1 0 0 0 0]
+[0 0 0 0 1 0 0 0]
+[0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 1 0]
+Time for reading and preprocessing: 0.01 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 15
+  Left =   7,  Col =   8,  Size =        8  Time:  0.00  Left =   7,  Col =   8,  Size =        8,   Index = 0/2  Left =   7,  Col =   8,  Size =       14,  Time:  0.00                
+  Left =   6,  Col =   9,  Size =       14  Time:  0.00  Left =   6,  Col =   9,  Size =        9,   Index = 0/4  Left =   6,  Col =   9,  Size =       24,  Time:  0.00                
+  Left =   5,  Col =  14,  Size =       24  Time:  0.00  Left =   5,  Col =  14,  Size =       12,   Index = 0/8  Left =   5,  Col =  14,  Size =       40,  Time:  0.00                
+  Left =   4,  Col =  12,  Size =       40  Time:  0.00  Left =   4,  Col =  12,  Size =       34,   Index = 0/11  Left =   4,  Col =  12,  Size =       71,  Time:  0.00                
+  Left =   3,  Col =  10,  Size =       71  Time:  0.00  Left =   3,  Col =  10,  Size =       60,   Index = 0/13  Left =   3,  Col =  10,  Size =       95,  Time:  0.00                
+  Left =   2,  Col =  11,  Size =       95  Time:  0.00  Left =   2,  Col =  11,  Size =       77,   Index = 0/19  Left =   2,  Col =  11,  Size =      113,  Time:  0.00                
+  Left =   1,  Col =  13,  Size =      113  Time:  0.00  Left =   1,  Col =  13,  Size =       90,   Index = 0/24  Left =   1,  Col =  13,  Size =      115,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 146
+Maximum number of simplicial cones in memory at once: 7
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 35  ****
+
+Total time: 0.03 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/hyp_simp_7_4.equ 
+Checking whether the input polytope is empty or not...size = 16 x 8
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[1 -1 0 0 0 0 0 0]
+[1 0 -1 0 0 0 0 0]
+[1 0 0 -1 0 0 0 0]
+[1 0 0 0 -1 0 0 0]
+[1 0 0 0 0 -1 0 0]
+[1 0 0 0 0 0 -1 0]
+[1 0 0 0 0 0 0 -1]
+[0 1 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0]
+[0 0 0 1 0 0 0 0]
+[0 0 0 0 1 0 0 0]
+[0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 1 0]
+[0 0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[4 -1 -1 -1 -1 -1 -1 -1]
+
+Computing hermitean normal form.
+sol:
+[4 0 0 0 0 0 0]
+Particular solution:
+[4 0 0 0 0 0 0]
+Basis:
+[-1 1 0 0 0 0 0]
+[-1 0 1 0 0 0 0]
+[-1 0 0 1 0 0 0]
+[-1 0 0 0 1 0 0]
+[-1 0 0 0 0 1 0]
+[-1 0 0 0 0 0 1]
+New inequalities:
+[-3 1 1 1 1 1 1 0]
+[1 -1 0 0 0 0 0 0]
+[1 0 -1 0 0 0 0 0]
+[1 0 0 -1 0 0 0 0]
+[1 0 0 0 -1 0 0 0]
+[1 0 0 0 0 -1 0 0]
+[1 0 0 0 0 0 -1 0]
+[4 -1 -1 -1 -1 -1 -1 0]
+[0 1 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0]
+[0 0 0 1 0 0 0 0]
+[0 0 0 0 1 0 0 0]
+[0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 1 0]
+Time for reading and preprocessing: 0.01 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 15
+  Left =   7,  Col =   8,  Size =        8  Time:  0.00  Left =   7,  Col =   8,  Size =        8,   Index = 0/2  Left =   7,  Col =   8,  Size =       14,  Time:  0.00                
+  Left =   6,  Col =   9,  Size =       14  Time:  0.00  Left =   6,  Col =   9,  Size =        9,   Index = 0/4  Left =   6,  Col =   9,  Size =       24,  Time:  0.00                
+  Left =   5,  Col =  14,  Size =       24  Time:  0.00  Left =   5,  Col =  14,  Size =       12,   Index = 0/7  Left =   5,  Col =  14,  Size =       36,  Time:  0.00                
+  Left =   4,  Col =  12,  Size =       36  Time:  0.00  Left =   4,  Col =  12,  Size =       31,   Index = 0/9  Left =   4,  Col =  12,  Size =       59,  Time:  0.00                
+  Left =   3,  Col =  10,  Size =       59  Time:  0.00  Left =   3,  Col =  10,  Size =       54,   Index = 0/7  Left =   3,  Col =  10,  Size =       72,  Time:  0.00                
+  Left =   2,  Col =  11,  Size =       72  Time:  0.00  Left =   2,  Col =  11,  Size =       64,   Index = 0/9  Left =   2,  Col =  11,  Size =       82,  Time:  0.00                
+  Left =   1,  Col =  13,  Size =       82  Time:  0.00  Left =   1,  Col =  13,  Size =       72,   Index = 0/10  Left =   1,  Col =  13,  Size =       86,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 51
+Maximum number of simplicial cones in memory at once: 0
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 35  ****
+
+Total time: 0.02 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/hyp_simp_7_5.equ 
+Checking whether the input polytope is empty or not...size = 16 x 8
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[1 -1 0 0 0 0 0 0]
+[1 0 -1 0 0 0 0 0]
+[1 0 0 -1 0 0 0 0]
+[1 0 0 0 -1 0 0 0]
+[1 0 0 0 0 -1 0 0]
+[1 0 0 0 0 0 -1 0]
+[1 0 0 0 0 0 0 -1]
+[0 1 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0]
+[0 0 0 1 0 0 0 0]
+[0 0 0 0 1 0 0 0]
+[0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 1 0]
+[0 0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[5 -1 -1 -1 -1 -1 -1 -1]
+
+Computing hermitean normal form.
+sol:
+[5 0 0 0 0 0 0]
+Particular solution:
+[5 0 0 0 0 0 0]
+Basis:
+[-1 1 0 0 0 0 0]
+[-1 0 1 0 0 0 0]
+[-1 0 0 1 0 0 0]
+[-1 0 0 0 1 0 0]
+[-1 0 0 0 0 1 0]
+[-1 0 0 0 0 0 1]
+New inequalities:
+[-4 1 1 1 1 1 1 0]
+[1 -1 0 0 0 0 0 0]
+[1 0 -1 0 0 0 0 0]
+[1 0 0 -1 0 0 0 0]
+[1 0 0 0 -1 0 0 0]
+[1 0 0 0 0 -1 0 0]
+[1 0 0 0 0 0 -1 0]
+[5 -1 -1 -1 -1 -1 -1 0]
+[0 1 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0]
+[0 0 0 1 0 0 0 0]
+[0 0 0 0 1 0 0 0]
+[0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 1 0]
+Time for reading and preprocessing: 0.01 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 15
+  Left =   7,  Col =  12,  Size =        8  Time:  0.00  Left =   7,  Col =  12,  Size =        8,   Index = 0/2  Left =   7,  Col =  12,  Size =       14,  Time:  0.00                
+  Left =   6,  Col =   8,  Size =       14  Time:  0.00  Left =   6,  Col =   8,  Size =       17,   Index = 0/3  Left =   6,  Col =   8,  Size =       28,  Time:  0.00                
+  Left =   5,  Col =   9,  Size =       28  Time:  0.00  Left =   5,  Col =   9,  Size =       22,   Index = 0/8  Left =   5,  Col =   9,  Size =       42,  Time:  0.00                
+  Left =   4,  Col =  14,  Size =       42  Time:  0.00  Left =   4,  Col =  14,  Size =       28,   Index = 0/15  Left =   4,  Col =  14,  Size =       42,  Time:  0.00                
+  Left =   3,  Col =  10,  Size =       42  Time:  0.00  Left =   3,  Col =  10,  Size =       41,   Index = 0/4  Left =   3,  Col =  10,  Size =       53,  Time:  0.00                
+  Left =   2,  Col =  11,  Size =       53  Time:  0.00  Left =   2,  Col =  11,  Size =       53,   Index = 0/5  Left =   2,  Col =  11,  Size =       66,  Time:  0.00                
+  Left =   1,  Col =  13,  Size =       66  Time:  0.00  Left =   1,  Col =  13,  Size =       66,   Index = 0/5  Left =   1,  Col =  13,  Size =       78,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 57
+Maximum number of simplicial cones in memory at once: 0
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 21  ****
+
+Total time: 0.02 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/hyp_simp_7_6.equ 
+Checking whether the input polytope is empty or not...size = 16 x 8
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[1 -1 0 0 0 0 0 0]
+[1 0 -1 0 0 0 0 0]
+[1 0 0 -1 0 0 0 0]
+[1 0 0 0 -1 0 0 0]
+[1 0 0 0 0 -1 0 0]
+[1 0 0 0 0 0 -1 0]
+[1 0 0 0 0 0 0 -1]
+
+Ax = b, given as (b|-A):
+========================
+[6 -1 -1 -1 -1 -1 -1 -1]
+
+Computing hermitean normal form.
+sol:
+[6 0 0 0 0 0 0]
+Particular solution:
+[6 0 0 0 0 0 0]
+Basis:
+[-1 1 0 0 0 0 0]
+[-1 0 1 0 0 0 0]
+[-1 0 0 1 0 0 0]
+[-1 0 0 0 1 0 0]
+[-1 0 0 0 0 1 0]
+[-1 0 0 0 0 0 1]
+New inequalities:
+[-5 1 1 1 1 1 1 0]
+[1 -1 0 0 0 0 0 0]
+[1 0 -1 0 0 0 0 0]
+[1 0 0 -1 0 0 0 0]
+[1 0 0 0 -1 0 0 0]
+[1 0 0 0 0 -1 0 0]
+[1 0 0 0 0 0 -1 0]
+Time for reading and preprocessing: 0.01 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 1
+Maximum number of simplicial cones in memory at once: 0
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 7  ****
+
+Total time: 0.01 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/knapsack1.equ 
+Checking whether the input polytope is empty or not...size = 12 x 11
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0 0 0 0]
+[0 0 0 1 0 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 0 0 0 0]
+[0 0 0 0 0 1 0 0 0 0 0]
+[0 0 0 0 0 0 1 0 0 0 0]
+[0 0 0 0 0 0 0 1 0 0 0]
+[0 0 0 0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 0 0 0 1 0]
+[0 0 0 0 0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[10 -1 -2 -3 -4 -5 -6 -7 -8 -9 -10]
+
+Computing hermitean normal form.
+sol:
+[10 0 0 0 0 0 0 0 0 0]
+Particular solution:
+[10 0 0 0 0 0 0 0 0 0]
+Basis:
+[-2 1 0 0 0 0 0 0 0 0]
+[-3 0 1 0 0 0 0 0 0 0]
+[-4 0 0 1 0 0 0 0 0 0]
+[-5 0 0 0 1 0 0 0 0 0]
+[-6 0 0 0 0 1 0 0 0 0]
+[-7 0 0 0 0 0 1 0 0 0]
+[-8 0 0 0 0 0 0 1 0 0]
+[-9 0 0 0 0 0 0 0 1 0]
+[-10 0 0 0 0 0 0 0 0 1]
+New inequalities:
+[10 -2 -3 -4 -5 -6 -7 -8 -9 -10 0]
+[0 1 0 0 0 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0 0 0 0]
+[0 0 0 1 0 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 0 0 0 0]
+[0 0 0 0 0 1 0 0 0 0 0]
+[0 0 0 0 0 0 1 0 0 0 0]
+[0 0 0 0 0 0 0 1 0 0 0]
+[0 0 0 0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 0 0 0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 92
+Maximum number of simplicial cones in memory at once: 13
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 42  ****
+
+Total time: 0.02 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/knapsack2.equ 
+Checking whether the input polytope is empty or not...size = 12 x 11
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0 0 0 0]
+[0 0 0 1 0 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 0 0 0 0]
+[0 0 0 0 0 1 0 0 0 0 0]
+[0 0 0 0 0 0 1 0 0 0 0]
+[0 0 0 0 0 0 0 1 0 0 0]
+[0 0 0 0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 0 0 0 1 0]
+[0 0 0 0 0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[10 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1]
+
+Computing hermitean normal form.
+sol:
+[10 0 0 0 0 0 0 0 0 0]
+Particular solution:
+[10 0 0 0 0 0 0 0 0 0]
+Basis:
+[-1 1 0 0 0 0 0 0 0 0]
+[-1 0 1 0 0 0 0 0 0 0]
+[-1 0 0 1 0 0 0 0 0 0]
+[-1 0 0 0 1 0 0 0 0 0]
+[-1 0 0 0 0 1 0 0 0 0]
+[-1 0 0 0 0 0 1 0 0 0]
+[-1 0 0 0 0 0 0 1 0 0]
+[-1 0 0 0 0 0 0 0 1 0]
+[-1 0 0 0 0 0 0 0 0 1]
+New inequalities:
+[10 -1 -1 -1 -1 -1 -1 -1 -1 -1 0]
+[0 1 0 0 0 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0 0 0 0]
+[0 0 0 1 0 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 0 0 0 0]
+[0 0 0 0 0 1 0 0 0 0 0]
+[0 0 0 0 0 0 1 0 0 0 0]
+[0 0 0 0 0 0 0 1 0 0 0]
+[0 0 0 0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 0 0 0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 10
+Maximum number of simplicial cones in memory at once: 10
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 92378  ****
+
+Total time: 0.01 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/knapsackbaby1.equ 
+Checking whether the input polytope is empty or not...size = 5 x 4
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0]
+[0 0 1 0]
+[0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[6 -1 -2 -3]
+
+Computing hermitean normal form.
+sol:
+[6 0 0]
+Particular solution:
+[6 0 0]
+Basis:
+[-2 1 0]
+[-3 0 1]
+New inequalities:
+[6 -2 -3 0]
+[0 1 0 0]
+[0 0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 5
+Maximum number of simplicial cones in memory at once: 5
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 7  ****
+
+Total time: 0 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/knapsackbaby2.equ 
+Checking whether the input polytope is empty or not...size = 4 x 3
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0]
+[0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[3 -1 -2]
+
+Computing hermitean normal form.
+sol:
+[3 0]
+Particular solution:
+[3 0]
+Basis:
+[-2 1]
+New inequalities:
+[3 -2 0]
+[0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 2
+Maximum number of simplicial cones in memory at once: 2
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 2  ****
+
+Total time: 0 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/mountExample1 
+Checking whether the input polytope is empty or not...size = 18 x 9
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[10 -1 -1 -1 -1 -1 -1 -1 -1]
+[5 -1 0 0 0 0 0 0 0]
+[5 0 -1 0 0 0 0 0 0]
+[5 0 0 -1 0 0 0 0 0]
+[4 0 0 0 -1 0 0 0 0]
+[4 0 0 0 0 -1 0 0 0]
+[4 0 0 0 0 0 -1 0 0]
+[5 0 0 0 0 0 0 -1 0]
+[4 0 0 0 0 0 0 0 -1]
+[-6 1 1 1 1 1 1 1 1]
+[0 1 0 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0 0]
+[0 0 0 1 0 0 0 0 0]
+[0 0 0 0 1 0 0 0 0]
+[0 0 0 0 0 1 0 0 0]
+[0 0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 0 1 0]
+[0 0 0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[]
+
+Time for reading and preprocessing: 0.02 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 19
+  Left =   9,  Col =  12,  Size =       10  Time:  0.00  Left =   9,  Col =  12,  Size =       10,   Index = 0/2  Left =   9,  Col =  12,  Size =       18,  Time:  0.00                
+  Left =   8,  Col =  13,  Size =       18  Time:  0.00  Left =   8,  Col =  13,  Size =       11,   Index = 0/4  Left =   8,  Col =  13,  Size =       32,  Time:  0.00                
+  Left =   7,  Col =  18,  Size =       32  Time:  0.00  Left =   7,  Col =  18,  Size =       14,   Index = 0/8  Left =   7,  Col =  18,  Size =       56,  Time:  0.00                
+  Left =   6,  Col =  10,  Size =       56  Time:  0.00  Left =   6,  Col =  10,  Size =       47,   Index = 0/14  Left =   6,  Col =  10,  Size =      118,  Time:  0.00                
+  Left =   5,  Col =  17,  Size =      118  Time:  0.00  Left =   5,  Col =  17,  Size =      100,   Index = 0/22  Left =   5,  Col =  17,  Size =      192,  Time:  0.00                
+  Left =   4,  Col =  11,  Size =      192  Time:  0.00  Left =   4,  Col =  11,  Size =      157,   Index = 0/40  Left =   4,  Col =  11,  Size =      300,  Time:  0.00                
+  Left =   3,  Col =  15,  Size =      300  Time:  0.00  Left =   3,  Col =  15,  Size =      227,   Index = 0/75  Left =   3,  Col =  15,  Size =      444,  Time:  0.01                
+  Left =   2,  Col =  16,  Size =      444  Time:  0.01  Left =   2,  Col =  16,  Size =      315,   Index = 0/131  Left =   2,  Col =  16,  Size =      622,  Time:  0.01                
+  Left =   1,  Col =  14,  Size =      622  Time:  0.01  Left =   1,  Col =  14,  Size =      392,   Index = 0/231  Left =   1,  Col =  14,  Size =      770,  Time:  0.01                
+done.
+1000 unimodular cones done.
+2000 unimodular cones done.
+3000 unimodular cones done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 3600
+Maximum number of simplicial cones in memory at once: 9
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 35353  ****
+
+Total time: 1.43 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/test4x4_1 
+Checking whether the input polytope is empty or not...size = 16 x 10
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[20812723 -1 -1 -1 0 0 0 0 0 0]
+[17301709 0 0 0 -1 -1 -1 0 0 0]
+[21133745 0 0 0 0 0 0 -1 -1 -1]
+[28343568 -1 0 0 -1 0 0 -1 0 0]
+[18410455 0 -1 0 0 -1 0 0 -1 0]
+[19751834 0 0 -1 0 0 -1 0 0 -1]
+[-38826706 1 1 1 1 1 1 1 1 1]
+[0 1 0 0 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0 0 0]
+[0 0 0 1 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 0 0 0]
+[0 0 0 0 0 1 0 0 0 0]
+[0 0 0 0 0 0 1 0 0 0]
+[0 0 0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 0 0 1 0]
+[0 0 0 0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[]
+
+Time for reading and preprocessing: 0.02 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 17
+  Left =   6,  Col =   9,  Size =       11  Time:  0.00  Left =   6,  Col =   9,  Size =       11,   Index = 0/4  Left =   6,  Col =   9,  Size =       26,  Time:  0.00                
+  Left =   5,  Col =  15,  Size =       26  Time:  0.00  Left =   5,  Col =  15,  Size =       26,   Index = 0/13  Left =   5,  Col =  15,  Size =       77,  Time:  0.00                
+  Left =   4,  Col =  14,  Size =       77  Time:  0.00  Left =   4,  Col =  14,  Size =       39,   Index = 0/33  Left =   4,  Col =  14,  Size =      146,  Time:  0.00                
+  Left =   3,  Col =  12,  Size =      146  Time:  0.00  Left =   3,  Col =  12,  Size =       83,   Index = 0/66  Left =   3,  Col =  12,  Size =      286,  Time:  0.00                
+  Left =   2,  Col =  13,  Size =      286  Time:  0.00  Left =   2,  Col =  13,  Size =      177,   Index = 0/113  Left =   2,  Col =  13,  Size =      487,  Time:  0.00                
+  Left =   1,  Col =  16,  Size =      487  Time:  0.00  Left =   1,  Col =  16,  Size =      325,   Index = 0/162  Left =   1,  Col =  16,  Size =      709,  Time:  0.00                
+done.
+1000 unimodular cones done.
+2000 unimodular cones done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 2090
+Maximum number of simplicial cones in memory at once: 10
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 665711555567792389878908993624629379187969880179721169068827951  ****
+
+Total time: 1.34 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/test4x4_2 
+Checking whether the input polytope is empty or not...size = 16 x 10
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[15663004 -1 -1 -1 0 0 0 0 0 0]
+[19519372 0 0 0 -1 -1 -1 0 0 0]
+[14722354 0 0 0 0 0 0 -1 -1 -1]
+[17617837 -1 0 0 -1 0 0 -1 0 0]
+[25267522 0 -1 0 0 -1 0 0 -1 0]
+[20146447 0 0 -1 0 0 -1 0 0 -1]
+[-40705835 1 1 1 1 1 1 1 1 1]
+[0 1 0 0 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0 0 0]
+[0 0 0 1 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 0 0 0]
+[0 0 0 0 0 1 0 0 0 0]
+[0 0 0 0 0 0 1 0 0 0]
+[0 0 0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 0 0 1 0]
+[0 0 0 0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[]
+
+Time for reading and preprocessing: 0.02 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 17
+  Left =   6,  Col =  15,  Size =       11  Time:  0.00  Left =   6,  Col =  15,  Size =       12,   Index = 0/5  Left =   6,  Col =  15,  Size =       36,  Time:  0.00                
+  Left =   5,  Col =  16,  Size =       36  Time:  0.00  Left =   5,  Col =  16,  Size =       23,   Index = 0/16  Left =   5,  Col =  16,  Size =       68,  Time:  0.00                
+  Left =   4,  Col =  13,  Size =       68  Time:  0.00  Left =   4,  Col =  13,  Size =       43,   Index = 0/28  Left =   4,  Col =  13,  Size =      140,  Time:  0.00                
+  Left =   3,  Col =   9,  Size =      140  Time:  0.00  Left =   3,  Col =   9,  Size =       86,   Index = 0/57  Left =   3,  Col =   9,  Size =      248,  Time:  0.00                
+  Left =   2,  Col =  12,  Size =      248  Time:  0.00  Left =   2,  Col =  12,  Size =      158,   Index = 0/90  Left =   2,  Col =  12,  Size =      456,  Time:  0.00                
+  Left =   1,  Col =  14,  Size =      456  Time:  0.00  Left =   1,  Col =  14,  Size =      321,   Index = 0/139  Left =   1,  Col =  14,  Size =      715,  Time:  0.00                
+done.
+1000 unimodular cones done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 1954
+Maximum number of simplicial cones in memory at once: 8
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 63292704423941655080293971395348848807454253204720526472462015  ****
+
+Total time: 1.2 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/test4x4_3 
+Checking whether the input polytope is empty or not...size = 16 x 10
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[13070380 -1 -1 -1 0 0 0 0 0 0]
+[18156451 0 0 0 -1 -1 -1 0 0 0]
+[13365203 0 0 0 0 0 0 -1 -1 -1]
+[12268303 -1 0 0 -1 0 0 -1 0 0]
+[20733257 0 -1 0 0 -1 0 0 -1 0]
+[17743591 0 0 -1 0 0 -1 0 0 -1]
+[-30177727 1 1 1 1 1 1 1 1 1]
+[0 1 0 0 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0 0 0]
+[0 0 0 1 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 0 0 0]
+[0 0 0 0 0 1 0 0 0 0]
+[0 0 0 0 0 0 1 0 0 0]
+[0 0 0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 0 0 1 0]
+[0 0 0 0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[]
+
+Time for reading and preprocessing: 0.02 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 17
+  Left =   6,  Col =   9,  Size =       11  Time:  0.00  Left =   6,  Col =   9,  Size =       11,   Index = 0/4  Left =   6,  Col =   9,  Size =       26,  Time:  0.00                
+  Left =   5,  Col =  15,  Size =       26  Time:  0.00  Left =   5,  Col =  15,  Size =       26,   Index = 0/10  Left =   5,  Col =  15,  Size =       78,  Time:  0.00                
+  Left =   4,  Col =  13,  Size =       78  Time:  0.00  Left =   4,  Col =  13,  Size =       37,   Index = 0/33  Left =   4,  Col =  13,  Size =      146,  Time:  0.00                
+  Left =   3,  Col =  16,  Size =      146  Time:  0.00  Left =   3,  Col =  16,  Size =       91,   Index = 0/61  Left =   3,  Col =  16,  Size =      237,  Time:  0.00                
+  Left =   2,  Col =  12,  Size =      237  Time:  0.00  Left =   2,  Col =  12,  Size =      165,   Index = 0/74  Left =   2,  Col =  12,  Size =      445,  Time:  0.00                
+  Left =   1,  Col =  14,  Size =      445  Time:  0.00  Left =   1,  Col =  14,  Size =      297,   Index = 0/148  Left =   1,  Col =  14,  Size =      713,  Time:  0.00                
+done.
+1000 unimodular cones done.
+2000 unimodular cones done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 2070
+Maximum number of simplicial cones in memory at once: 8
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 43075357146173570492117291685601604830544643769252831337342557  ****
+
+Total time: 1.22 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/tru_cube_latte 
+Checking whether the input polytope is empty or not...size = 14 x 4
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[5 -3 -3 3]
+[0 0 0 1]
+[2 -3 3 3]
+[2 3 -3 3]
+[0 1 0 0]
+[-1 3 3 3]
+[2 3 3 -3]
+[5 3 -3 -3]
+[0 0 1 0]
+[5 -3 3 -3]
+[1 0 0 -1]
+[8 -3 -3 -3]
+[1 0 -1 0]
+[1 -1 0 0]
+
+Ax = b, given as (b|-A):
+========================
+[]
+
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 15
+  Left =  10,  Col =   5,  Size =        5  Time:  0.00  Left =  10,  Col =   5,  Size =        5,   Index = 0/2  Left =  10,  Col =   5,  Size =        8,  Time:  0.00                
+  Left =   9,  Col =   6,  Size =        8  Time:  0.00  Left =   9,  Col =   6,  Size =        6,   Index = 0/4  Left =   9,  Col =   6,  Size =       12,  Time:  0.00                
+  Left =   8,  Col =   7,  Size =       12  Time:  0.00  Left =   8,  Col =   7,  Size =        8,   Index = 0/6  Left =   8,  Col =   7,  Size =       16,  Time:  0.00                
+  Left =   7,  Col =   9,  Size =       16  Time:  0.00  Left =   7,  Col =   9,  Size =       12,   Index = 0/7  Left =   7,  Col =   9,  Size =       21,  Time:  0.00                
+  Left =   6,  Col =  14,  Size =       21  Time:  0.00  Left =   6,  Col =  14,  Size =       12,   Index = 0/10  Left =   6,  Col =  14,  Size =       23,  Time:  0.00                
+  Left =   5,  Col =  11,  Size =       23  Time:  0.00  Left =   5,  Col =  11,  Size =       17,   Index = 0/6  Left =   5,  Col =  11,  Size =       23,  Time:  0.00                
+  Left =   4,  Col =   8,  Size =       23  Time:  0.00  Left =   4,  Col =   8,  Size =       23,   Index = 0/3  Left =   4,  Col =   8,  Size =       30,  Time:  0.00                
+  Left =   3,  Col =  10,  Size =       30  Time:  0.00  Left =   3,  Col =  10,  Size =       31,   Index = 0/3  Left =   3,  Col =  10,  Size =       37,  Time:  0.00                
+  Left =   2,  Col =  12,  Size =       37  Time:  0.00  Left =   2,  Col =  12,  Size =       36,   Index = 0/4  Left =   2,  Col =  12,  Size =       45,  Time:  0.00                
+  Left =   1,  Col =  13,  Size =       45  Time:  0.00  Left =   1,  Col =  13,  Size =       43,   Index = 0/5  Left =   1,  Col =  13,  Size =       54,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 456
+Maximum number of simplicial cones in memory at once: 11
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 0  ****
+
+Total time: 0.05 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/tru_simplex_latte 
+Checking whether the input polytope is empty or not...size = 8 x 4
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[4 -3 3 -3]
+[-2 3 3 3]
+[4 3 -3 -3]
+[0 1 1 -1]
+[0 1 -1 1]
+[4 -3 -3 3]
+[0 -1 1 1]
+[2 -1 -1 -1]
+
+Ax = b, given as (b|-A):
+========================
+[]
+
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 9
+  Left =   4,  Col =   6,  Size =        5  Time:  0.00  Left =   4,  Col =   6,  Size =        6,   Index = 0/2  Left =   4,  Col =   6,  Size =        9,  Time:  0.00                
+  Left =   3,  Col =   7,  Size =        9  Time:  0.00  Left =   3,  Col =   7,  Size =        8,   Index = 0/3  Left =   3,  Col =   7,  Size =       12,  Time:  0.00                
+  Left =   2,  Col =   8,  Size =       12  Time:  0.00  Left =   2,  Col =   8,  Size =        9,   Index = 0/4  Left =   2,  Col =   8,  Size =       18,  Time:  0.00                
+  Left =   1,  Col =   5,  Size =       18  Time:  0.00  Left =   1,  Col =   5,  Size =       17,   Index = 0/4  Left =   1,  Col =   5,  Size =       24,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 176
+Maximum number of simplicial cones in memory at once: 10
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 0  ****
+
+Total time: 0.02 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/cuww1_1.equ 
+Checking whether the input polytope is empty or not...size = 7 x 6
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0]
+[0 0 1 0 0 0]
+[0 0 0 1 0 0]
+[0 0 0 0 1 0]
+[0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[89643482 -12223 -12224 -36674 -61119 -85569]
+
+Computing hermitean normal form.
+sol:
+[89643482 0 0 0 0]
+Particular solution:
+[-89643482 89643482 0 0 0]
+Basis:
+[12224 -12223 0 0 0]
+[2 -5 1 0 0]
+[-1 -4 0 1 0]
+[1 -8 0 0 1]
+New inequalities:
+[-89643482 12224 2 -1 1 0]
+[89643482 -12223 -5 -4 -8 0]
+[0 0 1 0 0 0]
+[0 0 0 1 0 0]
+[0 0 0 0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 374
+Maximum number of simplicial cones in memory at once: 17
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 1  ****
+
+Total time: 0.05 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/cuww2_1.equ 
+Checking whether the input polytope is empty or not...size = 8 x 7
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0]
+[0 0 1 0 0 0 0]
+[0 0 0 1 0 0 0]
+[0 0 0 0 1 0 0]
+[0 0 0 0 0 1 0]
+[0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[89716839 -12228 -36679 -36682 -48908 -61139 -73365]
+
+Computing hermitean normal form.
+sol:
+[89716839 0 0 0 0 0]
+Particular solution:
+[-89716839 -89716839 0 89716839 0 0]
+Basis:
+[8 4 0 -5 0 0]
+[3 2 1 -3 0 0]
+[12221 12224 0 -12223 0 0]
+[2 3 0 -4 1 0]
+[-1 1 0 -2 0 1]
+New inequalities:
+[-89716839 8 3 12221 2 -1 0]
+[-89716839 4 2 12224 3 1 0]
+[0 0 1 0 0 0 0]
+[89716839 -5 -3 -12223 -4 -2 0]
+[0 0 0 0 1 0 0]
+[0 0 0 0 0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... done.
+1000 unimodular cones done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 1831
+Maximum number of simplicial cones in memory at once: 22
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 1  ****
+
+Total time: 0.29 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/cuww3_1.equ 
+Checking whether the input polytope is empty or not...size = 8 x 7
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0]
+[0 0 1 0 0 0 0]
+[0 0 0 1 0 0 0]
+[0 0 0 0 1 0 0]
+[0 0 0 0 0 1 0]
+[0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[58925135 -12137 -24269 -36405 -36407 -48545 -60683]
+
+Computing hermitean normal form.
+sol:
+[58925135 0 0 0 0 0]
+Particular solution:
+[58925135 58925135 -58925135 0 0 0]
+Basis:
+[-12133 -12131 12132 0 0 0]
+[-3 -6 5 0 0 0]
+[-2 -2 1 1 0 0]
+[-4 -3 2 0 1 0]
+[-6 -4 3 0 0 1]
+New inequalities:
+[58925135 -12133 -3 -2 -4 -6 0]
+[58925135 -12131 -6 -2 -3 -4 0]
+[-58925135 12132 5 1 2 3 0]
+[0 0 0 1 0 0 0]
+[0 0 0 0 1 0 0]
+[0 0 0 0 0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... done.
+1000 unimodular cones done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 1216
+Maximum number of simplicial cones in memory at once: 22
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 2  ****
+
+Total time: 0.21 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/cuww4_1.equ 
+Checking whether the input polytope is empty or not...size = 9 x 8
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0]
+[0 0 0 1 0 0 0 0]
+[0 0 0 0 1 0 0 0]
+[0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 1 0]
+[0 0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[104723596 -13211 -13212 -39638 -52844 -66060 -79268 -92482]
+
+Computing hermitean normal form.
+sol:
+[104723596 0 0 0 0 0 0]
+Particular solution:
+[-104723596 104723596 0 0 0 0 0]
+Basis:
+[13212 -13211 0 0 0 0 0]
+[2 -5 1 0 0 0 0]
+[-4 0 0 1 0 0 0]
+[0 -5 0 0 1 0 0]
+[-4 -2 0 0 0 1 0]
+[-2 -5 0 0 0 0 1]
+New inequalities:
+[-104723596 13212 2 -4 0 -4 -2 0]
+[104723596 -13211 -5 0 -5 -2 -5 0]
+[0 0 1 0 0 0 0 0]
+[0 0 0 1 0 0 0 0]
+[0 0 0 0 1 0 0 0]
+[0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 1 0]
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 677
+Maximum number of simplicial cones in memory at once: 19
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 1  ****
+
+Total time: 0.15 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/yoshida/dean1 
+Checking whether the input polytope is empty or not...size = 4 x 4
+Number Type = rational
+done.
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[1 2 2 1]
+[2 -2 4 -1]
+[3 -2 -2 3]
+[6 2 -4 -3]
+
+Ax = b, given as (b|-A):
+========================
+[]
+
+Time for reading and preprocessing: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 96
+Maximum number of simplicial cones in memory at once: 12
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 12  ****
+
+Total time: 0.01 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog vrep /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/crosspolytope/cross-polytope-2.vrep 
+Dualizing all cones...Ray Support Algorithm.
+The codimension is 4
+  Left =   1,  Col =   3,  Size =        3  Time:  0.00  Left =   1,  Col =   3,  Size =        4,   Index = 0/1  Left =   1,  Col =   3,  Size =        4,  Time:  0.00                
+All cones are now dualized.
+Time for dualizing general cones: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 5
+  Left =   1,  Col =   4,  Size =        4  Time:  0.00  Left =   1,  Col =   4,  Size =        4,   Index = 0/2  Left =   1,  Col =   4,  Size =        6,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 8
+Maximum number of simplicial cones in memory at once: 4
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 5  ****
+
+Total time: 0 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog vrep /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/crosspolytope/cross-polytope-3.vrep 
+Dualizing all cones...Ray Support Algorithm.
+The codimension is 6
+  Left =   2,  Col =   3,  Size =        4  Time:  0.00  Left =   2,  Col =   3,  Size =        5,   Index = 0/1  Left =   2,  Col =   3,  Size =        5,  Time:  0.00                
+  Left =   1,  Col =   5,  Size =        5  Time:  0.00  Left =   1,  Col =   5,  Size =        8,   Index = 0/1  Left =   1,  Col =   5,  Size =        8,  Time:  0.00                
+All cones are now dualized.
+Time for dualizing general cones: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 9
+  Left =   4,  Col =   5,  Size =        5  Time:  0.00  Left =   4,  Col =   5,  Size =        6,   Index = 0/2  Left =   4,  Col =   5,  Size =        9,  Time:  0.00                
+  Left =   3,  Col =   8,  Size =        9  Time:  0.00  Left =   3,  Col =   8,  Size =        7,   Index = 0/3  Left =   3,  Col =   8,  Size =        8,  Time:  0.00                
+  Left =   2,  Col =   6,  Size =        8  Time:  0.00  Left =   2,  Col =   6,  Size =       10,   Index = 0/2  Left =   2,  Col =   6,  Size =       12,  Time:  0.00                
+  Left =   1,  Col =   7,  Size =       12  Time:  0.00  Left =   1,  Col =   7,  Size =       12,   Index = 0/1  Left =   1,  Col =   7,  Size =       12,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 48
+Maximum number of simplicial cones in memory at once: 6
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 7  ****
+
+Total time: 0.01 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog vrep /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/crosspolytope/cross-polytope-4.vrep 
+Dualizing all cones...Ray Support Algorithm.
+The codimension is 8
+  Left =   3,  Col =   3,  Size =        5  Time:  0.00  Left =   3,  Col =   3,  Size =        6,   Index = 0/1  Left =   3,  Col =   3,  Size =        6,  Time:  0.00                
+  Left =   2,  Col =   5,  Size =        6  Time:  0.00  Left =   2,  Col =   5,  Size =        9,   Index = 0/1  Left =   2,  Col =   5,  Size =        9,  Time:  0.00                
+  Left =   1,  Col =   7,  Size =        9  Time:  0.00  Left =   1,  Col =   7,  Size =       16,   Index = 0/1  Left =   1,  Col =   7,  Size =       16,  Time:  0.00                
+All cones are now dualized.
+Time for dualizing general cones: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 17
+  Left =  11,  Col =   5,  Size =        6  Time:  0.00  Left =  11,  Col =   5,  Size =        7,   Index = 0/2  Left =  11,  Col =   5,  Size =       10,  Time:  0.00                
+  Left =  10,  Col =  12,  Size =       10  Time:  0.00  Left =  10,  Col =  12,  Size =        8,   Index = 0/4  Left =  10,  Col =  12,  Size =       16,  Time:  0.00                
+  Left =   9,  Col =   9,  Size =       16  Time:  0.00  Left =   9,  Col =   9,  Size =       12,   Index = 0/6  Left =   9,  Col =   9,  Size =       20,  Time:  0.00                
+  Left =   8,  Col =  14,  Size =       20  Time:  0.00  Left =   8,  Col =  14,  Size =       12,   Index = 0/9  Left =   8,  Col =  14,  Size =       27,  Time:  0.00                
+  Left =   7,  Col =  13,  Size =       27  Time:  0.00  Left =   7,  Col =  13,  Size =       17,   Index = 0/12  Left =   7,  Col =  13,  Size =       34,  Time:  0.00                
+  Left =   6,  Col =  16,  Size =       34  Time:  0.00  Left =   6,  Col =  16,  Size =       20,   Index = 0/11  Left =   6,  Col =  16,  Size =       22,  Time:  0.00                
+  Left =   5,  Col =   7,  Size =       22  Time:  0.00  Left =   5,  Col =   7,  Size =       15,   Index = 0/8  Left =   5,  Col =   7,  Size =       27,  Time:  0.00                
+  Left =   4,  Col =  10,  Size =       27  Time:  0.00  Left =   4,  Col =  10,  Size =       17,   Index = 0/10  Left =   4,  Col =  10,  Size =       27,  Time:  0.00                
+  Left =   3,  Col =  15,  Size =       27  Time:  0.00  Left =   3,  Col =  15,  Size =       21,   Index = 0/6  Left =   3,  Col =  15,  Size =       29,  Time:  0.00                
+  Left =   2,  Col =   6,  Size =       29  Time:  0.00  Left =   2,  Col =   6,  Size =       26,   Index = 0/3  Left =   2,  Col =   6,  Size =       29,  Time:  0.00                
+  Left =   1,  Col =  11,  Size =       29  Time:  0.00  Left =   1,  Col =  11,  Size =       29,   Index = 0/1  Left =   1,  Col =  11,  Size =       29,  Time:  0.00                
+done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 384
+Maximum number of simplicial cones in memory at once: 10
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 9  ****
+
+Total time: 0.06 sec
+This is LattE integrale 1.7.4
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/code/latte/count homog vrep /Users/nikita/Desktop/Diploma_Project/latte-integrale-1.7.4/latte-int-1.7.4/EXAMPLES/crosspolytope/cross-polytope-5.vrep 
+Dualizing all cones...Ray Support Algorithm.
+The codimension is 10
+  Left =   4,  Col =   3,  Size =        6  Time:  0.00  Left =   4,  Col =   3,  Size =        7,   Index = 0/1  Left =   4,  Col =   3,  Size =        7,  Time:  0.00                
+  Left =   3,  Col =   5,  Size =        7  Time:  0.00  Left =   3,  Col =   5,  Size =       10,   Index = 0/1  Left =   3,  Col =   5,  Size =       10,  Time:  0.00                
+  Left =   2,  Col =   7,  Size =       10  Time:  0.00  Left =   2,  Col =   7,  Size =       17,   Index = 0/1  Left =   2,  Col =   7,  Size =       17,  Time:  0.00                
+  Left =   1,  Col =   9,  Size =       17  Time:  0.00  Left =   1,  Col =   9,  Size =       32,   Index = 0/1  Left =   1,  Col =   9,  Size =       32,  Time:  0.00                
+All cones are now dualized.
+Time for dualizing general cones: 0 sec
+decomposeCones_Single: Decomposing all cones. (Memory Save on)
+1 cones total to be done!decomposeCones_Single: degree = 1
+Number of cones: 1
+Triangulating cone... Ray Support Algorithm.
+The codimension is 33
+  Left =  26,  Col =  11,  Size =        7  Time:  0.00  Left =  26,  Col =  11,  Size =        7,   Index = 0/2  Left =  26,  Col =  11,  Size =       10,  Time:  0.00                
+  Left =  25,  Col =  20,  Size =       10  Time:  0.00  Left =  25,  Col =  20,  Size =       10,   Index = 0/3  Left =  25,  Col =  20,  Size =       19,  Time:  0.00                
+  Left =  24,  Col =  31,  Size =       19  Time:  0.00  Left =  24,  Col =  31,  Size =       13,   Index = 0/7  Left =  24,  Col =  31,  Size =       31,  Time:  0.00                
+  Left =  23,  Col =  32,  Size =       31  Time:  0.00  Left =  23,  Col =  32,  Size =       15,   Index = 0/10  Left =  23,  Col =  32,  Size =       31,  Time:  0.00                
+  Left =  22,  Col =  23,  Size =       31  Time:  0.00  Left =  22,  Col =  23,  Size =       21,   Index = 0/10  Left =  22,  Col =  23,  Size =       37,  Time:  0.00                
+  Left =  21,  Col =  14,  Size =       37  Time:  0.00  Left =  21,  Col =  14,  Size =       23,   Index = 0/15  Left =  21,  Col =  14,  Size =       41,  Time:  0.00                
+  Left =  20,  Col =  27,  Size =       41  Time:  0.00  Left =  20,  Col =  27,  Size =       29,   Index = 0/15  Left =  20,  Col =  27,  Size =       47,  Time:  0.00                
+  Left =  19,  Col =   5,  Size =       47  Time:  0.00  Left =  19,  Col =   5,  Size =       32,   Index = 0/16  Left =  19,  Col =   5,  Size =       51,  Time:  0.00                
+  Left =  18,  Col =  28,  Size =       51  Time:  0.00  Left =  18,  Col =  28,  Size =       40,   Index = 0/14  Left =  18,  Col =  28,  Size =       56,  Time:  0.00                
+  Left =  17,  Col =   7,  Size =       56  Time:  0.00  Left =  17,  Col =   7,  Size =       44,   Index = 0/13  Left =  17,  Col =   7,  Size =       61,  Time:  0.00                
+  Left =  16,  Col =  21,  Size =       61  Time:  0.00  Left =  16,  Col =  21,  Size =       46,   Index = 0/18  Left =  16,  Col =  21,  Size =       68,  Time:  0.00                
+  Left =  15,  Col =  13,  Size =       68  Time:  0.00  Left =  15,  Col =  13,  Size =       57,   Index = 0/12  Left =  15,  Col =  13,  Size =       73,  Time:  0.01                
+  Left =  14,  Col =  19,  Size =       73  Time:  0.01  Left =  14,  Col =  19,  Size =       69,   Index = 0/5  Left =  14,  Col =  19,  Size =       74,  Time:  0.01                
+  Left =  13,  Col =   9,  Size =       74  Time:  0.01  Left =  13,  Col =   9,  Size =       73,   Index = 0/4  Left =  13,  Col =   9,  Size =       81,  Time:  0.01                
+  Left =  12,  Col =  25,  Size =       81  Time:  0.01  Left =  12,  Col =  25,  Size =       76,   Index = 0/7  Left =  12,  Col =  25,  Size =       84,  Time:  0.01                
+  Left =  11,  Col =  15,  Size =       84  Time:  0.01  Left =  11,  Col =  15,  Size =       80,   Index = 0/5  Left =  11,  Col =  15,  Size =       84,  Time:  0.01                
+  Left =  10,  Col =  24,  Size =       84  Time:  0.01  Left =  10,  Col =  24,  Size =       80,   Index = 0/5  Left =  10,  Col =  24,  Size =       87,  Time:  0.01                
+  Left =   9,  Col =  10,  Size =       87  Time:  0.01  Left =   9,  Col =  10,  Size =       86,   Index = 0/3  Left =   9,  Col =  10,  Size =       89,  Time:  0.01                
+  Left =   8,  Col =   6,  Size =       89  Time:  0.01  Left =   8,  Col =   6,  Size =       89,   Index = 0/2  Left =   8,  Col =   6,  Size =       90,  Time:  0.01                
+  Left =   7,  Col =  12,  Size =       90  Time:  0.01  Left =   7,  Col =  12,  Size =       88,   Index = 0/2  Left =   7,  Col =  12,  Size =       90,  Time:  0.01                
+  Left =   6,  Col =  17,  Size =       90  Time:  0.01  Left =   6,  Col =  17,  Size =       90,   Index = 0/2  Left =   6,  Col =  17,  Size =       90,  Time:  0.01                
+  Left =   5,  Col =  29,  Size =       90  Time:  0.01  Left =   5,  Col =  29,  Size =       88,   Index = 0/2  Left =   5,  Col =  29,  Size =       90,  Time:  0.01                
+  Left =   4,  Col =  18,  Size =       90  Time:  0.01  Left =   4,  Col =  18,  Size =      102,   Index = 0/1  Left =   4,  Col =  18,  Size =      102,  Time:  0.01                
+  Left =   3,  Col =  30,  Size =      102  Time:  0.01  Left =   3,  Col =  30,  Size =       92,   Index = 0/11  Left =   3,  Col =  30,  Size =      107,  Time:  0.01                
+  Left =   2,  Col =  22,  Size =      107  Time:  0.01  Left =   2,  Col =  22,  Size =      100,   Index = 0/9  Left =   2,  Col =  22,  Size =      108,  Time:  0.01                
+  Left =   1,  Col =  26,  Size =      108  Time:  0.01  Left =   1,  Col =  26,  Size =      103,   Index = 0/6  Left =   1,  Col =  26,  Size =      108,  Time:  0.01                
+done.
+1000 unimodular cones done.
+2000 unimodular cones done.
+3000 unimodular cones done.
+0 vertex cones done. 
+
+Total Unimodular Cones: 3888
+Maximum number of simplicial cones in memory at once: 14
+Memory Save Mode: Taylor Expansion:
+
+****  The number of lattice points is: 11  ****
+
+Total time: 0.82 sec

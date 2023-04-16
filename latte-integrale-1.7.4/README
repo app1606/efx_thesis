@@ -1,0 +1,203 @@
+This is LattE integrale "for tea, too", a source code distribution of 
+of LattE integrale and 4ti2 with all prerequisite libraries.
+
+All software included in this distribution is free software; with some
+caveats regarding LiDIA (see notes at the bottom). 
+
+
+To build:
+
+Prerequisites:
+
+ * On Linux, nothing special.  
+
+ * On Mac OS X, you need the XCode command line tools.
+
+ * On Windows, install Cygwin and, beyond the standard packages, also
+   packages "gcc", "g++", "make", "m4".
+
+ * On Solaris, a version of gcc.
+
+Make sure you have unpacked this distribution in a build directory
+without a space in its name (this is to work around a limitation in
+libtool).  (Note that on Windows, the user's home directory usually
+has a space in its name.  Use instead, for example, /cygdrive/c/latte;
+this corresponds to C:\LATTE.)
+
+Optionally, if you have Maple, make sure that the directory where the
+command-line executable of Maple lives ("maple" or, on Windows,
+"cmaple.exe") is in your path:
+
+   export PATH="/path/to/maple/directory:$PATH"
+
+Then type in the shell:
+
+   ./configure
+   make
+
+When the build process is finished, you will find all binaries in the
+directory 
+
+   dest/bin
+
+If supported on your operating system, LattE is built "relocatable",
+that is, you can move the dest/ subdirectory to a different place, and
+everything should still work.  Alternatively, you can pass the
+--prefix=/SOME/ABSOLUTE/DIRECTORY/NAME option to ./configure to give a
+directory where LattE integrale should be installed instead of the
+dest/ subdirectory.  For example:
+
+   ./configure --prefix=/usr/local
+
+By default, all programs are linked statically.  To build and use
+shared libraries, invoke configure with --enable-shared.  This does
+not work on all platform (for example, it does not work on Cygwin.)
+Also, note that shared library builds are not completely relocatable:
+LattE itself (in most modes) works, but other binaries (4ti2, cddlib,
+...) don't.
+
+I hope this LattE integrale distribution works for you.  Compatibility
+notes can be found below.  Please report any failures, so we can
+improve the distribution and also LattE integrale itself.
+
+Enjoy!
+
+-- Matthias Koeppe <mkoeppe@math.ucdavis.edu>
+   for the LattE team
+
+
+				*  *  *
+
+Information for building packages for Linux distributions, Sage packages, etc.:
+
+  Do not attempt to use this "distribution" package.  Rather build
+  separate packages for LattE integrale and each of the bundled
+  libraries.  We use modified versions of some upstream libraries;
+  consider using our versions instead of upstream for your distribution. 
+
+  cddlib: 
+
+    Our version adds a few more build system changes on top of the
+    non-upstream version distributed as a Sage package.
+
+  LiDIA: 
+
+    Upstream development has ceased; download URL was defunct as of
+    August 2013.  Our version is derived from an experimental Sage
+    package.  Our version adds a number of build fixes for current gcc
+    version.  It is also available from:
+
+        https://github.com/mkoeppe/LiDIA
+
+  4ti2: 
+
+    We used to include special releases of 4ti2 only released through
+    this "Latte for tea, too" distribution and not announced on 4ti2.
+    As of version 1.6, we are back to standard upstream.
+
+  
+				*  *  *
+
+Release 1.6 of LattE integrale (or a prerelease of it) has
+successfully built on:
+
+  * Mac OS X (Intel) 10.8.4 with XCode 4.6.3 (GCC 4.2.1)
+
+  * Mac OS X (Intel) 10.8.4 with GCC 4.8.1 from Fink
+
+  * Mac OS X (PPC)
+
+  * Ubuntu Linux 12.04.2 LTS (x86_64) with GCC 4.6.3-1ubuntu5
+
+  * Ubuntu Linux 11.10 "Oneiric Ocelot" (x86_64) with GCC 4.6.1-9ubuntu3
+
+  * Gentoo Linux with GCC 4.6
+
+  * Windows XP with Cygwin of July 2013
+
+  * Solaris 10 (UltraSPARC) in 32 bit mode with GCC 4.5.1
+
+
+A previous release of LattE "for tea, too" has successfully
+built on:
+
+  * Solaris 9 on SPARC in 32-bit mode with GCC 3.3.2
+
+  * Solaris 9 on SPARC in 32-bit mode and 64-bit mode with GCC 4.1.1 and 4.2.0
+
+    By default, 32-bit binaries are created on Solaris.
+    To compile in 64-bit mode on Solaris, use: 
+
+    ./configure CC="gcc -m64 -mptr64" CXX="g++ -m64 -mptr64"
+
+  * Debian GNU/Linux on x86 with GCC 3.3.2
+
+  * Fedora Core 3 Linux on x86_64 (AMD Opteron) with GCC 3.4.2
+
+  * Fedora Core 2 Linux on x86 with GCC 3.3.3 20040412 (Red Hat Linux 3.3.3-7)
+
+  * Debian GNU/Linux 3.0 on Alpha with GCC 3.0.4
+
+It fails to build on:
+
+  * Non-GCC compilers, like all Forte/Workshop/Sun Studio compilers on
+    Solaris).
+
+    The reason is that the Forte/Workshop/Sun Studio compilers do not
+    like the C++ part of GMP.  Use GCC instead.
+
+  * Solaris 9 on SPARC in 64-bit mode with GCC 3.3.2
+
+    Use 32-bit mode or a newer GCC version; for instance GCC 4.1.1.
+
+  * Fedora Core 3 Linux on x86_64 (AMD Opteron) with GCC 4.0.0
+    20041019 (Red Hat 4.0.0-0.8).
+
+    Compiling NTL causes an internal compiler error.  Use a different
+    GCC version instead.
+
+  * Debian GNU/Linux 3.0 on Alpha with GCC 2.95.4
+
+    This compiler cannot build CDD+.  Use a newer GCC version.
+
+
+				*  *  *
+
+Some of the C++ libraries are very picky about the version of the C++
+compiler.  Older ones or newer ones might not work.  To ensure a
+specific compiler is used, type:
+
+   ./configure CC=/path/to/your/gcc CXX=/path/to/your/g++
+   make
+
+The pickiest of all C++ libraries used is LiDIA.  As a last resort,
+you can turn off using LiDIA:
+
+   ./configure --disable-lidia
+   make
+
+Likewise, you can turn off using the optional library 4ti2:
+
+   ./configure --disable-4ti2
+   make
+
+If you have a multiprocessor machine, be sure to use it to shorten the
+compile time by parallelizing the build:  For instance, on a
+4-processor machine, use
+
+   make -j4
+
+(Because of parallelization bugs in some of the Makefiles (not ours!),
+the parallelized build might get stuck; in this case, repeat the "make
+-j4" until the build is finished.)
+
+				*  *  *
+
+Note on the license of LiDIA:
+
+The status of LiDIA is unclear.  It comes with a "free for
+non-commercial purposes" license, but developers stated that they have
+agreed to release it as free software under the GPL.  See
+
+   https://lists.debian.org/debian-legal/2007/07/msg00120.html
+
